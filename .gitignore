@@ -1,0 +1,22 @@
+# Machine-local agent / editor state — never project content
+.claude/
+.cortex/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python tooling (tools/ scripts)
+__pycache__/
+*.pyc
+
+# Logs / temp / cache
+*.log
+*.tmp
+*.bak
+.cache/
+
+# Environment / secrets
+.env
+.env.*

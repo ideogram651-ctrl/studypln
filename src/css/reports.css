@@ -1,0 +1,465 @@
+/*
+ * src/css/reports.css — Study-Planner Phase 6 (Report Viewer + Progress Calendar)
+ *
+ * Three parts:
+ *   1. Block colour tokens (one deterministic colour per report-model colour key)
+ *   2. Report viewer chrome (read-only report tables, stats, export buttons)
+ *   3. The weekly progress calendar: 7-day grid, time axis, positioned blocks
+ *
+ * Colours reuse the application theme tokens from base.css. The block tokens are
+ * tuned against this dark theme rather than copied from the reference screenshot,
+ * and are mirrored verbatim in export-engine.js so an exported report matches.
+ */
+
+:root {
+  --tok-math: #e8a317;
+  --tok-stats: #1fb59a;
+  --tok-ct: #7c6cf0;
+  --tok-english: #3d8ce0;
+  --tok-revision: #4fbf5a;
+  --tok-review: #8a6fd4;
+  --tok-practice: #d98324;
+  --tok-rest: #3a3a4a;
+  --tok-subject-other: #6b6b80;
+}
+
+.rp-root { display: flex; flex-direction: column; gap: 18px; }
+
+.rp-heading {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 650;
+  letter-spacing: -.02em;
+}
+
+/* ---- summary stat ------------------------------------------------------ */
+
+.rp-overview {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rp-stat { display: flex; flex-direction: column; gap: 2px; }
+
+.rp-stat-num { font-size: 34px; font-weight: 650; letter-spacing: -.02em; }
+
+.rp-stat-lbl {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.rp-stat-meta { font-size: 13px; color: var(--faint); }
+
+.rp-bar {
+  position: relative;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.rp-bar > span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+}
+
+.rp-note { margin: 0; font-size: 13px; color: var(--faint); }
+
+/* ---- report tables ----------------------------------------------------- */
+
+.rp-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+
+.rp-section-title {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.rp-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+
+/* U3 §2 (Overall Progress alignment): a numeric header must define its column
+ * in the SAME alignment as the values below it. `.rp-table th` outranks the
+ * bare `.rp-num` class, so right-aligned numeric cells used to drift visually
+ * under the NEXT header. Scoped to the Overall report only — the other report
+ * scopes keep their existing presentation. */
+.rp-root[data-report-kind="overall"] .rp-table th.rp-num { text-align: right; }
+
+/* U4 §4.2 (Weekly Report): the same header->column defect as §2 — a numeric
+ * header defines its column left-aligned while the values below sit right.
+ * Scoped to the Weekly report only; other scopes keep their rendering. */
+.rp-root[data-report-kind="week"] .rp-table th.rp-num { text-align: right; }
+
+/* Daily Report (Schedule table): same header->column defect again — the TASKS
+ * and PROGRESS headers define their columns left-aligned while the values
+ * below sit right, so the columns read as shifted. Scoped to the Daily report;
+ * within that scope only the Schedule table has numeric headers (the locked
+ * Tasks table has none: Task/Type/State), so the Tasks table is unaffected. */
+.rp-root[data-report-kind="day"] .rp-table th.rp-num { text-align: right; }
+
+/* U4 §5.1 (Daily Report): in the Schedule table a row's content drifted too
+ * close to the following row. Schedule rows now keep extra BOTTOM clearance so
+ * every row's content sits clearly inside its own row and the boundaries read
+ * cleanly. Scoped to the Schedule section only (.rp-sched) — the Tasks table
+ * (§5.2, locked) stays on the base .rp-table rules untouched. */
+.rp-sched .rp-table td { padding-top: 9px; padding-bottom: 14px; }
+
+.rp-table th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--faint);
+  padding: 0 10px 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.rp-table td {
+  padding: 9px 10px 9px 0;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.rp-table tr:last-child td { border-bottom: 0; }
+
+.rp-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.rp-link {
+  color: var(--accent-soft);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.rp-link:hover { border-bottom-color: currentColor; }
+
+.rp-empty {
+  padding: 22px;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* ---- landing index ----------------------------------------------------- */
+
+.rp-index { display: flex; flex-direction: column; gap: 10px; }
+
+.rp-index-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: inherit;
+}
+
+.rp-index-item:hover { background: var(--surface-2); }
+
+.rp-index-title { font-size: 15px; font-weight: 600; }
+
+.rp-index-sub { font-size: 12px; color: var(--faint); }
+
+/* ---- U3 §3.2: Weekly Timetable Chart week selection ---------------------- */
+
+.rp-week-select {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.rp-week-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+}
+
+.rp-week-card:hover { background: var(--surface-2); border-color: var(--border-strong); }
+
+.rp-week-card:focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 2px; }
+
+.rp-week-card-title { font-size: 16px; font-weight: 650; }
+
+.rp-week-card-range {
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.rp-week-card-meta { font-size: 12px; color: var(--faint); }
+
+/* ---- export buttons ---------------------------------------------------- */
+
+.rp-export { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.rp-btn {
+  font: inherit;
+  font-size: 13px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-2);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.rp-btn:hover { background: var(--surface-3); }
+
+.rp-btn:focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 2px; }
+
+/* ---- progress calendar ------------------------------------------------
+ * 7 day columns + a left time axis + absolutely positioned blocks.
+ * The grid scrolls horizontally inside its own container on narrow screens
+ * (intentional), so the page itself never overflows.
+ */
+
+.pc-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.pc-title { margin: 0; font-size: 19px; font-weight: 650; letter-spacing: -.02em; }
+
+.pc-sub { margin: 3px 0 0; font-size: 13px; color: var(--faint); }
+
+.pc-summary { display: flex; flex-direction: column; align-items: flex-end; }
+
+.pc-summary-num { font-size: 26px; font-weight: 650; letter-spacing: -.02em; }
+
+.pc-summary-lbl {
+  font-size: 11px;
+  color: var(--faint);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.pc-calendar {
+  /* The 7 columns keep a readable minimum; on narrow screens THIS element
+   * scrolls horizontally (contained scroll) instead of widening the page. */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-width: 0;
+}
+
+.pc-head-row {
+  display: grid;
+  /* 7 columns with a readable minimum; this is what makes the grid wider than a
+   * phone screen, and the parent .pc-calendar scrolls it. */
+  grid-template-columns: 62px repeat(7, minmax(112px, 1fr));
+  border-bottom: 1px solid var(--border-strong);
+}
+
+.pc-day-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 9px 4px;
+  border-left: 1px solid var(--border);
+}
+
+.pc-weekday {
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.pc-daynum { font-size: 15px; font-weight: 650; }
+
+.pc-body {
+  display: grid;
+  grid-template-columns: 62px repeat(7, minmax(112px, 1fr));
+  position: relative;
+  /* height is set inline from the real day window (1px per minute) */
+  width: max-content;
+  min-width: 100%;
+}
+
+.pc-axis { position: relative; border-right: 1px solid var(--border-strong); }
+
+.pc-tick {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 10px;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.pc-tick.is-first { transform: translateY(0); }
+.pc-tick.is-last { transform: translateY(-100%); }
+
+/* U3 §3.4: the hour and the meridiem stack, with AM/PM in distinct colours
+ * (cool AM / warm PM), matching the desirable reference instead of a raw
+ * 13:00/14:00 sequence. */
+.pc-tick-hour { display: block; }
+
+.pc-tick-meridiem {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  margin-top: 1px;
+}
+
+.pc-tick-meridiem.is-am { color: #4aa8ff; }
+.pc-tick-meridiem.is-pm { color: #f7c541; }
+
+.pc-col { position: relative; border-left: 1px solid var(--border); }
+
+.pc-gridline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 0;
+  /* Visible but quiet: the grid should structure the day without competing
+   * with the schedule blocks themselves. */
+  border-top: 1px solid rgba(255, 255, 255, .055);
+  /* U3 §3.6 root cause: the gridline at top:100% used to draw its 1px border
+   * BELOW the body window (720 -> 721), so the auto-height calendar measured
+   * 1px of phantom overflow. With overflow-x:auto the visible axis pairing
+   * forces overflow-y to compute to auto, and that 1px spawned the needless
+   * internal scrollbar (FIG-008). Drawing each line just ON its hour
+   * coordinate keeps every line inside the window; content height now equals
+   * client height, so no scrollbar appears and page scrolling is untouched. */
+  transform: translateY(-100%);
+}
+
+/* Very short blocks (15-45 min) cannot fit three lines of text. Rather than
+ * letting the caption spill outside the block, hide the optional detail lines
+ * and keep only the title. This is presentation-only: the block still occupies
+ * exactly its real duration. */
+.pc-block.is-short { padding: 2px 6px; }
+.pc-block.is-short .pc-block-time,
+.pc-block.is-short .pc-block-tasks { display: none; }
+
+/* Blocks short enough for only one line keep just the title. */
+.pc-block.is-tiny { padding: 1px 6px; border-radius: 6px; }
+
+/* ---- schedule blocks --------------------------------------------------- */
+
+.pc-block {
+  position: absolute;
+  left: 3px;
+  right: 3px;
+  border-radius: 9px;
+  padding: 5px 7px;
+  overflow: hidden;
+  font-size: 11px;
+  line-height: 1.25;
+  color: #0b0b12;
+  background: var(--tok-rest);
+  border-left: 3px solid rgba(0, 0, 0, .32);
+  cursor: default;
+}
+
+.pc-block-title {
+  display: block;
+  font-weight: 650;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pc-block-time {
+  display: block;
+  opacity: .78;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-variant-numeric: tabular-nums;
+}
+
+.pc-block-tasks {
+  display: block;
+  opacity: .7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* deterministic colour tokens */
+.pc-tok-math { background: var(--tok-math); }
+.pc-tok-stats { background: var(--tok-stats); }
+.pc-tok-ct { background: var(--tok-ct); color: #fff; }
+.pc-tok-english { background: var(--tok-english); color: #fff; }
+.pc-tok-revision { background: var(--tok-revision); }
+.pc-tok-review { background: var(--tok-review); color: #fff; }
+.pc-tok-practice { background: var(--tok-practice); }
+.pc-tok-rest { background: var(--tok-rest); color: #cfcfe0; }
+.pc-tok-subject-other { background: var(--tok-subject-other); color: #fff; }
+
+/* ---- progress treatment (subtle; no badges) ---------------------------- */
+
+.pc-block.is-partial { opacity: .84; }
+.pc-block.is-complete { opacity: .5; }
+.pc-block.is-complete .pc-block-title { text-decoration: line-through; }
+.pc-block.is-none { opacity: .92; }
+
+/* ---- responsive -------------------------------------------------------- */
+
+@media (max-width: 760px) {
+  /* Keep the 7 columns readable; the calendar scrolls, the page does not. */
+  .pc-head { align-items: flex-start; }
+  .pc-summary { align-items: flex-start; }
+}
+/* ---- report page shell ------------------------------------------------- */
+
+.rp-page { display: flex; flex-direction: column; gap: 16px; }
+
+/* Flex items default to min-width:auto, which lets a wide child (the calendar's
+ * min-width) push the whole page instead of scrolling inside its own box. Both
+ * the page and the calendar therefore need min-width:0 to shrink correctly. */
+.rp-page > * { min-width: 0; }
+
+/* Crumbs wrap on narrow screens instead of overflowing the nav row. */
+.rp-page-nav { display: flex; gap: 16px; align-items: center; font-size: 13px; flex-wrap: wrap; }
+
+/* U5.1 (CHANGE #004): inside the reports nav row the shared Back stays LEFT
+   and the breadcrumbs right-align across the space that remains (the
+   contextual Timetable/Progress links trail at the far right). */
+.rp-page-nav .progress-nav { flex: 1 1 auto; min-width: 0; }
+
+.rp-page .rp-export { margin-top: 4px; }
+

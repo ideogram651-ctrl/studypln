@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>August 2026 — Soft Calendar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="app-navbar">
+    <div class="brand">
+      <div class="brand-logo">SP</div>
+      <div class="brand-copy">
+        <div class="brand-title">Study-Planner</div>
+        <div class="brand-subtitle">IIT Madras BS — 28-day cycle</div>
+      </div>
+    </div>
+    <div class="nav-actions" aria-hidden="true">
+      <div class="nav-action">Progress</div>
+      <div class="nav-action">Reports</div>
+    </div>
+  </header>
+
+  <main class="stage">
+    <section class="calendar-card" id="calendarCard">
+      <div class="dummy-month-nav" aria-hidden="true">
+        <span class="dummy-nav-btn">‹</span>
+        <span class="dummy-month-label monthly-period-label" id="monthlyPeriodLabel">October 2026</span>
+         <span class="dummy-month-label weekly-period-label" id="weeklyPeriodLabel">Oct Week 1 - 2026</span>
+        <span class="dummy-nav-btn">›</span>
+      </div>
+
+      <div class="card-top">
+        <div class="segmented">
+          <button id="weeklyBtn" class="active" type="button">Weekly</button>
+          <button id="monthlyBtn" type="button">Monthly</button>
+        </div>
+      </div>
+
+      <div class="hero-date">
+        <div class="month-name">August</div>
+        <div class="day-number" id="heroDay">23</div>
+      </div>
+
+      <div class="weekly-area" id="weeklyArea">
+        <div class="curve"></div>
+        <div class="week-viewport" id="weekViewport">
+          <div class="week-track" id="weekTrack"></div>
+        </div>
+      </div>
+
+      <div class="monthly-area" id="monthlyArea">
+        <div class="month-grid" id="monthGrid"></div>
+      </div>
+
+      <div class="bottom-row">
+        <div class="note"><span class="note-icon"></span><span>Add a note...</span></div>
+        <div class="event-pill"><span class="plus">+</span><span>New Event</span></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

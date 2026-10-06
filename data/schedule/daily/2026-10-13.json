@@ -1,0 +1,521 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-13",
+  "dayNumber": 12,
+  "weekNumber": 2,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:2:Week 02 - Tutorial 16",
+        "mathematics-i:2:Week 02 - Tutorial 17",
+        "mathematics-i:2:Week 02 – Tutorial – Point of Intersection of two lines",
+        "mathematics-i:2:Week 02 - Additional Lecture 01",
+        "mathematics-i:2:Week 02 - Additional Lecture 02",
+        "mathematics-i:2:Week 02 - Additional Lecture 03",
+        "mathematics-i:2:Graded Assignment - 2 solution"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:2:Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+        "statistics-i:2:Week 2 Extra Activity Questions"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:2:L2.10",
+        "computational-thinking:2:AQ2.10",
+        "computational-thinking:2:Week 2 Tutorial 2.8",
+        "computational-thinking:2:Practice assignment solution -2"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:2:Lecture 5",
+        "english-i:2:AQ2.5",
+        "english-i:2:Lecture 6",
+        "english-i:2:AQ2.6"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:2:Week 02 - Tutorial 16",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Week 02 - Tutorial 16",
+      "type": "tutorial",
+      "title": "Week 02 - Tutorial 16",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Week 02 - Tutorial 16",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Week 02 - Tutorial 17",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Week 02 - Tutorial 17",
+      "type": "tutorial",
+      "title": "Week 02 - Tutorial 17",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Week 02 - Tutorial 17",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Week 02 – Tutorial – Point of Intersection of two lines",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Week 02 – Tutorial – Point of Intersection of two lines",
+      "type": "tutorial",
+      "title": "Week 02 – Tutorial – Point of Intersection of two lines",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Week 02 – Tutorial – Point of Intersection of two lines",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Week 02 - Additional Lecture 01",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Week 02 - Additional Lecture 01",
+      "type": "lecture",
+      "title": "Week 02 - Additional Lecture 01",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Week 02 - Additional Lecture 01",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Week 02 - Additional Lecture 02",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Week 02 - Additional Lecture 02",
+      "type": "lecture",
+      "title": "Week 02 - Additional Lecture 02",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Week 02 - Additional Lecture 02",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Week 02 - Additional Lecture 03",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Week 02 - Additional Lecture 03",
+      "type": "lecture",
+      "title": "Week 02 - Additional Lecture 03",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Week 02 - Additional Lecture 03",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Graded Assignment - 2 solution",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Graded Assignment - 2 solution",
+      "type": "solution",
+      "title": "Graded Assignment - 2 solution",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:Graded Assignment - 2 solution",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+      "type": "tutorial",
+      "title": "Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:2:Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:Week 2 Extra Activity Questions",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "Week 2 Extra Activity Questions",
+      "type": "extra",
+      "title": "Week 2 Extra Activity Questions",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:2:Week 2 Extra Activity Questions",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:L2.10",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "L2.10",
+      "type": "lecture",
+      "title": "L2.10: Pseudocode for iteration with filtering",
+      "planned": true,
+      "durationSeconds": 1224,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.10",
+        "videoMinutes": 20.4,
+        "noteMinutes": 13.7,
+        "questionMinutes": null,
+        "estimatedMinutes": 34.1,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:AQ2.10",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.10",
+      "type": "activity",
+      "title": "AQ2.10: Activity Questions 10 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.10",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:Week 2 Tutorial 2.8",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "Week 2 Tutorial 2.8",
+      "type": "tutorial",
+      "title": "Week 2 Tutorial 2.8",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:Week 2 Tutorial 2.8",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:Practice assignment solution -2",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "Practice assignment solution -2",
+      "type": "solution",
+      "title": "Practice assignment solution -2",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:Practice assignment solution -2",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:Lecture 5",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "Lecture 5",
+      "type": "lecture",
+      "title": "Lecture 5:Articles- Part 1",
+      "planned": true,
+      "durationSeconds": 1281,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:2:Lecture 5",
+        "videoMinutes": 21.4,
+        "noteMinutes": 14.3,
+        "questionMinutes": null,
+        "estimatedMinutes": 35.7,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:AQ2.5",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.5",
+      "type": "activity",
+      "title": "AQ2.5: Activity Question 5 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:2:Lecture 5",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:Lecture 6",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "Lecture 6",
+      "type": "lecture",
+      "title": "Lecture 6:Articles- Part 2",
+      "planned": true,
+      "durationSeconds": 939,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:2:Lecture 6",
+        "videoMinutes": 15.7,
+        "noteMinutes": 10.5,
+        "questionMinutes": null,
+        "estimatedMinutes": 26.1,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:AQ2.6",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.6",
+      "type": "activity",
+      "title": "AQ2.6: Activity Question 6 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:2:Lecture 6",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 17,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

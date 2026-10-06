@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Study Planner — Progress Reference</title>
+<style>
+:root{
+  --bg:#050507;
+  --panel:#0d0e13;
+  --panel2:#13151c;
+  --panel3:#191b23;
+  --line:rgba(255,255,255,.08);
+  --text:#f5f6f8;
+  --muted:#969ba8;
+  --soft:#c8ccd5;
+  --accent:#7755e8;
+  --accent2:#9b83ff;
+  --good:#62d69b;
+  --warn:#e9b86b;
+  --danger:#ef7f8b;
+  --radius:24px;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Inter","Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:var(--font);background:var(--bg);color:var(--text)}
+body{overflow-x:hidden}
+button{font:inherit}
+.app{
+  width:min(1180px,100%);
+  margin:auto;
+  min-height:100vh;
+  padding:26px 24px 50px;
+  background:
+    radial-gradient(ellipse 55% 30% at 50% 0%,rgba(91,55,220,.15),transparent 70%),
+    var(--bg);
+}
+.topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:22px}
+.topbar-center{flex:1;text-align:center}
+.brand{font-size:13px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+.breadcrumb{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:5px;margin-top:7px;min-height:18px;font-size:11px;line-height:1.4}
+.breadcrumb:empty{display:none}
+.breadcrumb button{border:0;background:none;padding:0;color:var(--accent2);font:inherit;cursor:pointer;letter-spacing:.01em}
+.breadcrumb button:hover{text-decoration:underline}
+.breadcrumb .separator{color:rgba(155,131,255,.55);user-select:none}
+.breadcrumb .current{color:var(--accent2);font-weight:700}
+.back{
+  border:1px solid var(--line);background:rgba(255,255,255,.045);color:var(--soft);
+  border-radius:13px;padding:9px 13px;cursor:pointer
+}
+.view{display:none}.view.active{display:block}
+.hero{
+  border:1px solid var(--line);border-radius:30px;padding:28px;
+  background:
+    radial-gradient(55% 80% at 90% 110%,rgba(119,85,232,.35),transparent 65%),
+    linear-gradient(145deg,#101119,#0b0c10);
+  box-shadow:0 25px 60px rgba(0,0,0,.25);
+}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700}
+.hero h1{margin:7px 0 4px;font-size:38px;letter-spacing:-1.3px}
+.hero p{margin:0;color:var(--muted)}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:end}
+.big-progress{display:flex;align-items:end;gap:12px}
+.big-percent{font-size:72px;line-height:.9;font-weight:300;letter-spacing:-4px}
+.progress-track{height:10px;border-radius:99px;background:rgba(255,255,255,.09);overflow:hidden;margin-top:25px}
+.progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:inherit;transition:width .45s}
+.mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stat{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:17px;padding:13px}
+.stat b{display:block;font-size:20px}.stat span{font-size:11px;color:var(--muted)}
+.section{margin-top:25px}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:11px}
+.section-head h2{margin:0;font-size:20px}.section-head span{color:var(--muted);font-size:12px}
+.week-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.week-card{
+  border:1px solid var(--line);background:var(--panel);border-radius:20px;padding:18px;
+  cursor:pointer;transition:.2s;position:relative;overflow:hidden
+}
+.week-card:hover,.subject:hover{border-color:rgba(119,85,232,.5);transform:translateY(-1px)}
+.week-number{color:var(--muted);font-size:12px}.week-card h3{margin:6px 0 14px}
+.ringline{display:flex;align-items:center;gap:13px}
+.ring{
+  width:54px;height:54px;border-radius:50%;display:grid;place-items:center;
+  background:conic-gradient(var(--accent) calc(var(--p)*1%),rgba(255,255,255,.08) 0);
+  position:relative
+}
+.ring:after{content:"";position:absolute;inset:6px;border-radius:50%;background:var(--panel)}
+.ring span{position:relative;z-index:1;font-size:12px;font-weight:700}
+.ringline small{color:var(--muted)}
+.subject-list{display:grid;gap:10px}
+.subject{
+  background:var(--panel);border:1px solid var(--line);border-radius:19px;padding:17px 18px;
+  cursor:pointer;transition:.2s
+}
+.subject-main{display:grid;grid-template-columns:32px 1fr auto;gap:13px;align-items:center}
+.subject-icon{width:32px;height:32px;border-radius:10px;background:rgba(119,85,232,.15);display:grid;place-items:center}
+.subject h3{margin:0;font-size:16px}.subject .meta{font-size:11px;color:var(--muted);margin-top:3px}
+.subject-right{text-align:right}.subject-right b{font-size:16px}.subject-right small{display:block;color:var(--muted);font-size:10px}
+.subject-bar{height:5px;background:rgba(255,255,255,.07);border-radius:99px;margin-top:13px;overflow:hidden}
+.subject-bar i{display:block;height:100%;background:var(--accent);border-radius:inherit}
+.click-hint{font-size:11px;color:var(--muted);margin-top:20px;text-align:center}
+
+.detail-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.detail-head h1{margin:0;font-size:30px}.detail-head p{margin:4px 0 0;color:var(--muted);font-size:13px}
+.detail-hero{display:grid;grid-template-columns:180px 1fr;gap:22px;align-items:center}
+.detail-percent{font-size:54px;font-weight:300;letter-spacing:-2px}
+.detail-card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:20px}
+.breakdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.breakdown .stat{background:var(--panel2)}
+.accordion{display:grid;gap:10px;margin-top:14px}
+.acc{
+  background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden
+}
+.acc-head{padding:16px 18px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;cursor:pointer}
+.acc-head h3{margin:0;font-size:15px}.acc-head p{margin:4px 0 0;color:var(--muted);font-size:11px}
+.acc-percent{font-size:13px;font-weight:700}
+.acc-body{display:none;padding:0 18px 16px}.acc.open .acc-body{display:block}
+.taskline{display:grid;grid-template-columns:1fr auto;gap:10px;padding:11px 0;border-top:1px solid var(--line)}
+.taskline .name{font-size:13px}.taskline .meta{font-size:10px;color:var(--muted);margin-top:3px}
+.badge{padding:5px 8px;border-radius:999px;font-size:10px;background:rgba(98,214,155,.12);color:var(--good)}
+.badge.pending{background:rgba(255,255,255,.06);color:var(--muted)}
+.nav-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:15px}
+.nav-btn{border:1px solid var(--line);background:var(--panel);color:var(--soft);border-radius:16px;padding:13px;text-align:left;cursor:pointer}
+.nav-btn:hover{border-color:rgba(119,85,232,.5)}
+@media(max-width:760px){
+ .app{padding:18px 14px 40px}.hero-grid{grid-template-columns:1fr}.week-grid{grid-template-columns:repeat(2,1fr)}
+ .detail-hero{grid-template-columns:1fr}.breakdown{grid-template-columns:repeat(2,1fr)}
+ .hero h1{font-size:30px}.big-percent{font-size:60px}
+ .breadcrumb{justify-content:center}
+}
+@media(max-width:450px){
+ .week-grid{grid-template-columns:1fr}.mini-stats{grid-template-columns:1fr 1fr 1fr}.subject-main{grid-template-columns:28px 1fr auto}
+}
+</style>
+</head>
+<body>
+<main class="app">
+
+  <div class="topbar">
+    <button class="back" id="backBtn" onclick="goHome()" style="display:none">← Overview</button>
+    <div class="topbar-center">
+      <div class="brand">Study Planner · Progress Reference</div>
+      <nav class="breadcrumb" id="breadcrumb" aria-label="Progress navigation"></nav>
+    </div>
+  </div>
+
+  <!-- OVERVIEW -->
+  <section id="overview" class="view active">
+    <div class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">October Study Cycle · 4 Weeks</div>
+          <h1>Overall Progress</h1>
+          <p>All four subjects combined · calculated from completed study tasks</p>
+          <div class="progress-track"><div class="progress-fill" style="width:62%"></div></div>
+          <div class="big-progress" style="margin-top:14px">
+            <div class="big-percent">62%</div>
+            <div style="color:var(--muted);font-size:12px">186 / 300<br>academic tasks completed</div>
+          </div>
+        </div>
+        <div class="mini-stats">
+          <div class="stat"><b>4</b><span>Subjects</span></div>
+          <div class="stat"><b>4</b><span>Weeks</span></div>
+          <div class="stat"><b>28</b><span>Study Days</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>Week-wise Progress</h2><span>Click a week to drill down</span></div>
+      <div class="week-grid">
+        <article class="week-card" style="--p:88" onclick="showWeek(1)">
+          <div class="week-number">WEEK 01</div><h3>Foundation</h3>
+          <div class="ringline"><div class="ring" style="--p:88"><span>88%</span></div><small>44 / 50 tasks</small></div>
+        </article>
+        <article class="week-card" style="--p:71" onclick="showWeek(2)">
+          <div class="week-number">WEEK 02</div><h3>Core Concepts</h3>
+          <div class="ringline"><div class="ring" style="--p:71"><span>71%</span></div><small>40 / 56 tasks</small></div>
+        </article>
+        <article class="week-card" style="--p:52" onclick="showWeek(3)">
+          <div class="week-number">WEEK 03</div><h3>Application</h3>
+          <div class="ringline"><div class="ring" style="--p:52"><span>52%</span></div><small>31 / 60 tasks</small></div>
+        </article>
+        <article class="week-card" style="--p:34" onclick="showWeek(4)">
+          <div class="week-number">WEEK 04</div><h3>Completion</h3>
+          <div class="ringline"><div class="ring" style="--p:34"><span>34%</span></div><small>21 / 62 tasks</small></div>
+        </article>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>Subjects</h2><span>Click subject for Week 1–4 breakdown</span></div>
+      <div class="subject-list">
+        <article class="subject" onclick="showSubject('Mathematics I','BSMA1001',72)">
+          <div class="subject-main"><div class="subject-icon">∑</div><div><h3>Mathematics I</h3><div class="meta">BSMA1001 · 109 videos · 57 assignments · 4 graded</div></div><div class="subject-right"><b>72%</b><small>72 / 100</small></div></div>
+          <div class="subject-bar"><i style="width:72%"></i></div>
+        </article>
+        <article class="subject" onclick="showSubject('Statistics I','BSMA1002',61)">
+          <div class="subject-main"><div class="subject-icon">σ</div><div><h3>Statistics I</h3><div class="meta">BSMA1002 · 49 videos · 39 assignments · 4 graded</div></div><div class="subject-right"><b>61%</b><small>61 / 100</small></div></div>
+          <div class="subject-bar"><i style="width:61%"></i></div>
+        </article>
+        <article class="subject" onclick="showSubject('Computational Thinking','BSCS1001',58)">
+          <div class="subject-main"><div class="subject-icon">&lt;/&gt;</div><div><h3>Computational Thinking</h3><div class="meta">BSCS1001 · 57 videos · 44 assignments · 4 graded</div></div><div class="subject-right"><b>58%</b><small>58 / 100</small></div></div>
+          <div class="subject-bar"><i style="width:58%"></i></div>
+        </article>
+        <article class="subject" onclick="showSubject('English I','BSHS1001',57)">
+          <div class="subject-main"><div class="subject-icon">A</div><div><h3>English I</h3><div class="meta">BSHS1001 · 25 videos · 33 assignments · 4 graded</div></div><div class="subject-right"><b>57%</b><small>57 / 100</small></div></div>
+          <div class="subject-bar"><i style="width:57%"></i></div>
+        </article>
+      </div>
+    </div>
+    <div class="click-hint">Reference interaction: Calendar → Progress → Overview → Week / Subject → deeper drill-down</div>
+  </section>
+
+  <!-- WEEK DETAIL -->
+  <section id="weekView" class="view">
+    <div class="detail-head">
+      <div><div class="eyebrow">Week detail</div><h1 id="weekTitle">Week 1</h1><p>Progress across all four subjects</p></div>
+    </div>
+    <div class="detail-card detail-hero">
+      <div><div class="eyebrow">Week progress</div><div class="detail-percent" id="weekPercent">88%</div></div>
+      <div>
+        <div class="progress-track"><div class="progress-fill" id="weekBar" style="width:88%"></div></div>
+        <div class="breakdown">
+          <div class="stat"><b>12</b><span>Math</span></div>
+          <div class="stat"><b>10</b><span>Stats</span></div>
+          <div class="stat"><b>11</b><span>CT</span></div>
+          <div class="stat"><b>11</b><span>English</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-head"><h2>Subject Breakdown</h2><span>Click a subject</span></div>
+      <div class="subject-list" id="weekSubjects"></div>
+    </div>
+  </section>
+
+  <!-- SUBJECT DETAIL -->
+  <section id="subjectView" class="view">
+    <div class="detail-head">
+      <div><div class="eyebrow">Subject progress</div><h1 id="subjectTitle">Mathematics I</h1><p id="subjectMeta">BSMA1001 · Week-wise progress</p></div>
+    </div>
+    <div class="detail-card">
+      <div class="eyebrow">Overall subject progress</div>
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:20px">
+        <div class="detail-percent" id="subjectPercent">72%</div>
+        <div style="color:var(--muted);font-size:12px;text-align:right">Tap a week<br>to open its tasks</div>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="subjectBar" style="width:72%"></div></div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>Week-wise Progress</h2><span>Accordion drill-down</span></div>
+      <div class="accordion" id="subjectWeeks"></div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+const weekData = {
+  "Mathematics I":[84,76,63,41],
+  "Statistics I":[78,65,55,46],
+  "Computational Thinking":[82,60,49,39],
+  "English I":[91,69,51,35]
+};
+
+function hideAll(){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+}
+
+function homeButton(show){
+  document.getElementById('backBtn').style.display=show?'block':'none';
+}
+
+function renderBreadcrumb(items){
+  const nav=document.getElementById('breadcrumb');
+  nav.innerHTML='';
+  items.forEach((item,i)=>{
+    if(i>0){
+      const sep=document.createElement('span');
+      sep.className='separator';
+      sep.textContent='›';
+      nav.appendChild(sep);
+    }
+
+    if(item.action){
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.textContent=item.label;
+      btn.onclick=item.action;
+      nav.appendChild(btn);
+    }else{
+      const current=document.createElement('span');
+      current.className='current';
+      current.textContent=item.label;
+      nav.appendChild(current);
+    }
+  });
+}
+
+function goHome(){
+  hideAll();
+  document.getElementById('overview').classList.add('active');
+  homeButton(false);
+  renderBreadcrumb([]);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function showWeek(n){
+  hideAll();
+  document.getElementById('weekView').classList.add('active');
+  homeButton(true);
+
+  const vals = [
+    [88,'Foundation'],[71,'Core Concepts'],[52,'Application'],[34,'Completion']
+  ][n-1];
+
+  document.getElementById('weekTitle').textContent=`Week ${n} · ${vals[1]}`;
+  document.getElementById('weekPercent').textContent=vals[0]+'%';
+  document.getElementById('weekBar').style.width=vals[0]+'%';
+
+  renderBreadcrumb([
+    {label:'Overview',action:goHome},
+    {label:`Week ${String(n).padStart(2,'0')} · ${vals[1]}`}
+  ]);
+
+  const box=document.getElementById('weekSubjects');
+  box.innerHTML='';
+  Object.keys(weekData).forEach((name,i)=>{
+    const p=weekData[name][n-1];
+    const el=document.createElement('article');
+    el.className='subject';
+    el.onclick=()=>showSubject(name, name==='Mathematics I'?'BSMA1001':name==='Statistics I'?'BSMA1002':name==='Computational Thinking'?'BSCS1001':'BSHS1001', p, n);
+    el.innerHTML=`
+      <div class="subject-main">
+        <div class="subject-icon">${i===0?'∑':i===1?'σ':i===2?'&lt;/&gt;':'A'}</div>
+        <div><h3>${name}</h3><div class="meta">Week ${n} academic task progress</div></div>
+        <div class="subject-right"><b>${p}%</b><small>completed</small></div>
+      </div>
+      <div class="subject-bar"><i style="width:${p}%"></i></div>`;
+    box.appendChild(el);
+  });
+
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function showSubject(name, code, overall, fromWeek=null){
+  hideAll();
+  document.getElementById('subjectView').classList.add('active');
+  homeButton(true);
+
+  const vals=weekData[name] || [84,76,63,41];
+  const box=document.getElementById('subjectWeeks');
+  box.innerHTML='';
+
+  if(fromWeek){
+    // When entering from a Week page, stay inside that Week.
+    // Do NOT switch to the subject's overall progress.
+    const weekProgress=vals[fromWeek-1];
+    const weekName=[[88,'Foundation'],[71,'Core Concepts'],[52,'Application'],[34,'Completion']][fromWeek-1][1];
+
+    document.getElementById('subjectTitle').textContent=`${name} · Week ${fromWeek}`;
+    document.getElementById('subjectMeta').textContent=`${code} · Week ${fromWeek} progress`;
+    document.getElementById('subjectPercent').textContent=weekProgress+'%';
+    document.getElementById('subjectBar').style.width=weekProgress+'%';
+
+    const p=weekProgress;
+    const acc=document.createElement('div');
+    acc.className='acc open';
+    acc.innerHTML=`
+      <div class="acc-head" onclick="this.parentElement.classList.toggle('open')">
+        <div><h3>Week ${fromWeek} · ${weekName}</h3><p>Academic content and task completion</p></div>
+        <div class="acc-percent">${p}%</div>
+      </div>
+      <div class="acc-body">
+        ${[
+          ['Lecture / learning content', p>55],
+          ['Normal assignments', p>68],
+          ['Practice assignments', p>82],
+          ['Graded assignment', p>90]
+        ].map(x=>`<div class="taskline"><div><div class="name">${x[0]}</div><div class="meta">Progress-linked task group</div></div><span class="badge ${x[1]?'':'pending'}">${x[1]?'Complete':'Pending'}</span></div>`).join('')}
+      </div>`;
+    box.appendChild(acc);
+
+    renderBreadcrumb([
+      {label:'Overview',action:goHome},
+      {label:`Week ${String(fromWeek).padStart(2,'0')} · ${weekName}`,action:()=>showWeek(fromWeek)},
+      {label:name}
+    ]);
+  }else{
+    // Direct subject selection from Overview = overall subject progress.
+    document.getElementById('subjectTitle').textContent=name;
+    document.getElementById('subjectMeta').textContent=`${code} · Week-wise progress`;
+    document.getElementById('subjectPercent').textContent=overall+'%';
+    document.getElementById('subjectBar').style.width=overall+'%';
+
+    vals.forEach((p,i)=>{
+      const acc=document.createElement('div'); acc.className='acc';
+      acc.innerHTML=`
+        <div class="acc-head" onclick="this.parentElement.classList.toggle('open')">
+          <div><h3>Week ${i+1}</h3><p>${i<5?'Academic content and task completion':'Tasks'}</p></div>
+          <div class="acc-percent">${p}%</div>
+        </div>
+        <div class="acc-body">
+          ${[
+            ['Lecture / learning content', p>55],
+            ['Normal assignments', p>68],
+            ['Practice assignments', p>82],
+            ['Graded assignment', p>90]
+          ].map(x=>`<div class="taskline"><div><div class="name">${x[0]}</div><div class="meta">Progress-linked task group</div></div><span class="badge ${x[1]?'':'pending'}">${x[1]?'Complete':'Pending'}</span></div>`).join('')}
+        </div>`;
+      box.appendChild(acc);
+    });
+
+    renderBreadcrumb([
+      {label:'Overview',action:goHome},
+      {label:name}
+    ]);
+  }
+
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>

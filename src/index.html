@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study-Planner — IIT Madras BS</title>
+  <meta name="description" content="Study-Planner: a calendar-first study planner that materialises daily plans and tracks completion.">
+  <meta name="theme-color" content="#050507">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Favicon assets (assets/favicon_io/) -->
+  <link rel="icon" href="../assets/favicon_io/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png">
+
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="css/tracker.css">
+  <link rel="stylesheet" href="css/progress.css">
+<link rel="stylesheet" href="css/reports.css">
+<!-- U2.1: reference Calendar integration (ported from reference/Reference-Calendar-Project) -->
+<link rel="stylesheet" href="css/calendar-u21.css">
+
+  <!--
+    Application configuration (read by js/app.js bootstrap).
+    dataBase is relative to this file; the repository data/ folder is served
+    from the project root. Open the app through a static server, e.g.
+      npx serve .
+      then browse to /src/
+    (fetch() of local JSON files is blocked on the file:// protocol.)
+  -->
+  <script>
+    window.STUDY_PLANNER_CONFIG = {
+      dataBase: '../data/schedule/daily/',
+      syllabusBase: '../data/syllabus/',
+      syllabusFiles: [
+        'mathematics-i.json',
+        'statistics.json',
+        'computational-thinking.json',
+        'english.json'
+      ],
+      context: 'IIT Madras BS',
+      initialDate: '2026-10-02',
+      cycleStart: '2026-10-02',
+      // U2.1: Weekly is the default Calendar mode (reference shows the wheel first).
+      calendarView: 'week',
+      // U1 canonical full-year calendar data. Relative to the repository root.
+      // Exposed here for future Calendar UI (U2); U1 changes no calendar behaviour.
+      calendarFile: '../data/calendar/calendar-2026.json'
+    };
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#view">Skip to content</a>
+
+  <header class="app-header" id="app-header">
+    <div class="app-brand">
+      <!-- U5.1 (CHANGE #006): supplied white logo replaces the SP monogram.
+           The supplied asset is dark-styled; base.css renders it white. -->
+      <span class="app-logo" aria-hidden="true"><img class="app-logo-img" src="../assets/logo/Study-Planner-Logo.svg" alt=""></span>
+      <div class="app-brand-text">
+        <h1 class="app-title">Study-Planner</h1>
+        <p class="app-tagline">IIT Madras BS — 28-day cycle</p>
+      </div>
+    </div>
+    <nav class="app-nav" aria-label="Primary">
+      <!-- U5.1 (CHANGE #002/#003): global Home (hidden on #/calendar by
+           updateHeaderNav) + supplied SVG icons on every primary action. -->
+      <button type="button" class="ghost-button" data-action="open-home" hidden><img class="nav-icon" src="../assets/svg/home.svg" alt="" aria-hidden="true">Home</button>
+      <button type="button" class="ghost-button" data-action="open-progress"><img class="nav-icon" src="../assets/svg/progress.svg" alt="" aria-hidden="true">Progress</button>
+      <button type="button" class="ghost-button" data-action="open-reports"><img class="nav-icon" src="../assets/svg/report.svg" alt="" aria-hidden="true">Reports</button>
+    </nav>
+  </header>
+
+  <main id="view" class="app-view" tabindex="-1"></main>
+
+  <!-- U2.2-006: no explanatory/status/footer copy — the Calendar ends after its own UI. -->
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Engines and core services (must load before the components that use them) -->
+  <script src="js/data-engine.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/progress-engine.js"></script>
+  <script src="js/planner-engine.js"></script>
+
+  <!-- Shared date model, routing and DOM helpers -->
+  <script src="js/calendar.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/renderer.js"></script>
+
+  <!-- U2: user calendar notes/events (separate from completion storage) -->
+  <script src="js/calendar-metadata.js"></script>
+
+  <!-- View components (depend on the services above) -->
+  <script src="components/calendar/calendar-context.js"></script>
+<!-- U2.1: reference Calendar card + date-wheel controller -->
+<script src="components/calendar/calendar-card.js"></script>
+<script src="components/calendar/calendar-wheel.js"></script>
+  <script src="components/calendar/month-view.js"></script>
+  <script src="components/calendar/week-view.js"></script>
+  <script src="components/calendar/calendar-view.js"></script>
+  <script src="components/tracker/task-card.js"></script>
+  <script src="components/tracker/task-group.js"></script>
+  <script src="components/tracker/daily-tracker.js"></script>
+
+  <!-- Progress dashboard + drill-down components (Phase 5) -->
+  <script src="components/progress/overall-progress.js"></script>
+  <script src="components/progress/week-progress.js"></script>
+  <script src="components/progress/subject-progress.js"></script>
+  <script src="components/progress/day-progress.js"></script>
+  <script src="components/progress/progress-dashboard.js"></script>
+  <script src="components/progress/progress-drilldown.js"></script>
+<script src="js/report-model.js"></script>
+<script src="js/export-engine.js"></script>
+<script src="components/reports/report-viewer.js"></script>
+<script src="components/reports/progress-calendar.js"></script>
+<script src="components/reports/report-tree.js"></script>
+<script src="components/reports/export-controls.js"></script>
+
+  <!-- Application shell -->
+  <script src="js/app.js"></script>
+  <script>window.StudyPlanner.App.bootstrap();</script>
+</body>
+</html>

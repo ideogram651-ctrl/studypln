@@ -1,0 +1,2176 @@
+{
+  "schemaVersion": "1.0",
+  "courseId": "BSMA1002",
+  "courseName": "Statistics I",
+  "subjectId": "statistics-i",
+  "weekCount": 4,
+  "source": {
+    "type": "iitm-coursextract",
+    "file": "reference/syllabus/Statistics I — IITM CourseXtract (10_1_2026 12：14：52 AM).html",
+    "generatedAt": "2026-09-30T18:43:02.088Z",
+    "status": "EXTRACTION COMPLETE",
+    "summary": {
+      "videos": 49,
+      "assignments": 39,
+      "graded": 4,
+      "questions": 328,
+      "videoDuration": "10h 46m"
+    }
+  },
+  "weeks": [
+    {
+      "weekId": "statistics-i-w1",
+      "weekNumber": 1,
+      "title": "Week 1",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 17
+      },
+      "items": [
+        {
+          "sourceId": "Course Overview",
+          "type": "orientation",
+          "title": "Course Overview",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=31"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L1.1",
+          "type": "lecture",
+          "title": "L1.1: Introduction and types of Data - Basic definitions",
+          "weekNumber": 1,
+          "duration": "21:22",
+          "durationSeconds": 1282,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/nHe1nYmtAy0"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=32"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "video",
+            "details": "21:22"
+          }
+        },
+        {
+          "sourceId": "AQ1.1",
+          "type": "activity",
+          "title": "AQ1.1: Activity Questions 1 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 12,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=33"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "assign",
+            "details": "12 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.2",
+          "type": "lecture",
+          "title": "L1.2: Introduction and types of Data - Understanding data",
+          "weekNumber": 1,
+          "duration": "41:46",
+          "durationSeconds": 2506,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/5e5nHjXJtUg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=34"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "video",
+            "details": "41:46"
+          }
+        },
+        {
+          "sourceId": "AQ1.2",
+          "type": "activity",
+          "title": "AQ1.2: Activity Questions 2 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 9,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=35"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "assign",
+            "details": "9 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.3",
+          "type": "lecture",
+          "title": "L1.3: Introduction and types of Data - Classification of data",
+          "weekNumber": 1,
+          "duration": "21:50",
+          "durationSeconds": 1310,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/JiAaOUCVY-I"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=36"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "video",
+            "details": "21:50"
+          }
+        },
+        {
+          "sourceId": "AQ1.3",
+          "type": "activity",
+          "title": "AQ1.3: Activity Questions 3 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 8,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=37"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "assign",
+            "details": "8 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.4",
+          "type": "lecture",
+          "title": "L1.4: Introduction and types of Data - Scales of measurement",
+          "weekNumber": 1,
+          "duration": "27:29",
+          "durationSeconds": 1649,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/Cwq9xYC8d6g"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=38"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "video",
+            "details": "27:29"
+          }
+        },
+        {
+          "sourceId": "AQ1.4",
+          "type": "activity",
+          "title": "AQ1.4: Activity Questions 4 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 7,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=39"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "assign",
+            "details": "7 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial 1 - Google Spreadsheets Introduction",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial 1 - Google Spreadsheets Introduction",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=40"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice assignment 1.1 - Not Graded",
+          "type": "practice",
+          "title": "Practice assignment 1.1 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 21,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=45"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "21 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial 2 - Formatting Google Spreasheets",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial 2 - Formatting Google Spreasheets",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=41"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice assignment 1.2 - Not Graded",
+          "type": "practice",
+          "title": "Practice assignment 1.2 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 19,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=46"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "assign",
+            "details": "19 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial 3 - Spreadsheet formulae",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial 3 - Spreadsheet formulae",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=42"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=43"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 1 - Graded Assignment 1",
+          "type": "graded",
+          "title": "Week 1 - Graded Assignment 1",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 11,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=587"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "graded",
+            "details": "11 Questions · ✓ Submitted"
+          }
+        },
+        {
+          "sourceId": "Week 1 Extra Questions",
+          "type": "extra",
+          "title": "Week 1 Extra Questions",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 19,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=53"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "assign",
+            "details": "19 Questions"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "statistics-i-w2",
+      "weekNumber": 2,
+      "title": "Week 2",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 18
+      },
+      "items": [
+        {
+          "sourceId": "L2.1",
+          "type": "lecture",
+          "title": "L2.1: Describing Categorical Data - Frequency distributions",
+          "weekNumber": 2,
+          "duration": "18:56",
+          "durationSeconds": 1136,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/gVyhfRCvV3s"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=56"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "18:56"
+          }
+        },
+        {
+          "sourceId": "AQ2.1",
+          "type": "activity",
+          "title": "AQ2.1: Activity Question 1 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 14,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=57"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "14 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.2",
+          "type": "lecture",
+          "title": "L2.2: Describing Categorical Data - Charts of categorical data",
+          "weekNumber": 2,
+          "duration": "33:19",
+          "durationSeconds": 1999,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/C-A8tm4z0dY"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=58"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "33:19"
+          }
+        },
+        {
+          "sourceId": "AQ2.2",
+          "type": "activity",
+          "title": "AQ2.2: Activity Question 2 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 9,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=59"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "9 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.3",
+          "type": "lecture",
+          "title": "L2.3: Describing Categorical Data - Best practices while graphing data 1",
+          "weekNumber": 2,
+          "duration": "19:39",
+          "durationSeconds": 1179,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/ZrwpYmZ1Wi0"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=60"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video",
+            "details": "19:39"
+          }
+        },
+        {
+          "sourceId": "AQ2.3",
+          "type": "activity",
+          "title": "AQ2.3: Activity Question 3 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=61"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.4",
+          "type": "lecture",
+          "title": "L2.4: Describing Categorical Data - Best practices while graphing data 2",
+          "weekNumber": 2,
+          "duration": "37:42",
+          "durationSeconds": 2262,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/tYzmNXeVhvo"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=62"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "37:42"
+          }
+        },
+        {
+          "sourceId": "AQ2.4",
+          "type": "activity",
+          "title": "AQ2.4: Activity Question 4 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=63"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.5",
+          "type": "lecture",
+          "title": "L2.5: Describing Categorical Data - Mode and Median",
+          "weekNumber": 2,
+          "duration": "32:17",
+          "durationSeconds": 1937,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/ljaAgjT0wuY"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=64"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "32:17"
+          }
+        },
+        {
+          "sourceId": "AQ2.5",
+          "type": "activity",
+          "title": "AQ2.5: Activity Question 5 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 8,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=65"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "8 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 1 - Problems Charts and Tables",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 1 - Problems Charts and Tables",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=66"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 2.1 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 2.1 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=71"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2 - Problems Misleading Graphs",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2 - Problems Misleading Graphs",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=67"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 2.2 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 2.2 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 24,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=72"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "24 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 3 - SUMIF in Google Sheets",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 3 - SUMIF in Google Sheets",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=68"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 4 - VLOOKUP in Google Sheets",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=69"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 2 - Graded Assignment 2",
+          "type": "graded",
+          "title": "Week 2 - Graded Assignment 2",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 14,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=76"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "graded",
+            "details": "14 Questions · ✓ Submitted"
+          }
+        },
+        {
+          "sourceId": "Week 2 Extra Activity Questions",
+          "type": "extra",
+          "title": "Week 2 Extra Activity Questions",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=79"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "statistics-i-w3",
+      "weekNumber": 3,
+      "title": "Week 3",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 23
+      },
+      "items": [
+        {
+          "sourceId": "L3.1",
+          "type": "lecture",
+          "title": "L3.1: Describing Numerical Data - Frequency Tables for numerical data",
+          "weekNumber": 3,
+          "duration": "39:10",
+          "durationSeconds": 2350,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/nGpwm9Ev5RQ"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=81"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "39:10"
+          }
+        },
+        {
+          "sourceId": "AQ3.1",
+          "type": "activity",
+          "title": "AQ3.1: Activity Question 1 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=82"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.2",
+          "type": "lecture",
+          "title": "L3.2: Describing Numerical Data - Mean",
+          "weekNumber": 3,
+          "duration": "35:59",
+          "durationSeconds": 2159,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/17PjWUHWaqs"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=83"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "35:59"
+          }
+        },
+        {
+          "sourceId": "AQ3.2",
+          "type": "activity",
+          "title": "AQ3.2: Activity Question 2 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=84"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.3",
+          "type": "lecture",
+          "title": "L3.3: Describing Numerical Data - Median and Mode",
+          "weekNumber": 3,
+          "duration": "25:18",
+          "durationSeconds": 1518,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/aiU6QmOxu_Q"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=85"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video",
+            "details": "25:18"
+          }
+        },
+        {
+          "sourceId": "AQ3.3",
+          "type": "activity",
+          "title": "AQ3.3: Activity Question 3 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 11,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=86"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "assign",
+            "details": "11 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.4",
+          "type": "lecture",
+          "title": "L3.4: Describing Numerical Data - Measures of dispersion- Range, variance and standard deviation",
+          "weekNumber": 3,
+          "duration": "48:05",
+          "durationSeconds": 2885,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/1RGTqZLQhWU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=87"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "48:05"
+          }
+        },
+        {
+          "sourceId": "AQ3.4",
+          "type": "activity",
+          "title": "AQ3.4: Activity Question 4 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 9,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=88"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "9 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.5",
+          "type": "lecture",
+          "title": "L3.5: Describing Numerical Data - Percentiles, Quartiles, and Interquartile range",
+          "weekNumber": 3,
+          "duration": "28:15",
+          "durationSeconds": 1695,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/lD8UIvaKfOY"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=89"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "28:15"
+          }
+        },
+        {
+          "sourceId": "AQ3.5",
+          "type": "activity",
+          "title": "AQ3.5: Activity Question 5 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=90"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "10 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 1",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 1",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=91"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Box plot Tutorial",
+          "type": "tutorial",
+          "title": "Box plot Tutorial",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=99"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 2",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 2",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=92"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 3.1 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 3.1 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=101"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 3",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 3",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=93"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 3.2 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 3.2 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 8,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=102"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "assign",
+            "details": "8 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 4",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 4",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=94"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 5",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 5",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=95"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 6",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 6",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=96"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 7",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 7",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=97"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 Outliers Tutorial",
+          "type": "tutorial",
+          "title": "Week 3 Outliers Tutorial",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=98"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 Percentiles and Quartiles Tutorial",
+          "type": "tutorial",
+          "title": "Week 3 Percentiles and Quartiles Tutorial",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=100"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 - Graded Assignment 3",
+          "type": "graded",
+          "title": "Week 3 - Graded Assignment 3",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 13,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=106"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 23,
+            "rowClass": "graded",
+            "details": "13 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "statistics-i-w4",
+      "weekNumber": 4,
+      "title": "Week 4",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 30
+      },
+      "items": [
+        {
+          "sourceId": "L4.1",
+          "type": "lecture",
+          "title": "L4.1: Association between two variables - Review of course",
+          "weekNumber": 4,
+          "duration": "5:37",
+          "durationSeconds": 337,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/tEnnRFYi_Gw"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=110"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "5:37"
+          }
+        },
+        {
+          "sourceId": "L4.2",
+          "type": "lecture",
+          "title": "L4.2: Association between two categorical variables - Introduction",
+          "weekNumber": 4,
+          "duration": "26:01",
+          "durationSeconds": 1561,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/Q278poQD_x0"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=111"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "video",
+            "details": "26:01"
+          }
+        },
+        {
+          "sourceId": "AQ4.2",
+          "type": "activity",
+          "title": "AQ4.2: Activity Question 2 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=112"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.3",
+          "type": "lecture",
+          "title": "L4.3: Association between two categorical variables - Relative frequencies",
+          "weekNumber": 4,
+          "duration": "41:02",
+          "durationSeconds": 2462,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/7JbEb67GuBI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=113"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "video",
+            "details": "41:02"
+          }
+        },
+        {
+          "sourceId": "AQ4.3",
+          "type": "activity",
+          "title": "AQ4.3: Activity Question 3 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=114"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.4",
+          "type": "lecture",
+          "title": "L4.4: Association between two numerical variables - Scatterplot",
+          "weekNumber": 4,
+          "duration": "16:40",
+          "durationSeconds": 1000,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/wMT9uiUbTT8"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=115"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "video",
+            "details": "16:40"
+          }
+        },
+        {
+          "sourceId": "AQ4.4",
+          "type": "activity",
+          "title": "AQ4.4: Activity Question 4 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=116"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.5",
+          "type": "lecture",
+          "title": "L4.5: Association between two numerical variables - Describing association",
+          "weekNumber": 4,
+          "duration": "12:36",
+          "durationSeconds": 756,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/YvKF_tSiT5Q"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=117"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "video",
+            "details": "12:36"
+          }
+        },
+        {
+          "sourceId": "AQ4.5",
+          "type": "activity",
+          "title": "AQ4.5: Activity Question 5 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=118"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.6",
+          "type": "lecture",
+          "title": "L4.6:Association between two numerical variables - Covariance",
+          "weekNumber": 4,
+          "duration": "38:51",
+          "durationSeconds": 2331,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/TxsIi8uLd7A"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=119"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "video",
+            "details": "38:51"
+          }
+        },
+        {
+          "sourceId": "AQ4.6",
+          "type": "activity",
+          "title": "AQ4.6: Activity Question 6 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=120"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.7",
+          "type": "lecture",
+          "title": "L4.7:Association between two numerical variables - Correlation",
+          "weekNumber": 4,
+          "duration": "34:05",
+          "durationSeconds": 2045,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/8yFAbKEgg34"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=121"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "video",
+            "details": "34:05"
+          }
+        },
+        {
+          "sourceId": "AQ4.7",
+          "type": "activity",
+          "title": "AQ4.7: Activity Question 7 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=122"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.8",
+          "type": "lecture",
+          "title": "L4.8: Association between two numerical variables - Fitting a line",
+          "weekNumber": 4,
+          "duration": "16:41",
+          "durationSeconds": 1001,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/yLqNWxd6pm8"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=123"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "video",
+            "details": "16:41"
+          }
+        },
+        {
+          "sourceId": "AQ4.8",
+          "type": "activity",
+          "title": "AQ4.8: Activity Question 8 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=124"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.9",
+          "type": "lecture",
+          "title": "L4.9: Association between categorical and numerical variables",
+          "weekNumber": 4,
+          "duration": "23:56",
+          "durationSeconds": 1436,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/5uLNgurbmW8"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=125"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "video",
+            "details": "23:56"
+          }
+        },
+        {
+          "sourceId": "AQ4.9",
+          "type": "activity",
+          "title": "AQ4.9: Activity Question 9 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 2,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=126"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "assign",
+            "details": "2 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 4 Tutorial 1",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 1",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=127"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 4.1 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 4.1 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=131"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 4 Tutorial 2",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 2",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=128"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 19,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 4.2 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 4.2 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 17,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=132"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 19,
+            "rowClass": "assign",
+            "details": "17 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 4 Tutorial 3",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 3",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=129"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment (EMQ) - Not Graded Programming",
+          "type": "practice",
+          "title": "Practice Assignment (EMQ) - Not Graded Programming",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=135"
+            }
+          ],
+          "warnings": [
+            "question_count_unavailable"
+          ],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "assign warn",
+            "details": "⚠ Question count unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 4 Tutorial 4",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 4",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=130"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 21,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Programming",
+          "type": "other",
+          "title": "Programming",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [],
+          "warnings": [
+            "open_failed",
+            "open_link_missing"
+          ],
+          "source": {
+            "rowNumber": 21,
+            "rowClass": "assign warn",
+            "details": "✕ Open failed"
+          }
+        },
+        {
+          "sourceId": "Instructions related to Bonus Practice Assignment",
+          "type": "other",
+          "title": "Instructions related to Bonus Practice Assignment",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=137"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 22,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment (EMQ) 1 - Not Graded Programming",
+          "type": "practice",
+          "title": "Practice Assignment (EMQ) 1 - Not Graded Programming",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=138"
+            }
+          ],
+          "warnings": [
+            "question_count_unavailable"
+          ],
+          "source": {
+            "rowNumber": 23,
+            "rowClass": "assign warn",
+            "details": "⚠ Question count unavailable"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment (EMQ) 2 - Not Graded Programming",
+          "type": "practice",
+          "title": "Practice Assignment (EMQ) 2 - Not Graded Programming",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=139"
+            }
+          ],
+          "warnings": [
+            "question_count_unavailable"
+          ],
+          "source": {
+            "rowNumber": 24,
+            "rowClass": "assign warn",
+            "details": "⚠ Question count unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 4 - Graded Assignment 4",
+          "type": "graded",
+          "title": "Week 4 - Graded Assignment 4",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 15,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=140"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 29,
+            "rowClass": "graded",
+            "details": "15 Questions · ✓ Submitted"
+          }
+        },
+        {
+          "sourceId": "Week 4 Extra Activity Questions",
+          "type": "extra",
+          "title": "Week 4 Extra Activity Questions",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_ma1002?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwNzY1NTQ0LCJleHAiOjE3OTA5MzgzNDR9.4X0KcBvcwUiBswA6mMlxKTob1QN58lPFH9QC4VM9q7VonR4y4lFK5iOuXWZgfKD8EtpZdm6i59ig0km1Wf4SJg&id=143"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 30,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        }
+      ]
+    }
+  ]
+}

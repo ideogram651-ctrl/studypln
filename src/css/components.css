@@ -1,0 +1,168 @@
+/* components.css — shared UI atoms (buttons, panels, progress bar, empty state)
+ * Shared by Calendar and Tracker so selection, buttons and progress read the
+ * same everywhere. Phase 4. */
+
+/* ---- glass panel ---- */
+.panel,
+.tracker-hero,
+.study-block,
+.empty-state {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(10px);
+}
+
+/* ---- buttons ---- */
+.ghost-button,
+.segmented-button,
+.icon-button,
+.back-button {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+}
+.ghost-button:hover,
+.segmented-button:hover,
+.icon-button:hover,
+.back-button:hover { background: var(--surface-2); border-color: var(--border-strong); }
+.ghost-button:active,
+.segmented-button:active,
+.icon-button:active,
+.back-button:active { transform: translateY(1px); }
+
+.ghost-button {
+  padding: 9px 18px;
+  border-radius: var(--radius-pill);
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.back-button {
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  font-size: .82rem;
+  align-self: flex-start;
+}
+
+.icon-button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+/* ---- segmented control (Monthly / Weekly) ---- */
+.segmented {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: rgba(0, 0, 0, .25);
+}
+.segmented-button {
+  padding: 8px 16px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.segmented-button.is-active {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 6px 18px var(--accent-glow);
+}
+
+/* ---- progress bar (tracker hero) ---- */
+.progress-track {
+  height: 10px;
+  margin-top: 16px;
+  border-radius: var(--radius-pill);
+  background: rgba(0, 0, 0, .35);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.progress-fill {
+  /* The Subject/Week dashboard mini-bars wrap their fill in a <span> (a <div>
+   * inside <button> would be invalid HTML). Inline spans ignore width/height,
+   * so those fills never grew; blockifying the fill makes the inline
+   * style="width:N%" take effect everywhere. Div-based fills already behave
+   * as block, so nothing else changes. */
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+  transition: width .28s ease;
+}
+
+/* ---- count pill ---- */
+.block-count {
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  font-size: .74rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent-soft);
+}
+
+/* ---- empty / error states ---- */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(24px, 5vw, 40px);
+  text-align: center;
+  align-items: center;
+}
+.empty-state h1 { font-size: 1.3rem; }
+.empty-state p { color: var(--muted); font-size: .9rem; }
+.empty-state .empty-state-date { color: var(--accent-soft); font-weight: 600; }
+
+@media (max-width: 560px) {
+  .app-header { flex-wrap: wrap; }
+}
+
+/* ---- U5.1 (CHANGE #003): supplied SVG nav/back icons ---- */
+/* The supplied assets are black (#000 / #292D32); brightness(0) invert(1)
+   renders them WHITE so they stay crisp at any size — no asset is redrawn. */
+.nav-icon,
+.back-icon {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  filter: brightness(0) invert(1);
+}
+.ghost-button,
+.back-button { display: inline-flex; align-items: center; gap: 7px; }
+/* The hidden attribute must win over the display rules above (author styles
+   otherwise beat the UA's [hidden] rule and Home would never disappear). */
+.app-nav .ghost-button[hidden] { display: none; }
+
+/* ---- U5.1 global navigation: normal / hover / active ----
+   ACTIVE is derived from the route (aria-current set by app.js) and persists
+   WITHOUT hover; HOVER layers on top and never replaces it — the combined
+   :hover rule below keeps the active treatment while the pointer is over the
+   button. Icon and text always move together: the whole button is the single
+   state-bearing control. */
+.app-nav .ghost-button[aria-current="page"] {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color: transparent;
+  box-shadow: 0 6px 18px var(--accent-glow);
+}
+.app-nav .ghost-button[aria-current="page"]:hover {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color: rgba(255, 255, 255, .28);
+  filter: brightness(1.08);
+}

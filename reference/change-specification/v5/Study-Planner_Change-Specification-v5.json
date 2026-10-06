@@ -1,0 +1,1014 @@
+{
+  "schema": "study-planner-change-specification",
+  "schema_version": "1.0",
+  "purpose": "Machine-readable companion to the human-readable Study Planner Change & Enhancement Specification PDF.",
+  "source": {
+    "filename": "Study-Planner_Change-Specification-v5(1).pdf",
+    "page_count": 27,
+    "images_embedded_in_json": false,
+    "visual_reference_rule": "Use the companion PDF when an actual screenshot/figure is required. This JSON stores figure identity, caption and page only."
+  },
+  "document": {
+    "title": "Study Planner — Change & Enhancement Specification",
+    "subtitle": "Phase 6 Browser Verification • Consolidated Change Log",
+    "change_order": [
+      "CHANGE-001",
+      "CHANGE-002",
+      "CHANGE-003",
+      "CHANGE-004",
+      "CHANGE-005"
+    ]
+  },
+  "machine_summary": {
+    "CHANGE-001": {
+      "title": "Calendar UI / Calendar Data / Interaction Model",
+      "core": [
+        "Upgrade calendar visual hierarchy and interaction model toward supplied reference UI.",
+        "Keep existing Study Planner real data and behavior as authoritative.",
+        "Add full-year calendar JSON representation.",
+        "Support study week/day/graded metadata, date notes and date events.",
+        "Weekly navigation must use study weeks; monthly navigation must use calendar months.",
+        "Study cycle starts 2026-10-02.",
+        "Week 1: 2026-10-02 through 2026-10-08; 2026-10-08 is Graded Assignment.",
+        "Do not create a duplicate progress engine, completion store or planning algorithm."
+      ],
+      "figures": [
+        "FIG-001",
+        "FIG-002",
+        "FIG-003",
+        "FIG-004"
+      ]
+    },
+    "CHANGE-002": {
+      "title": "Breadcrumb & Navigation Hierarchy",
+      "core": [
+        "Reports must gain a clickable Calendar breadcrumb.",
+        "Desired hierarchy: Calendar → Reports.",
+        "Deep report pages preserve Calendar → Reports → current report.",
+        "Match working Progress breadcrumb language.",
+        "Do not disturb Progress behavior."
+      ],
+      "figures": [
+        "FIG-005",
+        "FIG-006",
+        "FIG-007",
+        "FIG-008"
+      ]
+    },
+    "CHANGE-003": {
+      "title": "Reports Section — Four Subsections",
+      "core": [
+        "Strict order: Overall Progress → Weekly Timetable Chart → Weekly Report → Daily Report → regression.",
+        "Fix table alignment without rewriting working data/calculation/export systems.",
+        "Rename Weekly timetable to Weekly Timetable Chart.",
+        "Show Week 1–4 before opening a chart/report.",
+        "Use canonical study-week dates: W1 2026-10-02→2026-10-08, W2 2026-10-09→2026-10-15, W3 2026-10-16→2026-10-22, W4 2026-10-23→2026-10-29.",
+        "Use human-readable 12-hour AM/PM axis.",
+        "Hide break-only visual blocks but preserve underlying data.",
+        "Remove unnecessary internal scrollbar.",
+        "Preserve Daily Report Tasks table exactly."
+      ],
+      "figures": [
+        "FIG-009",
+        "FIG-010",
+        "FIG-011",
+        "FIG-012",
+        "FIG-013",
+        "FIG-014",
+        "FIG-015",
+        "FIG-016",
+        "FIG-017",
+        "FIG-018",
+        "FIG-019",
+        "FIG-020"
+      ]
+    },
+    "CHANGE-004": {
+      "title": "Daily Tracker — Actionable Non-Course Schedule Blocks",
+      "core": [
+        "Add the existing completion/check-off interaction to Math + Statistics Revision.",
+        "Add the existing completion/check-off interaction to Daily Review.",
+        "Completion must persist through the existing completion flow.",
+        "Lunch / Rest, Refresh, Free / Refresh and other break-only blocks are already correct and must remain unchanged and non-actionable.",
+        "Do not redesign the Daily Tracker."
+      ],
+      "figures": [
+        "FIG-021",
+        "FIG-022",
+        "FIG-023"
+      ]
+    },
+    "CHANGE-005": {
+      "title": "Header Branding Icon Replacement",
+      "core": [
+        "Remove the existing purple SP monogram from the Study Planner header.",
+        "Replace it with the uploaded Task Square SVG.",
+        "Render the SVG in clean white.",
+        "Use the uploaded SVG directly; preserve its geometry and crisp scalable rendering.",
+        "Keep Study-Planner title, IIT Madras BS subtitle, Progress/Reports controls and dark header unchanged.",
+        "Uploaded asset: task-square-svgrepo-com.svg, viewBox 0 0 24 24, current stroke #292D32, stroke-width 1.5.",
+        "No unrelated UI/functionality changes."
+      ],
+      "figures": [
+        "FIG-024"
+      ]
+    }
+  },
+  "figure_index": [
+    {
+      "figure_id": "FIG-001",
+      "caption": "Figure 1 — Current Study Planner calendar UI (Monthly view).",
+      "page": 5
+    },
+    {
+      "figure_id": "FIG-002",
+      "caption": "Figure 2 — Reference / desirable calendar UI (Weekly view).",
+      "page": 5
+    },
+    {
+      "figure_id": "FIG-003",
+      "caption": "Figure 3 — Current Study Planner calendar UI (Weekly view).",
+      "page": 6
+    },
+    {
+      "figure_id": "FIG-004",
+      "caption": "Figure 4 — Reference / desirable calendar UI (Monthly view).",
+      "page": 6
+    },
+    {
+      "figure_id": "FIG-005",
+      "caption": "Figure 5 — Progress section: breadcrumb hierarchy includes Calendar → Progress.",
+      "page": 9
+    },
+    {
+      "figure_id": "FIG-006",
+      "caption": "Figure 6 — Reports section: current breadcrumb/header lacks a Calendar return path.",
+      "page": 9
+    },
+    {
+      "figure_id": "FIG-007",
+      "caption": "Figure 7 — Mathematics I progress detail: desired hierarchy/back-navigation pattern.",
+      "page": 10
+    },
+    {
+      "figure_id": "FIG-008",
+      "caption": "Figure 8 — Overall progress report: reports hierarchy example.",
+      "page": 10
+    },
+    {
+      "figure_id": "FIG-001",
+      "caption": "Figure 1 — Reports landing page / Overall progress entry.",
+      "page": 5
+    },
+    {
+      "figure_id": "FIG-002",
+      "caption": "Figure 2 — Overall progress: subject table layout.",
+      "page": 5
+    },
+    {
+      "figure_id": "FIG-003",
+      "caption": "Figure 3 — Overall progress: weekly table and date ranges.",
+      "page": 6
+    },
+    {
+      "figure_id": "FIG-004",
+      "caption": "Figure 4 — Weekly timetable chart: current date/header alignment issue.",
+      "page": 6
+    },
+    {
+      "figure_id": "FIG-005",
+      "caption": "Figure 5 — Weekly timetable chart: current 24-hour-style time labels.",
+      "page": 9
+    },
+    {
+      "figure_id": "FIG-006",
+      "caption": "Figure 6 — Weekly timetable chart: lower schedule area and break blocks.",
+      "page": 9
+    },
+    {
+      "figure_id": "FIG-007",
+      "caption": "Figure 7 — Desired weekly timetable visual reference.",
+      "page": 10
+    },
+    {
+      "figure_id": "FIG-008",
+      "caption": "Figure 8 — Weekly timetable chart: unnecessary internal scrollbar.",
+      "page": 10
+    },
+    {
+      "figure_id": "FIG-009",
+      "caption": "Figure 9 — Overall Reports weekly cards / week navigation reference.",
+      "page": 18
+    },
+    {
+      "figure_id": "FIG-010",
+      "caption": "Figure 10 — Weekly report detail: days/progress table.",
+      "page": 19
+    },
+    {
+      "figure_id": "FIG-011",
+      "caption": "Figure 11 — Daily report: schedule table.",
+      "page": 20
+    },
+    {
+      "figure_id": "FIG-012",
+      "caption": "Figure 12 — Daily report: tasks table; preserve this table as-is.",
+      "page": 20
+    },
+    {
+      "figure_id": "FIG-001",
+      "caption": "Figure 1 — Daily Tracker: lower schedule area showing Refresh, Math + Statistics Revision, and Daily Review.",
+      "page": 5
+    },
+    {
+      "figure_id": "FIG-002",
+      "caption": "Figure 2 — Daily Tracker: English study block with interactive task checkboxes.",
+      "page": 5
+    },
+    {
+      "figure_id": "FIG-003",
+      "caption": "Figure 3 — Daily Tracker reference showing the existing checkbox/task interaction pattern.",
+      "page": 6
+    },
+    {
+      "figure_id": "FIG-024",
+      "page": 27,
+      "caption": "CHANGE-005 reference screenshot — current SP header logo targeted for replacement (unnumbered reference screenshot).",
+      "change_id": "CHANGE-005",
+      "visual_content": "Current Study Planner header showing the purple SP logo beside the Study-Planner title and IIT Madras BS subtitle.",
+      "note": "This is a reference screenshot identity only; image bytes are intentionally not embedded in JSON."
+    }
+  ],
+  "change_occurrence_index": {
+    "CHANGE-001": [
+      {
+        "page": 1,
+        "line_positions": [
+          7
+        ]
+      },
+      {
+        "page": 6,
+        "line_positions": [
+          4
+        ]
+      }
+    ],
+    "CHANGE-002": [
+      {
+        "page": 7,
+        "line_positions": [
+          3,
+          5
+        ]
+      },
+      {
+        "page": 10,
+        "line_positions": [
+          4
+        ]
+      }
+    ],
+    "CHANGE-003": [
+      {
+        "page": 11,
+        "line_positions": [
+          3,
+          5
+        ]
+      },
+      {
+        "page": 20,
+        "line_positions": [
+          4
+        ]
+      }
+    ],
+    "CHANGE-004": [
+      {
+        "page": 21,
+        "line_positions": [
+          3,
+          5
+        ]
+      },
+      {
+        "page": 24,
+        "line_positions": [
+          3
+        ]
+      }
+    ],
+    "CHANGE-005": [
+      {
+        "page": 25,
+        "line_positions": [
+          3,
+          5
+        ]
+      },
+      {
+        "page": 27,
+        "line_positions": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  "complete_pdf_text": {
+    "description": "Complete text extracted from every PDF page, preserved page-by-page for deterministic machine access.",
+    "pages": [
+      {
+        "page_number": 1,
+        "text": [
+          "Study Planner — Change & Enhancement",
+          "Specification",
+          "Phase 6 Browser Verification  Consolidated Change Log",
+          "Document Status",
+          "Initial change captured",
+          "Change ID",
+          "CHANGE-001",
+          "Primary Area",
+          "Calendar UI / Calendar Data / Interaction Model",
+          "Change Type",
+          "UI/UX Enhancement + Data Model Enhancement + New Calendar Behavior",
+          "Reference Basis",
+          "User-provided browser screenshots and verbal requirements",
+          "Current Project Context",
+          "Phase 6 complete; browser verification is being performed before the next implementation phase.",
+          "1. Requirement Summary",
+          "The current Study Planner calendar is functionally present but visually too simple compared with the user’s preferred",
+          "reference calendar. The desired result is not a purely visual redesign: the Study Planner should adopt the reference",
+          "calendar’s richer visual hierarchy, navigation model, calendar metadata, and small date-specific note/event",
+          "interactions while preserving the existing application’s real planning, progress, and tracker functionality.",
+          "Core principle: the reference HTML/calendar should become the visual and interaction benchmark, while the",
+          "existing Study Planner remains the source of real study data and existing application behavior.",
+          "2. Current Problem",
+          "The current Study Planner calendar shown in the screenshots is comparatively minimal. It provides Monthly/Weekly",
+          "switching, date navigation, date selection, and plan awareness, but it does not provide the same visual richness,",
+          "information density, contextual navigation, or date-level metadata that exists in the desirable reference UI.",
+          "Observed/desired differences include:",
+          " The calendar UI should visually resemble the desirable reference HTML rather than the current minimal calendar",
+          "presentation.",
+          " Monthly and Weekly modes should have their own appropriate navigation/header presentation instead of sharing a",
+          "generic/simple header treatment.",
+          " Weekly view should clearly communicate the currently selected study week and year.",
+          " Monthly view should clearly communicate the currently selected calendar month and year.",
+          " The calendar should expose meaningful study-cycle information directly on dates, such as Week 1 and Graded",
+          "Assignment.",
+          " Small date-specific actions such as Add a note and New Event should exist in the calendar UI and remain visually",
+          "lightweight.",
+          "3. Desired Calendar UI Direction",
+          "The desirable reference UI should be treated as the primary visual reference for the calendar experience. The",
+          "implementation should reproduce its overall visual hierarchy, spacing, navigation structure, toggle behavior,",
+          "selected-date treatment, and contextual information while adapting it to the Study Planner’s real data model.",
+          "3.1 Mode-specific navigation"
+        ]
+      },
+      {
+        "page_number": 2,
+        "text": [
+          "Weekly mode: The area above the Weekly/Monthly toggle should communicate the current study week, for example",
+          "“Oct Week 1 - 2026”. The left/right navigation controls should move between study weeks, not merely arbitrary",
+          "calendar weeks, because the Study Planner follows a defined study cycle.",
+          "Monthly mode: The area above the Weekly/Monthly toggle should communicate the selected calendar month and",
+          "year, for example “October 2026”. The navigation controls should move between calendar months.",
+          "The Weekly/Monthly toggle itself should retain the reference UI’s clear, prominent presentation and should make the",
+          "active mode immediately obvious.",
+          "4. Full-Year Calendar JSON Data",
+          "Introduce a dedicated JSON representation for the complete calendar year. The calendar should not depend only on",
+          "the generated study-plan files to understand dates. A year-level calendar data source should explicitly represent the",
+          "calendar structure for the full year, including months and their dates/days, and provide a place for Study",
+          "Planner-specific metadata.",
+          "The year-level JSON should be capable of representing:",
+          " The target year (e.g., 2026).",
+          " All 12 months.",
+          " Dates within each month.",
+          " Day-of-week information needed by the calendar.",
+          " Whether a date belongs to the Study Planner’s active study cycle.",
+          " Study week association for a date.",
+          " Study-day number within that study week.",
+          " Special day markers such as the graded-assignment day.",
+          " Date-specific note metadata.",
+          " Date-specific event metadata.",
+          "5. Study-Cycle Metadata Example",
+          "The Study Planner begins its active study cycle on 2 October 2026. Therefore the calendar data should understand",
+          "the study cycle independently from the ordinary calendar month structure.",
+          "For the first study week, the intended mapping is:",
+          "Date",
+          "Study Week",
+          "Study Day",
+          "Special Meaning",
+          "2 Oct 2026",
+          "Week 1",
+          "Day 1",
+          "Study-week start",
+          "3 Oct 2026",
+          "Week 1",
+          "Day 2",
+          "—",
+          "4 Oct 2026",
+          "Week 1",
+          "Day 3",
+          "—",
+          "5 Oct 2026",
+          "Week 1",
+          "Day 4",
+          "—",
+          "6 Oct 2026",
+          "Week 1",
+          "Day 5",
+          "—",
+          "7 Oct 2026",
+          "Week 1",
+          "Day 6",
+          "Practice / study-cycle day",
+          "8 Oct 2026",
+          "Week 1",
+          "Day 7",
+          "Graded Assignment",
+          "The same pattern should continue through the full study cycle: each study week has seven study days, and the",
+          "seventh day is identified as the graded-assignment day where applicable. The exact generated-plan rules remain",
+          "authoritative; this calendar metadata should expose the study-cycle meaning rather than inventing a second planning",
+          "algorithm."
+        ]
+      },
+      {
+        "page_number": 3,
+        "text": [
+          "6. Date-Level Visual Hints",
+          "When a user interacts with a date, the calendar should be able to show concise contextual labels beneath or around",
+          "the date without making the calendar visually cluttered.",
+          " Clicking/activating 2 October should make its study context visible, such as “Week 1” and/or “Day 1”, according to the",
+          "final UI design.",
+          " 8 October should visibly communicate that it is the graded-assignment day, using a concise label such as “Graded” or",
+          "“Graded Assignment”.",
+          " The transition between study weeks should be visually understandable: the end of one week is marked by its graded",
+          "day and the following study week begins immediately after it.",
+          " The date metadata should be derived from the calendar/study-cycle JSON rather than hardcoded into the UI.",
+          "7. Add a Note / New Event",
+          "The desirable reference UI contains two lightweight controls: Add a note and New Event. These should be",
+          "incorporated into the Study Planner calendar while keeping them visually compact and contextual.",
+          "Add a note: When the user adds a note for a selected date, the note should appear as date-specific calendar content",
+          "in an appropriate location around the calendar/date area, similar in spirit to the reference UI. It should remain",
+          "associated with the selected date.",
+          "New Event: The user should be able to create an event associated with a specific date. The event should then be",
+          "represented for that date in the calendar UI.",
+          "The exact persistence/storage mechanism for user-created notes and events should be defined during",
+          "implementation so that it does not conflict with the project’s existing completion authority or generated-plan",
+          "architecture.",
+          "8. Functional Preservation Requirements",
+          "This change is a calendar enhancement, not a replacement of the Study Planner’s underlying architecture. Existing",
+          "functionality must continue to work.",
+          " Existing Monthly/Weekly switching must continue to work.",
+          " Existing date selection and Daily Tracker navigation must continue to work.",
+          " Real plan data must remain the source of study tasks.",
+          " Existing completion persistence through storage.js must remain unchanged.",
+          " Existing progress calculations through progress-engine.js must remain unchanged.",
+          " Existing Reports and Progress navigation must remain functional.",
+          " The study-cycle timing and Fri→Thu behavior must not be silently replaced with a conventional Monday→Sunday",
+          "academic week.",
+          " The calendar must not create a duplicate progress engine, completion store, or planning algorithm.",
+          "9. Acceptance Criteria",
+          " The Study Planner calendar visually follows the supplied desirable reference closely enough that the current minimal",
+          "calendar no longer feels like a separate design.",
+          " Monthly mode has month/year navigation and a clear Monthly/Weekly mode toggle.",
+          " Weekly mode has study-week/year navigation and a clear Monthly/Weekly mode toggle.",
+          " The current study week can be identified from the calendar’s study-cycle data.",
+          " The full target year has a dedicated JSON calendar representation."
+        ]
+      },
+      {
+        "page_number": 4,
+        "text": [
+          " The calendar can identify study week, study day, and graded-assignment metadata for relevant dates.",
+          " 2 October 2026 is recognized as Study Week 1 / Day 1.",
+          " 8 October 2026 is recognized as the final day of Study Week 1 and its graded-assignment day.",
+          " Notes and events can be associated with specific dates and displayed contextually.",
+          " Existing planner, tracker, progress, reports, and storage behavior continues to work.",
+          " The implementation is validated in a real browser at the required responsive sizes.",
+          "10. Implementation Boundary",
+          "This requirement should be treated as a combined UI/UX + calendar data model + calendar interaction change. It",
+          "may require new files/components for calendar metadata and date-specific notes/events, but the implementation",
+          "must first inspect the existing repository and recover/reuse existing calendar architecture before creating parallel",
+          "systems.",
+          "The final implementation phase(s) for this change should be designed later, after all browser-verification changes",
+          "have been collected. Do not prematurely assign this requirement to Phase 7/8 or invent the final phase breakdown",
+          "yet."
+        ]
+      },
+      {
+        "page_number": 5,
+        "text": [
+          "11. Reference Screenshots",
+          "Figure 1 — Current Study Planner calendar UI (Monthly view).",
+          "Figure 2 — Reference / desirable calendar UI (Weekly view)."
+        ]
+      },
+      {
+        "page_number": 6,
+        "text": [
+          "Figure 3 — Current Study Planner calendar UI (Weekly view).",
+          "Figure 4 — Reference / desirable calendar UI (Monthly view).",
+          "12. Change Log",
+          "CHANGE-001 — Calendar UI should be upgraded to match the supplied desirable reference UI while preserving",
+          "Study Planner functionality, with a full-year calendar JSON model, study-week/day/graded metadata, mode-specific",
+          "navigation, and lightweight date-specific notes/events.",
+          "Next update: Future changes must be appended below this change. Existing changes must not be removed unless the user explicitly",
+          "requests a requirement revision."
+        ]
+      },
+      {
+        "page_number": 7,
+        "text": [
+          "Study Planner — Change & Enhancement",
+          "Specification",
+          "CHANGE-002  Breadcrumb & Navigation Hierarchy",
+          "Change ID",
+          "CHANGE-002",
+          "Category",
+          "UI/UX  Navigation  Information Architecture",
+          "Affected Area",
+          "Progress and Reports sections",
+          "Priority",
+          "High",
+          "Status",
+          "Captured during browser verification",
+          "1. Requirement Summary",
+          "The Progress section is currently behaving correctly from a navigation and breadcrumb perspective. The problem is",
+          "specifically in the adjacent Reports section: its breadcrumb hierarchy does not provide the same clear route back to the",
+          "Calendar. The Reports hierarchy should be brought into alignment with the navigation pattern already working correctly",
+          "in Progress.",
+          "Key requirement: preserve the existing Progress breadcrumb behavior and apply the same hierarchical navigation",
+          "principle to Reports. This is not a request to redesign the Progress section; it is a request to correct the Reports section",
+          "so both areas follow a consistent application hierarchy.",
+          "2. What Is Already Correct",
+          " The Progress section's breadcrumb provides a visible path back to Calendar.",
+          " Progress drill-down navigation works correctly.",
+          " The Mathematics I progress detail page demonstrates a strong navigation pattern: a clear back action plus a",
+          "hierarchical breadcrumb that retains the parent path.",
+          " The user explicitly does not want the working Progress behavior disturbed.",
+          "3. Current Reports Problem",
+          "The Reports landing/detail views currently lack the Calendar level in their breadcrumb/navigation hierarchy. As a",
+          "result, Reports does not communicate the same parent-child relationship that Progress communicates.",
+          "The expected hierarchy is conceptually:",
+          "Calendar → Reports",
+          "For deeper report pages, the hierarchy should continue to preserve the parent context instead of dropping the",
+          "Calendar level. For example, a deeper report should retain the equivalent of Calendar → Reports → [current report]",
+          "where appropriate.",
+          "4. Desired Behavior",
+          " Add a Calendar navigation level to the Reports section's breadcrumb hierarchy.",
+          " Make the Calendar breadcrumb/action clickable so the user can directly return to the Calendar.",
+          " Keep the existing Reports label as the current section in the hierarchy.",
+          " For report detail pages, preserve the parent hierarchy while identifying the current report/page.",
+          " Use the same visual language and interaction behavior already established by the working Progress breadcrumbs.",
+          " Do not remove or weaken the existing Progress breadcrumb behavior."
+        ]
+      },
+      {
+        "page_number": 8,
+        "text": [
+          "5. Consistency With Progress Drill-Down",
+          "The user specifically wants the Reports section to follow the same successful pattern visible in the Progress area. The",
+          "Mathematics I progress page is the reference for this navigation philosophy: the user can understand where they are,",
+          "see the parent hierarchy, and move backward without losing context.",
+          "The implementation should therefore treat breadcrumb hierarchy as part of the application's information architecture, not",
+          "as decorative text.",
+          "6. Acceptance Criteria",
+          " Reports landing page provides a clear Calendar → Reports breadcrumb path.",
+          " The Calendar breadcrumb is interactive and returns the user to the Calendar.",
+          " Report detail pages preserve the Calendar → Reports parent hierarchy where applicable.",
+          " The Reports breadcrumb visually matches the established Progress breadcrumb style.",
+          " The existing Progress breadcrumb/navigation behavior remains unchanged and functional.",
+          " Browser back/forward behavior and direct report routes continue to work.",
+          " No duplicate or competing breadcrumb systems are introduced.",
+          "7. Implementation Boundary",
+          "This is a focused navigation/UI change. Do not modify progress calculations, report data models, storage, planning",
+          "logic, or generated plan data to solve it. The implementation should inspect the existing router/app breadcrumb",
+          "construction first and make the smallest change that establishes the correct hierarchy across Reports."
+        ]
+      },
+      {
+        "page_number": 9,
+        "text": [
+          "8. Reference Screenshots",
+          "Figure 5 — Progress section: breadcrumb hierarchy includes Calendar → Progress.",
+          "Figure 6 — Reports section: current breadcrumb/header lacks a Calendar return path."
+        ]
+      },
+      {
+        "page_number": 10,
+        "text": [
+          "Figure 7 — Mathematics I progress detail: desired hierarchy/back-navigation pattern.",
+          "Figure 8 — Overall progress report: reports hierarchy example.",
+          "9. Change Log Entry",
+          "CHANGE-002 — Correct the Reports breadcrumb/navigation hierarchy so it includes a clickable Calendar parent,",
+          "matching the working Progress navigation pattern. Preserve the existing Progress behavior and maintain the full",
+          "hierarchy on deeper report pages."
+        ]
+      },
+      {
+        "page_number": 11,
+        "text": [
+          "Study Planner — Change & Enhancement",
+          "Specification",
+          "CHANGE-003  Reports Section — Four Subsections",
+          "Change ID",
+          "CHANGE-003",
+          "Category",
+          "Reports UI  Tables  Timetable  Navigation  Data hierarchy",
+          "Scope",
+          "Reports → Overall Progress → Weekly Timetable Chart → Weekly Report → Daily Report",
+          "Priority",
+          "High",
+          "Implementation order",
+          "Strictly follow Section 1 → Section 2 → Section 3 → Section 4",
+          "1. Core Objective",
+          "Correct the Reports section without disturbing functionality that is already working. The work must be executed",
+          "hierarchically: first fix Overall Progress, then Weekly Timetable Chart, then Weekly Report, and finally the small Daily",
+          "Report spacing issue. Each subsection should be verified before moving to the next.",
+          "Important: this change is primarily about presentation, hierarchy, navigation and accurate use of the existing",
+          "study-week/date data. Do not rewrite working progress calculations, task completion logic, or file-export logic merely to",
+          "solve these UI issues.",
+          "2. Section 1 — Overall Progress",
+          "Problem A — Table column/row alignment",
+          "The tables shown inside Overall Progress are visually misaligned. Header cells and their corresponding data cells do",
+          "not remain in one consistent vertical column/row structure. Content from one row visually drifts toward the next row,",
+          "making the table difficult to scan.",
+          "Required result: every header must define one stable column, and every row's value must remain directly under the",
+          "correct header and aligned with the same column across all rows. Apply this consistently to the affected tables in the",
+          "Overall Progress section.",
+          "Problem B — Preserve HTML export",
+          "The Export HTML functionality is already working correctly. It must remain fully functional and must not be broken or",
+          "redesigned as part of this change.",
+          "Negative requirement: do not change the Export HTML action, export generation flow, or its working behavior. Only",
+          "correct the on-screen presentation/alignment of the report tables.",
+          "3. Section 2 — Weekly Timetable → rename to “Weekly Timetable",
+          "Chart”",
+          "3.1 Rename",
+          "Change the report-card/section name from Weekly timetable to Weekly Timetable Chart. Use this terminology",
+          "consistently wherever this report is presented.",
+          "3.2 Show all four weeks before opening a chart",
+          "Clicking Weekly Timetable Chart should not immediately drop the user into Week 1 only. First show a Week-selection",
+          "view containing all four study weeks: Week 1, Week 2, Week 3 and Week 4. The user then clicks a week to open that",
+          "week's actual timetable chart."
+        ]
+      },
+      {
+        "page_number": 12,
+        "text": [
+          "This selection view should establish that all four weeks exist and are accessible. It does not need to show progress",
+          "percentages if the existing design does not require them; its primary purpose is week selection and discoverability.",
+          "3.3 Use stored study-week date ranges",
+          "The timetable chart must use the canonical study-week data rather than independently inventing or shifting dates. For",
+          "the current cycle, Week 1 is 2026-10-02 → 2026-10-08. Therefore the chart's first study day must be Friday, October 2,",
+          "not October 1.",
+          "The same principle applies to Weeks 2–4: their displayed dates must come from the same stored study-week/date",
+          "mapping used by the Calendar and Reports data.",
+          "3.4 Correct time-axis formatting",
+          "The current chart displays times in a 24-hour-like sequence such as 12:00 followed by 13:00. Replace this with a",
+          "human-readable 12-hour clock: after 12:00 comes 1:00 PM, then 2:00 PM, etc.",
+          "AM and PM should be visually distinguishable using the intended design treatment (for example, different text colors),",
+          "matching the supplied desirable reference rather than showing a raw 13:00/14:00 sequence.",
+          "3.5 Hide non-useful break/gap rows",
+          "The timetable currently exposes grey break/gap blocks. These are not useful to the user's primary timetable view and",
+          "should not occupy prominent chart space. Remove/hide these break-only visual blocks from the chart presentation so",
+          "the study schedule is the focus.",
+          "Do not interpret this as deleting the underlying schedule data. This is a presentation requirement: the chart should not",
+          "visually emphasize empty/break periods that the user does not need to inspect.",
+          "3.6 Remove unnecessary internal scrollbar",
+          "The Weekly Timetable Chart currently shows an unnecessary scrollbar on the right side of the chart area even though",
+          "there is no meaningful horizontal/vertical content requiring that internal scroll container.",
+          "Remove the unnecessary internal scrollbar while preserving normal page scrolling.",
+          "Negative requirements: the timetable chart's working file/export/download functionality is already correct. Do not break or",
+          "unnecessarily rewrite it. Do not add a scrollbar back unless the chart genuinely requires scrolling after the layout is",
+          "corrected.",
+          "4. Section 3 — Weekly Report",
+          "4.1 Expose all four weeks",
+          "The Weekly Report currently opens with Week 1 only, leaving the user without an obvious way to inspect Weeks 2–4.",
+          "Provide a four-week selection layer first: Week 1, Week 2, Week 3 and Week 4.",
+          "Each week must be selectable. After selection, open that specific week's report/progress data. If a future week has no",
+          "completed tasks, show its real zero progress rather than hiding the week.",
+          "4.2 Fix Weekly Report table alignment",
+          "The Weekly Report's days/progress table has the same structural presentation issue: values visually drift between",
+          "rows/columns. Each row must remain a clean row, and each column must stay vertically aligned with its header.",
+          "Do not solve this by merely changing text size. The underlying table/grid layout must provide stable column widths, row",
+          "boundaries, padding and alignment.",
+          "5. Section 4 — Daily Report",
+          "5.1 Small spacing issue in the Schedule table",
+          "The Daily Report is otherwise functioning correctly. In the Schedule table, one row's content is visually too close",
+          "to/drifts toward the following row. Correct only the affected row spacing/padding so the row boundaries read cleanly.",
+          "5.2 Tasks table is already correct — DO NOT TOUCH"
+        ]
+      },
+      {
+        "page_number": 13,
+        "text": [
+          "The Tasks table in Daily Report is considered fixed and should be preserved exactly in behavior and layout. Do not modify",
+          "its row structure, spacing, column alignment, styling, or data rendering while fixing the Schedule table.",
+          "6. Strict Implementation Hierarchy",
+          " Step 1: Overall Progress — fix table/grid alignment; verify Export HTML remains unchanged and working.",
+          " Step 2: Weekly Timetable Chart — rename section, add four-week selector, correct study-week dates, fix 12-hour",
+          "AM/PM time axis, hide break-only visual blocks, remove unnecessary internal scrollbar; verify export/download remains",
+          "working.",
+          " Step 3: Weekly Report — add four-week selector and correct table row/column alignment.",
+          " Step 4: Daily Report — fix only the small Schedule-table spacing issue; leave the Tasks table untouched.",
+          " Step 5: Final regression pass — verify Calendar/Progress/Reports navigation, existing breadcrumbs,",
+          "exports/downloads, progress calculations and direct routes still work.",
+          "7. Global Negative Requirements",
+          " Do not break the already-working Progress section.",
+          " Do not break the existing Reports export/download functionality.",
+          " Do not modify the Daily Report Tasks table.",
+          " Do not invent a second independent study-week date system; use the canonical study-week mapping.",
+          " Do not show Week 1 as the only discoverable week where four weeks exist.",
+          " Do not use 24-hour labels such as 13:00 where the desired UI calls for 1:00 PM.",
+          " Do not preserve unnecessary internal scrollbars merely because the current implementation has one.",
+          " Do not delete underlying break/schedule data solely because break rows are hidden visually.",
+          " Do not make broad styling changes outside the specific problems described here.",
+          "8. Acceptance Checklist",
+          "Area",
+          "Pass condition",
+          "Overall Progress",
+          "All affected tables have stable header → column → row alignment.",
+          "Overall Progress",
+          "Export HTML still works exactly as before.",
+          "Weekly Timetable Chart",
+          "Name updated from Weekly timetable to Weekly Timetable Chart.",
+          "Weekly Timetable Chart",
+          "Week 1–4 selection is visible before a specific chart is opened.",
+          "Weekly Timetable Chart",
+          "Week 1 displays Fri Oct 2 through Thu Oct 8.",
+          "Weekly Timetable Chart",
+          "Time axis uses 12-hour AM/PM formatting.",
+          "Weekly Timetable Chart",
+          "Break-only grey visual blocks are hidden from the primary chart.",
+          "Weekly Timetable Chart",
+          "Unnecessary internal scrollbar is removed.",
+          "Weekly Report",
+          "Week 1–4 are selectable; each week's real progress is shown.",
+          "Weekly Report",
+          "Days/progress table rows and columns are properly aligned.",
+          "Daily Report",
+          "Only the affected Schedule-table spacing is corrected.",
+          "Daily Report",
+          "Tasks table remains unchanged."
+        ]
+      },
+      {
+        "page_number": 14,
+        "text": [
+          "9. Reference Screenshots",
+          "Figure 1 — Reports landing page / Overall progress entry.",
+          "Figure 2 — Overall progress: subject table layout."
+        ]
+      },
+      {
+        "page_number": 15,
+        "text": [
+          "Figure 3 — Overall progress: weekly table and date ranges.",
+          "Figure 4 — Weekly timetable chart: current date/header alignment issue."
+        ]
+      },
+      {
+        "page_number": 16,
+        "text": [
+          "Figure 5 — Weekly timetable chart: current 24-hour-style time labels.",
+          "Figure 6 — Weekly timetable chart: lower schedule area and break blocks."
+        ]
+      },
+      {
+        "page_number": 17,
+        "text": [
+          "Figure 7 — Desired weekly timetable visual reference."
+        ]
+      },
+      {
+        "page_number": 18,
+        "text": [
+          "Figure 8 — Weekly timetable chart: unnecessary internal scrollbar.",
+          "Figure 9 — Overall Reports weekly cards / week navigation reference."
+        ]
+      },
+      {
+        "page_number": 19,
+        "text": [
+          "Figure 10 — Weekly report detail: days/progress table."
+        ]
+      },
+      {
+        "page_number": 20,
+        "text": [
+          "Figure 11 — Daily report: schedule table.",
+          "Figure 12 — Daily report: tasks table; preserve this table as-is.",
+          "10. Change Log Entry",
+          "CHANGE-003 — Repair the four Reports subsections in a strict hierarchy: Overall Progress table alignment; Weekly",
+          "Timetable Chart naming, four-week discovery, canonical dates, 12-hour AM/PM axis, hidden break-only visuals and",
+          "scrollbar removal; Weekly Report four-week discovery and table alignment; and the limited Daily Report Schedule",
+          "spacing fix while preserving the Tasks table."
+        ]
+      },
+      {
+        "page_number": 21,
+        "text": [
+          "Study Planner — Change & Enhancement",
+          "Specification",
+          "CHANGE-004  Daily Tracker — Actionable Non-Course Schedule Blocks",
+          "Change ID",
+          "CHANGE-004",
+          "Category",
+          "Daily Tracker UI  Task interaction  Completion persistence",
+          "Scope",
+          "Calendar → double-click date → Daily Tracker",
+          "Priority",
+          "Medium / UX improvement",
+          "Affected blocks",
+          "Math + Statistics Revision; Daily Review",
+          "1. Problem",
+          "When a date is opened from the Calendar into the Daily Tracker, the tracker correctly provides interactive checkboxes",
+          "for course-related study items. However, two end-of-day schedule blocks — Math + Statistics Revision and Daily",
+          "Review — are actionable study/productivity activities but currently appear only as informational schedule cards without",
+          "a completion checkbox.",
+          "This creates an inconsistent interaction model: the user can mark completion for the course/task blocks above, but",
+          "cannot mark completion for these two useful activities even though completing them is part of the daily routine and",
+          "provides the same motivational value as checking off other work.",
+          "2. Required Change",
+          "Make Math + Statistics Revision and Daily Review actionable in the Daily Tracker by adding the same",
+          "completion/check-off interaction pattern already used by the existing task cards.",
+          "Each of these blocks should contain a visible checkbox (or the same established completion control used elsewhere in",
+          "the tracker). The user must be able to click it to mark the activity complete and click again if the existing interaction",
+          "model supports unchecking.",
+          "The visual and behavioral pattern should feel native to the existing Daily Tracker rather than introducing a new type of",
+          "control.",
+          "3. Exact Blocks to Make Actionable",
+          "A. Math + Statistics Revision",
+          "Current role: a scheduled revision activity for weak topics, recall and the error log. Required behavior: add a",
+          "completion checkbox using the same interaction pattern as the course/task cards.",
+          "B. Daily Review",
+          "Current role: an end-of-day review covering completed work, pending items and the next day's plan. Required",
+          "behavior: add a completion checkbox using the same interaction pattern as the course/task cards.",
+          "4. Completion / Persistence Requirement",
+          "These controls must represent real completion state, not merely a visual toggle. The checked state should integrate",
+          "with the Daily Tracker's existing persisted-completion behavior so that marking the activity complete remains",
+          "consistent with the application's principle that progress is derived from actual completion.",
+          "Do not create a separate temporary UI-only checkbox system. Reuse the existing task/completion mechanism where",
+          "technically appropriate.",
+          "5. Negative Requirements — Do Not Change These"
+        ]
+      },
+      {
+        "page_number": 22,
+        "text": [
+          "Lunch / Rest, Refresh, Free / Refresh, and other break-only blocks are already correct. They do not need completion",
+          "checkboxes and their current presentation should remain unchanged.",
+          "Do not turn ordinary breaks/rest periods into tasks merely to make the UI visually consistent. Only the two explicitly",
+          "identified actionable activities — Math + Statistics Revision and Daily Review — should gain completion controls.",
+          "Do not redesign the Daily Tracker layout, change course-task behavior, or alter existing checkbox styling unnecessarily.",
+          "The goal is a targeted interaction enhancement.",
+          "6. Implementation Hierarchy",
+          " Locate the Daily Tracker's existing reusable completion/checkbox component or mechanism.",
+          " Apply that same mechanism to Math + Statistics Revision.",
+          " Apply the same mechanism to Daily Review.",
+          " Ensure their completion state persists using the existing completion-storage flow.",
+          " Verify that existing course tasks still behave exactly as before.",
+          " Verify that Lunch / Rest and other break blocks remain non-actionable and unchanged.",
+          "7. Acceptance Checklist",
+          "Requirement",
+          "Pass condition",
+          "Math + Statistics Revision",
+          "Visible completion checkbox/control is present and usable.",
+          "Daily Review",
+          "Visible completion checkbox/control is present and usable.",
+          "Interaction",
+          "Controls use the same established task-completion behavior/style.",
+          "Persistence",
+          "Completion state is retained through the existing Daily Tracker persistence flow.",
+          "Course tasks",
+          "Existing course-task checkboxes continue to work unchanged.",
+          "Break blocks",
+          "Lunch / Rest, Refresh and other break-only blocks remain unchanged and non-actionable.",
+          "Scope",
+          "No unnecessary Daily Tracker redesign is introduced."
+        ]
+      },
+      {
+        "page_number": 23,
+        "text": [
+          "8. Reference Screenshots",
+          "Figure 1 — Daily Tracker: lower schedule area showing Refresh, Math + Statistics Revision, and Daily Review.",
+          "Figure 2 — Daily Tracker: English study block with interactive task checkboxes."
+        ]
+      },
+      {
+        "page_number": 24,
+        "text": [
+          "Figure 3 — Daily Tracker reference showing the existing checkbox/task interaction pattern.",
+          "9. Change Log Entry",
+          "CHANGE-004 — Extend the Daily Tracker's completion interaction to the actionable Math + Statistics Revision and",
+          "Daily Review blocks. Preserve all break-only blocks such as Lunch / Rest and Refresh exactly as they are."
+        ]
+      },
+      {
+        "page_number": 25,
+        "text": [
+          "Study Planner — Change & Enhancement",
+          "Specification",
+          "CHANGE-005  Header Branding Icon Replacement",
+          "Change ID",
+          "CHANGE-005",
+          "Category",
+          "Global Header UI  Branding / iconography",
+          "Scope",
+          "Study Planner header — current SP square logo",
+          "Requested result",
+          "Replace SP logo with uploaded Task Square SVG in white",
+          "Asset",
+          "task-square-svgrepo-com.svg (uploaded in this change request)",
+          "1. Required UI Change",
+          "In the Study Planner's main header, remove the existing purple “SP” logo/monogram and replace it with the uploaded",
+          "Task Square SVG icon.",
+          "The uploaded SVG should be rendered in white so it fits the existing dark header and visually matches the requested",
+          "branding direction.",
+          "The replacement should occupy the same general logo position and remain visually balanced with the existing",
+          "“Study-Planner” title and subtitle. Do not change the title/subtitle or unrelated header controls.",
+          "2. Asset Handling",
+          "Use the uploaded SVG file directly as the source asset rather than recreating the icon manually. The asset is already",
+          "attached to this request, so no additional file upload is required for this change.",
+          "Uploaded asset: task-square-svgrepo-com.svg  viewBox 0 0 24 24  current stroke color #292D32  stroke width 1.5.",
+          "Because the uploaded SVG currently uses a dark stroke, apply the required white presentation through the",
+          "implementation (for example, an SVG-compatible color/stroke override or an equivalent safe treatment) without",
+          "changing the icon's geometry.",
+          "3. Visual Requirements",
+          " Replace only the existing SP icon; do not remove the header brand area itself.",
+          " Render the Task Square icon in clean white.",
+          " Preserve the icon's square/rounded-square visual character and proportions.",
+          " Keep the icon crisp at the header's displayed size; do not rasterize it unnecessarily.",
+          " Maintain proper vertical and horizontal alignment with the Study-Planner title block.",
+          " Keep the existing dark header/background treatment intact.",
+          " The icon should look intentional and premium rather than appearing oversized, cramped, or misaligned.",
+          "4. Negative Requirements — Do Not Change",
+          " Do not modify the Study-Planner title text.",
+          " Do not modify the IIT Madras BS subtitle.",
+          " Do not change Progress / Reports navigation buttons.",
+          " Do not redesign the entire header.",
+          " Do not replace the uploaded icon with a different icon."
+        ]
+      },
+      {
+        "page_number": 26,
+        "text": [
+          " Do not use the old SP lettering anywhere in the replaced logo position.",
+          " Do not change unrelated pages, layouts, colors, spacing systems, or application functionality.",
+          "5. Implementation Hierarchy",
+          " Locate the shared/global header component that currently renders the SP logo.",
+          " Replace only that logo element with the uploaded Task Square SVG asset.",
+          " Apply white stroke/color presentation while preserving the SVG geometry.",
+          " Match the existing logo container's dimensions and alignment unless a minor size adjustment is necessary for visual",
+          "balance.",
+          " Run the application and verify the new icon appears consistently anywhere the shared header is rendered.",
+          " Verify that no SP monogram remains in the replaced branding position.",
+          "6. Acceptance Checklist",
+          "Requirement",
+          "Pass condition",
+          "SP removed",
+          "Old SP monogram is no longer displayed in the header logo position.",
+          "Task Square SVG",
+          "Uploaded asset is used as the replacement icon.",
+          "White appearance",
+          "Icon is visibly white against the existing dark header.",
+          "Alignment",
+          "Icon is correctly aligned with Study-Planner branding text.",
+          "Sharpness",
+          "SVG remains crisp and scalable.",
+          "Header stability",
+          "Existing title, subtitle and navigation controls remain unchanged.",
+          "Scope control",
+          "No unrelated UI/functionality is modified."
+        ]
+      },
+      {
+        "page_number": 27,
+        "text": [
+          "7. Reference Screenshot",
+          "Reference screenshot supplied with CHANGE-005 — current SP header logo targeted for replacement.",
+          "8. Change Log Entry",
+          "CHANGE-005 — Replace the current SP header monogram with the user-supplied Task Square SVG, rendered in",
+          "white, while preserving the existing header structure and all unrelated UI."
+        ]
+      }
+    ]
+  },
+  "implementation_rules": [
+    "Preserve existing working functionality unless explicitly targeted by a change.",
+    "Use canonical existing data and architecture instead of creating parallel systems.",
+    "Treat negative requirements as hard constraints.",
+    "Use figure_id references to locate visual material in the companion PDF.",
+    "Do not infer missing requirements from screenshots alone when the written specification defines the behavior.",
+    "Future changes must be appended below existing changes unless an explicit revision is requested."
+  ],
+  "figure_index_metadata": {
+    "numbered_figures": 23,
+    "additional_unnumbered_reference": "FIG-024",
+    "total_visual_reference_identities": 24
+  }
+}

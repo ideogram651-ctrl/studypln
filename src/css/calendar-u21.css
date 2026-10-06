@@ -1,0 +1,595 @@
+/* ===========================================================================
+   U2.1 — Reference Calendar integration
+   Ported 1:1 from reference/Reference-Calendar-Project/style.css.
+   Values (fonts, radii, gradients, glass, curve, wheel, responsive) are taken
+   directly from the reference so the Calendar matches it visually.
+   The reference font stack is used verbatim; no external font is loaded.
+   =========================================================================== */
+
+/* U2.2-005/007 — reference gutter without full-bleed.
+   The reference page pads .page by 36px (18px ≤720) and centers a
+   min(100%, 1040px) card. Study-Planner's shared app-view is re-padded for the
+   calendar route ONLY (`.calendar-view-active`, toggled by app.js), which
+   reproduces the reference widths (1040 / 952 / 696 / 354) without any
+   100vw math — so the page itself never gains a horizontal scrollbar. */
+.calendar-view-root {
+  --u21-selected: #7755e8;
+  --u21-secondary: #ded9f4;
+  --u21-white: #f7f8fa;
+  --u21-radius: 36px;
+  --u21-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "Helvetica Neue", Inter, Arial, sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: var(--u21-font);
+}
+.app-view.calendar-view-active {
+  max-width: calc(1040px + 72px);
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.calendar-card {
+  width: min(100%, 1040px);
+  aspect-ratio: 16 / 9;
+  min-height: 0;
+  /* U2.2-007: fit inside the viewport alongside header (≈77px) + app-view
+     padding (40 top / 48 bottom) + 7px slack so the PAGE never scrolls
+     vertically because of the card. Internal wheel clipping is unaffected. */
+  max-height: calc(100vh - 172px);
+  border-radius: var(--u21-radius);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(48% 34% at 50% 96%, rgba(255,255,255,.98) 0%, rgba(218,209,255,.92) 18%, rgba(126,82,255,.82) 38%, rgba(79,39,224,.52) 58%, rgba(25,17,70,.10) 78%, transparent 100%),
+    radial-gradient(75% 52% at 50% 105%, rgba(91,42,255,.95) 0%, rgba(66,30,220,.72) 34%, rgba(27,18,82,.30) 65%, transparent 100%),
+    linear-gradient(180deg, #090910 0%, #0b0a13 42%, #100b25 68%, #1d0e54 100%);
+  box-shadow: 0 28px 65px rgba(47,24,130,.25), 0 0 45px rgba(82,45,235,.10);
+  padding: 32px 34px 26px;
+  color: var(--u21-white);
+  font-family: var(--u21-font);
+  user-select: none;
+}
+
+/* U2.3 #1 — the Monthly card extends DOWNWARD for bottom breathing room.
+   Smallest possible change: one min-height on Monthly only. The content is
+   top-anchored (hero + grid keep their place), so the extra height flows
+   into the bottom-row's margin-top:auto: the final date row gains ~32px of
+   air below it AND the bottom-row (Add a note / New Event) — which the old
+   16/9 card clipped by 44px in Monthly — now sits fully inside the card.
+   Weekly is untouched (scoped to .calendar-card.monthly), width/gutter/
+   radius/theme unchanged, and the existing max-height caps still win on
+   short viewports so the page itself never scrolls. Mobile (<=720px) keeps
+   its own calc(100vh - ...) card heights, so the rule only applies >=721px.
+   Budget (natural, un-compressed geometry): 587 (card top -> final grid
+   row) + 32 breathing + 56 bottom-row + 26 bottom padding = 701. */
+@media (min-width: 721px) {
+  .calendar-card.monthly { min-height: 701px; }
+}
+
+/* Purple bloom under the card */
+.calendar-card:after {
+  content: "";
+  position: absolute;
+  left: 9%; right: 9%; bottom: -34px; height: 100px;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(151,112,255,.34), transparent 62%),
+    rgba(119,76,255,.30);
+  filter: blur(42px);
+  pointer-events: none;
+}
+
+/* Glass blur + fine dust texture */
+.calendar-card:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255,255,255,.10) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 72% 18%, rgba(255,255,255,.075) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 42% 64%, rgba(255,255,255,.065) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 83% 72%, rgba(255,255,255,.085) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 28% 84%, rgba(255,255,255,.055) 0 1px, transparent 1.5px),
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,.035) 0 0.7px, transparent 0.8px 4px);
+  background-size: 113px 97px, 137px 121px, 151px 139px, 127px 109px, 173px 157px, 5px 5px;
+  background-position: 7px 13px, 31px 19px, 11px 47px, 61px 7px, 23px 71px, 0 0;
+  mix-blend-mode: screen;
+  opacity: .42;
+  backdrop-filter: blur(7px) saturate(115%);
+  -webkit-backdrop-filter: blur(7px) saturate(115%);
+}
+
+/* ---- top navigation (study-week / month context) ---- */
+.dummy-month-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 56px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 2;
+}
+.dummy-month-nav .dummy-nav-btn {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 50%;
+  background: rgba(255,255,255,.075);
+  color: #f7f8fa;
+  display: grid;
+  place-items: center;
+  font: 400 25px/1 var(--u21-font);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,.12), 0 4px 14px rgba(8,4,30,.12);
+  cursor: pointer;
+  user-select: none;
+  transition: background .2s ease, transform .2s ease;
+}
+.dummy-month-nav .dummy-nav-btn:hover { background: rgba(255,255,255,.14); }
+.dummy-month-nav .dummy-nav-btn:active { transform: scale(.94); }
+.dummy-month-nav .dummy-nav-btn:disabled { opacity: .3; cursor: default; }
+.dummy-month-nav .dummy-month-label {
+  min-width: 220px;
+  text-align: center;
+  color: #f7f8fa;
+  font: 600 21px/1 var(--u21-font);
+  letter-spacing: -.02em;
+}
+/* ---- segmented toggle (Weekly first, per the reference) ---- */
+.card-top { display: flex; align-items: center; gap: 12px; position: relative; z-index: 2; }
+.segmented {
+  flex: 1;
+  height: 50px;
+  padding: 5px;
+  border-radius: 17px;
+  background: rgba(143,153,164,.30);
+  backdrop-filter: blur(14px) saturate(125%);
+  -webkit-backdrop-filter: blur(14px) saturate(125%);
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,.13),
+    inset 0 -1px 2px rgba(0,0,0,.12),
+    0 7px 20px rgba(8,4,30,.08);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.segmented button {
+  border: 0;
+  background: transparent;
+  color: var(--u21-secondary);
+  border-radius: 13px;
+  font: 500 16px var(--u21-font);
+  cursor: pointer;
+  transition: .28s cubic-bezier(.2,.8,.2,1);
+}
+.segmented button.active {
+  background: #f9fafb;
+  color: #202328;
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,.95),
+    0 4px 14px rgba(255,255,255,.10),
+    0 2px 7px rgba(20,10,60,.15);
+}
+
+/* ---- hero date ---- */
+.hero-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 24px;
+  padding: 0 2px;
+  position: relative;
+  z-index: 2;
+}
+.month-name, .day-number {
+  font-weight: 300;
+  letter-spacing: -.055em;
+  line-height: .9;
+  color: #f8f9fa;
+  font-family: var(--u21-font);
+}
+.month-name { font-size: clamp(57px, 8.8vw, 82px); }
+.day-number { font-size: clamp(62px, 9.6vw, 88px); }
+
+/* ---- weekly date wheel ---- */
+.weekly-area { position: relative; margin-top: 42px; z-index: 3; touch-action: none; }
+.week-viewport { overflow: hidden; width: 100%; cursor: grab; padding: 0 0 7px; }
+.week-viewport.dragging { cursor: grabbing; }
+.week-track {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  min-width: max-content;
+  transform: translate3d(0, 0, 0);
+  transition: transform .42s cubic-bezier(.22,.75,.2,1);
+}
+.week-day {
+  width: 76px;
+  flex: 0 0 76px;
+  text-align: center;
+  color: var(--u21-white);
+  opacity: .96;
+  transform: translateY(0) scale(1);
+  transition: transform .38s cubic-bezier(.2,.8,.2,1), opacity .38s;
+  cursor: pointer;
+}
+.week-day.edge { opacity: .30; }
+.week-day.near { opacity: .78; }
+.week-day.active { transform: translateY(-2px) scale(1.02); opacity: 1; }
+.week-day:focus-visible { outline: 2px solid rgba(255,255,255,.6); outline-offset: 3px; border-radius: 12px; }
+
+.weekday { font-size: 16px; font-weight: 450; margin-bottom: 12px; }
+.date-circle {
+  width: 50px; height: 50px;
+  margin: auto;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 450;
+  color: #f7f8fa;
+  transition: .35s cubic-bezier(.2,.8,.2,1);
+  backdrop-filter: blur(9px) saturate(125%);
+  -webkit-backdrop-filter: blur(9px) saturate(125%);
+}
+.week-day.active .date-circle {
+  background: var(--u21-selected);
+  box-shadow: inset 0 1px 2px rgba(255,255,255,.16), 0 4px 10px rgba(70,90,110,.08);
+  font-weight: 600;
+}
+
+/* U2.2-008 + secondary event dot (ONE primary + OPTIONAL event; no legend):
+   exactly one primary status dot sits under EVERY Weekly date, coloured from
+   the existing canonical special-day metadata. The smaller secondary dot is an
+   EVENT PRESENCE indicator only — it never replaces, recolors or removes the
+   primary dot. The U2.1 note marker, when present, follows. */
+.wheel-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin-top: 6px;
+}
+.wheel-dot { width: 4px; height: 4px; border-radius: 50%; display: block; }
+.wheel-primary-dot { background: rgba(151,119,255,.85); }  /* normal day */
+.wheel-primary-dot.is-week-start { background: #4ade80; }   /* study week first day */
+.wheel-primary-dot.is-practice { background: #fbbf24; }     /* practice / day 6 */
+.wheel-primary-dot.is-graded { background: #f87171; }       /* graded / day 7 */
+.wheel-dot.is-event { width: 3px; height: 3px; background: #ffd79a; } /* secondary */
+.wheel-dot.is-note { width: 3px; height: 3px; background: #b9a6ff; }
+
+.curve {
+  position: absolute;
+  left: -15%; right: -15%;
+  top: 43px; height: 91px;
+  border-top: 1px solid rgba(255,255,255,.15);
+  border-bottom: 1px solid rgba(255,255,255,.055);
+  border-radius: 50%;
+  transform: perspective(240px) rotateX(3deg);
+  pointer-events: none;
+  opacity: .9;
+}
+
+/* ---- monthly grid ---- */
+.monthly-area { display: none; margin-top: 38px; position: relative; z-index: 3; }
+.monthly-area.visible { display: block; }
+.monthly .weekly-area { display: none; }
+.monthly .monthly-area { display: block; }
+.month-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px 5px; }
+.grid-head {
+  color: #eef1f4; text-align: center; font-size: 14px; font-weight: 500; padding-bottom: 6px;
+}
+.grid-cell {
+  min-height: 45px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #f5f7f9;
+  cursor: pointer;
+  transition: .22s ease;
+}
+.grid-cell.empty { cursor: default; opacity: 0; }
+.grid-cell:not(.empty):hover { background: rgba(255,255,255,.12); }
+.grid-cell:focus-visible { outline: 2px solid rgba(255,255,255,.6); outline-offset: 2px; }
+/* Monthly selected day is a soft rounded square; the weekly wheel stays circular. */
+.grid-cell.selected {
+  background:
+    radial-gradient(circle at 35% 25%, rgba(255,255,255,.16), transparent 42%),
+    var(--u21-selected);
+  border-radius: 16px;
+  min-height: 45px;
+  font-weight: 600;
+  box-shadow: inset 0 1px 2px rgba(255,255,255,.16), 0 4px 12px rgba(70,35,190,.18);
+}
+
+/* ---- bottom row ---- */
+.bottom-row {
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  color: var(--u21-secondary);
+  font-size: 16px;
+}
+.bottom-item { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.bottom-note { align-items: flex-start; text-align: left; }
+.bottom-event { align-items: flex-end; text-align: right; }
+.note {
+  display: flex; align-items: center; gap: 12px;
+  opacity: .92;
+  background: none; border: 0; padding: 0; cursor: pointer;
+  color: inherit; font: 400 16px var(--u21-font);
+}
+.note:hover { opacity: 1; }
+.note-icon {
+  width: 21px; height: 21px; border: 1.5px solid currentColor; border-radius: 7px;
+  transform: rotate(-10deg); position: relative;
+}
+.note-icon:after {
+  content: ""; position: absolute; width: 7px; height: 1.5px; background: currentColor;
+  right: -4px; bottom: 3px; transform: rotate(-45deg);
+}
+.event-pill {
+  height: 34px; padding: 0 14px; border-radius: 999px;
+  background: rgba(255,255,255,.09);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.08);
+  backdrop-filter: blur(9px) saturate(125%);
+  -webkit-backdrop-filter: blur(9px) saturate(125%);
+  display: flex; align-items: center; gap: 9px;
+  color: inherit; font: 400 16px var(--u21-font); cursor: pointer;
+}
+.event-pill:hover { background: rgba(255,255,255,.15); }
+.plus { font-size: 21px; font-weight: 300; line-height: 1; }
+
+/* Saved notes/events sit directly above their control, compact + glass. */
+.entry-chips { display: flex; flex-direction: column; gap: 5px; max-width: 320px; }
+.entry-chip {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 9px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.09);
+  border: 1px solid rgba(151,119,255,.22);
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.10);
+  backdrop-filter: blur(9px) saturate(125%);
+  -webkit-backdrop-filter: blur(9px) saturate(125%);
+  font-size: 12.5px; color: #f3efff;
+}
+.entry-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.entry-time { color: #c9b6ff; margin-right: 6px; font-variant-numeric: tabular-nums; }
+.entry-remove {
+  border: 0; background: none; color: inherit; cursor: pointer;
+  font-size: 15px; line-height: 1; padding: 0 2px; opacity: .7; flex: 0 0 auto;
+}
+.entry-remove:hover { opacity: 1; color: #fff; }
+
+.calendar-card.is-unavailable .empty-state { margin: 0; color: #f7f8fa; }
+.calendar-card.is-unavailable h1 { color: #f7f8fa; }
+/* ---- responsive: adapted from the reference @media rules ---- */
+@media (max-width: 900px) {
+  /* Tablet: allow for a potentially wrapped header row. */
+  .calendar-card { max-height: calc(100vh - 190px); }
+}
+
+@media (max-width: 720px) {
+  /* U2.2-005: the REFERENCE mobile gutter (18px, from the reference's own
+     `.page{padding:0 18px}` rule) — the card keeps a horizontal gutter and
+     is never full-bleed. Vertical 14px matches the reference's
+     `.stage{padding:14px 0}` so the card sits in the same frame. */
+  .app-view.calendar-view-active { padding: 14px 18px; }
+  .calendar-card {
+    width: 100%;
+    aspect-ratio: auto;
+    min-height: 0;
+    /* Reference at <=720: `height:calc(100vh - 100px)` — the card fills the
+       stage and the bottom row is pinned to its bottom (the reference's own
+       budget: 72px navbar + 14px + 14px stage padding). Ours subtracts the
+       same structure measured on this app (navbar ~76px + 14px + 14px
+       padding) so the PAGE never gains a vertical scrollbar (U2.2-007). */
+    height: calc(100vh - 105px);
+    max-height: none;
+    padding: 25px 20px 20px;
+    border-radius: 30px;
+  }
+  .segmented { height: 46px; }
+  .segmented button { font-size: 14px; }
+  .dummy-month-nav { height: 48px; gap: 12px; margin-bottom: 12px; }
+  .dummy-month-nav .dummy-nav-btn { width: 38px; height: 38px; flex-basis: 38px; font-size: 22px; }
+  .dummy-month-nav .dummy-month-label { font-size: 18px; min-width: 175px; }
+  .hero-date { margin-top: 28px; }
+  .week-day { width: 64px; flex-basis: 64px; }
+  .weekday { font-size: 14px; }
+  .date-circle { width: 44px; height: 44px; font-size: 16px; }
+  .weekly-area { margin-top: 40px; }
+  .bottom-row { padding-top: 16px; gap: 10px; }
+  .month-grid { gap: 5px 2px; }
+  .grid-cell { min-height: 39px; font-size: 14px; }
+  .grid-cell.selected { border-radius: 13px; }
+  .entry-chips { max-width: 190px; }
+  .note, .event-pill { font-size: 14px; }
+  .event-pill { height: 30px; padding: 0 11px; }
+}
+
+/* The reference ended with an empty @media (max-width:460px) block; kept as a hook. */
+@media (max-width: 460px) {
+  .calendar-card { padding: 20px 14px 16px; border-radius: 26px; }
+  .dummy-month-nav .dummy-month-label { min-width: 130px; font-size: 15px; }
+  .hero-date { margin-top: 20px; }
+  .month-name { font-size: clamp(38px, 13vw, 54px); }
+  .day-number { font-size: clamp(44px, 15vw, 62px); }
+  .week-day { width: 56px; flex-basis: 56px; }
+  .weekday { font-size: 12px; margin-bottom: 8px; }
+  .date-circle { width: 40px; height: 40px; font-size: 15px; }
+  .curve { top: 33px; height: 70px; }
+  .entry-chips { max-width: 140px; }
+  .bottom-row { flex-direction: column; align-items: stretch; gap: 12px; }
+  .bottom-event { align-items: flex-start; }
+  .entry-chip { font-size: 11.5px; padding: 4px 7px; }
+
+  /* U2.2-007: below ~460px the app header's brand + nav (427px of content)
+     no longer fits one row and wraps to 133px, which would push the page into
+     vertical scrolling once the card takes its reference height. Keep the
+     header on ONE row at the reference's mobile proportions
+     (`.app-navbar{height:72px}` in the reference) with an ellipsising tagline
+     so the layout always fits; no copy is hidden above 460px. */
+  .app-header {
+    height: 72px;
+    padding: 0 12px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .app-brand { gap: 8px; min-width: 0; }
+  .app-logo { width: 40px; height: 40px; flex-basis: 40px; font-size: 14px; }
+  .app-brand-text { min-width: 0; }
+  .app-title { font-size: 16px; }
+  .app-tagline {
+    font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .app-nav { gap: 6px; }
+  .ghost-button { height: 36px; padding: 0 10px; font-size: 12px; }
+
+  /* With the header fixed at 72px the card budget becomes the reference's
+     own `calc(100vh - 100px)` (72 navbar + 14 + 14 padding), so the page
+     still never scrolls vertically (bottom gap 14px, like the reference). */
+  .calendar-card { height: calc(100vh - 100px); }
+}
+
+/* ==== U2.3 #2 — in-app entry modal (ONE shared component) ================
+   Dark-violet glassmorphism dialog used by BOTH note and event flows; it
+   replaces every native prompt/alert/confirm in the Calendar. Mounted on
+   document.body by app.js (outside the #view re-render root), so route
+   re-renders can never blank it mid-flow. */
+.entry-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 70; /* above toast (60) and header (20) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: rgba(5, 5, 10, .55);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.entry-modal {
+  width: min(100%, 420px);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 22px;
+  color: #f7f8fa;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "Helvetica Neue", Inter, Arial, sans-serif;
+  background:
+    radial-gradient(120% 70% at 80% -10%, rgba(135, 97, 255, .20), transparent 60%),
+    linear-gradient(165deg, rgba(46, 32, 96, .92) 0%, rgba(22, 15, 48, .94) 55%, rgba(12, 9, 28, .96) 100%);
+  border: 1px solid rgba(255, 255, 255, .14);
+  box-shadow:
+    0 28px 65px rgba(47, 24, 130, .45),
+    0 0 45px rgba(82, 45, 235, .18),
+    inset 0 1px 0 rgba(255, 255, 255, .14);
+  -webkit-backdrop-filter: blur(18px) saturate(130%);
+  backdrop-filter: blur(18px) saturate(130%);
+}
+.entry-modal-head { display: flex; align-items: center; gap: 12px; }
+.entry-modal-dot {
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #7755e8;
+  box-shadow: 0 0 12px rgba(119, 85, 232, .85), inset 0 1px 1px rgba(255, 255, 255, .35);
+}
+.entry-modal-titles { min-width: 0; }
+.entry-modal-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 650;
+  letter-spacing: -.01em;
+}
+.entry-modal-context { margin: 3px 0 0; font-size: 13px; color: #ded9f4; opacity: .85; }
+.entry-modal-label {
+  display: block;
+  margin: 14px 0 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #ded9f4;
+  opacity: .75;
+}
+.entry-modal-label span { text-transform: none; letter-spacing: 0; font-weight: 400; opacity: .8; }
+.entry-modal-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 13px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #f7f8fa;
+  background: rgba(8, 6, 20, .55);
+  border: 1px solid rgba(255, 255, 255, .16);
+  outline: none;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.entry-modal-input::placeholder { color: rgba(222, 217, 244, .45); }
+.entry-modal-input:focus {
+  border-color: rgba(151, 119, 255, .8);
+  box-shadow: 0 0 0 3px rgba(119, 85, 232, .28);
+}
+.entry-modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 18px; }
+.entry-modal-confirm,
+.entry-modal-cancel {
+  padding: 9px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform .15s ease, background .2s ease, box-shadow .2s ease;
+}
+.entry-modal-confirm {
+  color: #ffffff;
+  background: linear-gradient(180deg, #8f6fff, #7755e8);
+  border: 1px solid rgba(255, 255, 255, .18);
+  box-shadow: 0 8px 20px rgba(119, 85, 232, .38), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.entry-modal-confirm:hover { background: linear-gradient(180deg, #9d80ff, #8466ee); }
+.entry-modal-confirm:active { transform: translateY(1px); }
+.entry-modal-cancel {
+  color: #ded9f4;
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(255, 255, 255, .18);
+}
+.entry-modal-cancel:hover { background: rgba(255, 255, 255, .13); }
+.entry-modal-cancel:active { transform: translateY(1px); }
+.entry-modal-confirm:focus-visible,
+.entry-modal-cancel:focus-visible,
+.entry-modal-input:focus-visible {
+  outline: 2px solid rgba(175, 148, 255, .9);
+  outline-offset: 2px;
+}
+
+/* <=460: compact dialog, same glass, never wider than the screen. */
+@media (max-width: 460px) {
+  .entry-modal-backdrop { padding: 14px; }
+  .entry-modal { padding: 16px; border-radius: 18px; }
+  .entry-modal-title { font-size: 16px; }
+  .entry-modal-actions { margin-top: 14px; }
+  .entry-modal-confirm,
+  .entry-modal-cancel { flex: 1 1 auto; padding: 10px 14px; }
+}

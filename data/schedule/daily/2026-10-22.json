@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-22",
+  "dayNumber": 21,
+  "weekNumber": 3,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "Graded Assignment",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:3:Week 3 - Graded Assignment - 3"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "Graded Assignment",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:3:Week 3 - Graded Assignment 3"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "Graded Assignment",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:3:Week 3 - Graded Assignment 3"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Graded Assignment",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:3:week 3 - Graded Assignment 3"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:3:Week 3 - Graded Assignment - 3",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "Week 3 - Graded Assignment - 3",
+      "type": "graded",
+      "title": "Week 3 - Graded Assignment - 3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 17,
+      "planning": {
+        "unitId": "mathematics-i:3:Week 3 - Graded Assignment - 3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 25.5,
+        "estimatedMinutes": 25.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:3:Week 3 - Graded Assignment 3",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 3,
+      "sourceId": "Week 3 - Graded Assignment 3",
+      "type": "graded",
+      "title": "Week 3 - Graded Assignment 3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 13,
+      "planning": {
+        "unitId": "statistics-i:3:Week 3 - Graded Assignment 3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 19.5,
+        "estimatedMinutes": 19.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:3:Week 3 - Graded Assignment 3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 3,
+      "sourceId": "Week 3 - Graded Assignment 3",
+      "type": "graded",
+      "title": "Week 3 - Graded Assignment 3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 10,
+      "planning": {
+        "unitId": "computational-thinking:3:Week 3 - Graded Assignment 3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 15,
+        "estimatedMinutes": 15,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:3:week 3 - Graded Assignment 3",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 3,
+      "sourceId": "week 3 - Graded Assignment 3",
+      "type": "graded",
+      "title": "week 3 - Graded Assignment 3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 10,
+      "planning": {
+        "unitId": "english-i:3:week 3 - Graded Assignment 3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 15,
+        "estimatedMinutes": 15,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 4,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

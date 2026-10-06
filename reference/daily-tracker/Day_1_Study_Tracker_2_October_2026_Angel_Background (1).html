@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Day 1 Study Tracker — 2 October 2026</title><style>
+:root{
+  --studio-top:#a09a95;--studio-mid:#ccc8c8;--studio-bottom:#e4e0dc;
+  --cream:#f0e9e0;--cream-soft:rgba(245,240,234,.72);
+  --charcoal:#433931;--charcoal-2:#302923;--ink:#433931;
+  --muted:#766d66;--faint:#9a9088;--line:rgba(67,57,49,.12);
+  --bronze:#dc672a;--bronze-soft:#ed9a69;--green:#66866a;
+  --glass:rgba(240,236,231,.58);--glass-strong:rgba(247,243,238,.76);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:
+ radial-gradient(72% 62% at 24% 12%,rgba(235,231,226,.30) 0%,rgba(221,216,212,.15) 38%,rgba(204,200,200,0) 74%),
+ radial-gradient(78% 68% at 78% 84%,rgba(238,233,228,.20) 0%,rgba(218,213,209,.10) 42%,rgba(204,200,200,0) 76%),
+ linear-gradient(180deg,#a09995 0%,#b5b0ac 20%,#ccc8c8 50%,#d8d4d1 72%,#e4e0dc 100%);
+background-attachment:fixed;color:var(--ink);font-family:"Helvetica Neue",Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden;position:relative}
+body:before{content:"";position:fixed;left:50%;top:64%;width:70%;height:42%;transform:translate(-50%,-50%);background:radial-gradient(ellipse at center,rgba(255,255,255,.075),rgba(255,255,255,.025) 34%,transparent 74%);pointer-events:none;z-index:-1}
+.wrap{width:min(1040px,100%);margin:auto;padding:34px 20px 70px;position:relative}
+.hero{position:relative;color:#f5efe7;border-radius:28px;padding:34px 36px 30px;margin-bottom:22px;overflow:hidden;background:linear-gradient(145deg,rgba(48,41,35,.97),rgba(67,57,49,.94) 55%,rgba(54,46,40,.97));border:1px solid rgba(255,255,255,.13);box-shadow:0 24px 55px rgba(67,57,49,.24),inset 0 1px 0 rgba(255,255,255,.16)}
+.hero:before{content:"";position:absolute;width:360px;height:360px;right:-150px;top:-190px;border-radius:50%;background:radial-gradient(circle,rgba(220,103,42,.32),rgba(220,103,42,0) 68%);pointer-events:none}
+.hero:after{content:"";position:absolute;left:-100px;bottom:-180px;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.08),transparent 68%);pointer-events:none}
+.hero h1{position:relative;z-index:1;margin:0 0 8px;font-size:31px;font-weight:650;letter-spacing:-.8px;line-height:1.2}.hero p{position:relative;z-index:1;margin:0;color:rgba(245,239,231,.68);font-size:14px;font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.progress{position:relative;z-index:1;margin-top:28px;background:rgba(255,255,255,.12);height:9px;border-radius:99px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+.bar{height:100%;width:0;background:linear-gradient(90deg,#f0e9e0,#ed9a69,#dc672a);box-shadow:0 0 16px rgba(220,103,42,.35);transition:.35s}
+.stats{display:flex;justify-content:space-between;margin-top:10px;font-size:12px;color:rgba(245,239,231,.62);letter-spacing:.04em}.stats span:last-child{color:#f0b08b;font-weight:700}
+.block{position:relative;background:var(--glass);border:1px solid rgba(255,255,255,.55);border-radius:22px;margin:15px 0;overflow:hidden;box-shadow:0 14px 34px rgba(90,78,68,.12),inset 0 1px 0 rgba(255,255,255,.68);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.block:after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.10),transparent 32%);pointer-events:none}
+.head{position:relative;z-index:1;padding:20px 22px 17px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,0))}
+.head h2{margin:0;font-size:18px;font-weight:650;letter-spacing:-.2px;color:var(--charcoal)}.head span{display:block;margin-top:5px;color:var(--muted);font-size:11px;letter-spacing:.09em;text-transform:uppercase}.head strong{white-space:nowrap;padding:8px 11px;border-radius:10px;background:rgba(67,57,49,.075);border:1px solid rgba(67,57,49,.08);color:var(--charcoal);font-size:12px;letter-spacing:.04em}
+.tasks{position:relative;z-index:1;padding:9px}.task{display:flex;align-items:flex-start;gap:12px;padding:13px 12px;border-radius:13px;transition:.22s;background:transparent}.task:hover{background:rgba(255,255,255,.38);box-shadow:inset 0 1px 0 rgba(255,255,255,.32)}.task input{width:19px;height:19px;margin-top:2px;accent-color:var(--bronze);cursor:pointer;filter:saturate(.85)}.task .name{font-weight:600;color:var(--charcoal);font-size:14px}.task .meta{font-size:11px;color:var(--muted);margin-top:4px;letter-spacing:.02em}.task.done{opacity:.45}.task.done .name{text-decoration:line-through}
+.break{background:rgba(225,220,214,.42);border-style:dashed;border-color:rgba(67,57,49,.18)}.break .head h2{color:#655b54}.break .name{color:#665e58}.break .head strong{background:rgba(67,57,49,.06)}
+.block:not(.break) .head h2:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--bronze);margin:0 9px 2px 0;box-shadow:0 0 0 4px rgba(220,103,42,.11)}
+.footer{text-align:center;color:rgba(67,57,49,.55);font-size:11px;margin-top:26px;letter-spacing:.09em;text-transform:uppercase}
+@media(max-width:600px){.wrap{padding:20px 12px 50px}.hero{padding:27px 23px 24px;border-radius:23px}.hero h1{font-size:25px}.hero p{font-size:11px;line-height:1.6}.head{display:block;padding:17px 18px}.head span{margin-top:6px}.head strong{display:inline-block;margin-top:12px}.task{padding:12px 9px}.task .name{font-size:13px}}
+</style></head><body><main class="wrap"><section class="hero"><h1>⚔️ Day 1 — Study Tracker</h1><p>Friday • 2 October 2026 • IIT Madras BS — Week 1</p><div class="progress"><div class="bar" id="bar"></div></div><div class="stats"><span id="count">0 / 0 completed</span><span id="percent">0%</span></div></section>
+<div id="app"></div><div class="footer">Your progress is saved automatically in this browser. Refreshing the page will not erase your checkmarks.</div></main>
+<script>
+const schedule=[
+{time:'11:00 – 1:00',title:'🧮 Mathematics',focus:'New Lectures + Questions',tasks:[
+['L1.1: Natural Numbers and their operations','🎥 Video • 20:49'],['AQ1.1: Activity Questions 1 — Not Graded','📝 5 Questions'],['L1.2: Rational Numbers','🎥 Video • 12:21'],['AQ1.2: Activity Questions 2 — Not Graded','📝 3 Questions'],['L1.3: Real and Complex Numbers','🎥 Video • 8:27'],['AQ1.3: Activity Questions 3 — Not Graded','📝 5 Questions'],['L1.4: Set Theory','🎥 Video • 20:20'],['AQ1.4: Activity Questions 4 — Not Graded','📝 7 Questions']]},
+{time:'1:00 – 1:30',title:'☕ Break',focus:'Lunch / Rest',break:true,tasks:[['Lunch / Rest','Take a proper break — no study target.']]},
+{time:'1:30 – 3:00',title:'📊 Statistics',focus:'New Lectures + Questions',tasks:[
+['Course Overview','🎥 Course orientation'],['L1.1: Introduction and types of Data — Basic definitions','🎥 Video • 21:22'],['AQ1.1: Activity Questions 1 — Not Graded','📝 12 Questions'],['L1.2: Introduction and types of Data — Understanding data','🎥 Video • 41:46'],['AQ1.2: Activity Questions 2 — Not Graded','📝 9 Questions']]},
+{time:'3:00 – 3:30',title:'🚶 Break',focus:'Walk / Refresh',break:true,tasks:[['Walk / Refresh','Move away from the desk and reset.']]},
+{time:'3:30 – 5:00',title:'💻 CT — Computational Thinking',focus:'New Content + Practice',tasks:[
+['L1.1: Introduction to datasets','🎥 Video • 11:49'],['AQ1.1: Activity Questions 1 — Not Graded','📝 3 Questions'],['L1.2: Concept of variables, iterators and filtering','🎥 Video • 25:19'],['AQ1.2: Activity Questions 2 — Not Graded','📝 5 Questions']]},
+{time:'5:00 – 6:00',title:'😌 Break',focus:'Free / Refresh',break:true,tasks:[['Free / Refresh','No study target.']]},
+{time:'6:00 – 8:00',title:'🛕 FIXED TIME',focus:'Temple + Food + Personal',break:true,tasks:[['Temple + Food + Personal','Fixed block — enjoy the break.']]},
+{time:'8:00 – 8:30',title:'🍵 Break',focus:'Relax',break:true,tasks:[['Relax','Reset before English.']]},
+{time:'8:30 – 9:15',title:'📖 English',focus:'Lecture + Activity',tasks:[
+['Lecture 1: Learning Language','🎥 Video • 21:46'],['AQ1.1: Activity Questions 1 — Not Graded','📝 5 Questions']]},
+{time:'9:15 – 9:30',title:'☕ Break',focus:'Refresh',break:true,tasks:[['Refresh','Short break.']]},
+{time:'9:30 – 10:30',title:'🔥 Math + Stats Revision',focus:'Weak Topics + Error Log',tasks:[
+['Math Recall — Natural/Rational/Real/Complex/Set Theory','🧠 Closed-book recall + check mistakes'],['Statistics Recall — Data basics','🧠 Explain concepts in your own words'],['Error Log','📝 Write only actual confusions/mistakes']]},
+{time:'10:30 – 11:00',title:'📝 Daily Review',focus:'Today’s learning + Tomorrow Plan',tasks:[
+['Today’s Completed Work','📝 Record what you finished'],['Pending Items','📝 Move unfinished tasks to tomorrow'],['Tomorrow Plan','🎯 Decide the first task for Day 2']]}
+];
+const key='day1-2oct-2026';const saved=JSON.parse(localStorage.getItem(key)||'{}');let idx=0;const app=document.getElementById('app');
+schedule.forEach((b)=>{const sec=document.createElement('section');sec.className='block'+(b.break?' break':'');sec.innerHTML=`<div class="head"><div><h2>${b.title}</h2><span>${b.focus}</span></div><strong>${b.time}</strong></div><div class="tasks"></div>`;const list=sec.querySelector('.tasks');b.tasks.forEach((t)=>{const id=key+'-'+idx;const row=document.createElement('label');row.className='task';row.innerHTML=`<input type="checkbox" ${saved[id]?'checked':''}><div><div class="name">${t[0]}</div><div class="meta">${t[1]}</div></div>`;const cb=row.querySelector('input');if(saved[id])row.classList.add('done');cb.addEventListener('change',()=>{saved[id]=cb.checked;localStorage.setItem(key,JSON.stringify(saved));row.classList.toggle('done',cb.checked);update()});list.appendChild(row);idx++});app.appendChild(sec)});
+function update(){const all=[...document.querySelectorAll('.task input')],done=all.filter(x=>x.checked).length,p=Math.round(done/all.length*100);document.getElementById('count').textContent=`${done} / ${all.length} completed`;document.getElementById('percent').textContent=p+'%';document.getElementById('bar').style.width=p+'%'}update();
+</script></body></html>

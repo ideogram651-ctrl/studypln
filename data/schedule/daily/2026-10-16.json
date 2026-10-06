@@ -1,0 +1,609 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-16",
+  "dayNumber": 15,
+  "weekNumber": 3,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:3:L3.1",
+        "mathematics-i:3:AQ3.1",
+        "mathematics-i:3:L3.2",
+        "mathematics-i:3:AQ3.2",
+        "mathematics-i:3:L3.3",
+        "mathematics-i:3:AQ3.3",
+        "mathematics-i:3:L3.4",
+        "mathematics-i:3:AQ3.4",
+        "mathematics-i:3:L3.5",
+        "mathematics-i:3:AQ3.5"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:3:L3.1",
+        "statistics-i:3:AQ3.1",
+        "statistics-i:3:L3.2",
+        "statistics-i:3:AQ3.2"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:3:L3.1",
+        "computational-thinking:3:AQ3.1",
+        "computational-thinking:3:Week 3 Tutorial 3.1",
+        "computational-thinking:3:L3.2",
+        "computational-thinking:3:AQ3.2"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:3:Lecture 1",
+        "english-i:3:AQ3.1"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:3:L3.1",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "L3.1",
+      "type": "lecture",
+      "title": "L3.1: Quadratic functions",
+      "planned": true,
+      "durationSeconds": 1991,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.1",
+        "videoMinutes": 33.2,
+        "noteMinutes": 22.2,
+        "questionMinutes": null,
+        "estimatedMinutes": 55.4,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:AQ3.1",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.1",
+      "type": "activity",
+      "title": "AQ3.1: Activity Questions 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:L3.2",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "L3.2",
+      "type": "lecture",
+      "title": "L3.2: Examples of Quadratic functions",
+      "planned": true,
+      "durationSeconds": 1077,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.2",
+        "videoMinutes": 18,
+        "noteMinutes": 12,
+        "questionMinutes": null,
+        "estimatedMinutes": 30,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:AQ3.2",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.2",
+      "type": "activity",
+      "title": "AQ3.2: Activity Questions 2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:L3.3",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "L3.3",
+      "type": "lecture",
+      "title": "L3.3: Slope of quadratic function",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.3",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:AQ3.3",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.3",
+      "type": "activity",
+      "title": "AQ3.3: Activity Questions 3 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:L3.4",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "L3.4",
+      "type": "lecture",
+      "title": "L3.4: Solution of quadratic equation using graph",
+      "planned": true,
+      "durationSeconds": 556,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.4",
+        "videoMinutes": 9.3,
+        "noteMinutes": 6.2,
+        "questionMinutes": null,
+        "estimatedMinutes": 15.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:AQ3.4",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.4",
+      "type": "activity",
+      "title": "AQ3.4: Activity Questions 4 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.4",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:L3.5",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "L3.5",
+      "type": "lecture",
+      "title": "L3.5: Slope: Line & Parabola",
+      "planned": true,
+      "durationSeconds": 1166,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.5",
+        "videoMinutes": 19.4,
+        "noteMinutes": 13,
+        "questionMinutes": null,
+        "estimatedMinutes": 32.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:3:AQ3.5",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.5",
+      "type": "activity",
+      "title": "AQ3.5: Activity Questions 5 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "mathematics-i:3:L3.5",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:3:L3.1",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 3,
+      "sourceId": "L3.1",
+      "type": "lecture",
+      "title": "L3.1: Describing Numerical Data - Frequency Tables for numerical data",
+      "planned": true,
+      "durationSeconds": 2350,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:3:L3.1",
+        "videoMinutes": 39.2,
+        "noteMinutes": 26.2,
+        "questionMinutes": null,
+        "estimatedMinutes": 65.4,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:3:AQ3.1",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 3,
+      "sourceId": "AQ3.1",
+      "type": "activity",
+      "title": "AQ3.1: Activity Question 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "statistics-i:3:L3.1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:3:L3.2",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 3,
+      "sourceId": "L3.2",
+      "type": "lecture",
+      "title": "L3.2: Describing Numerical Data - Mean",
+      "planned": true,
+      "durationSeconds": 2159,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:3:L3.2",
+        "videoMinutes": 36,
+        "noteMinutes": 24.1,
+        "questionMinutes": null,
+        "estimatedMinutes": 60.1,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:3:AQ3.2",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 3,
+      "sourceId": "AQ3.2",
+      "type": "activity",
+      "title": "AQ3.2: Activity Question 2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "statistics-i:3:L3.2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:3:L3.1",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 3,
+      "sourceId": "L3.1",
+      "type": "lecture",
+      "title": "L3.1: Presentation of datasets in the form of a table",
+      "planned": true,
+      "durationSeconds": 706,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:3:L3.1",
+        "videoMinutes": 11.8,
+        "noteMinutes": 7.9,
+        "questionMinutes": null,
+        "estimatedMinutes": 19.7,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:3:AQ3.1",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.1",
+      "type": "activity",
+      "title": "AQ3.1: Activity Question 1 - Not graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "computational-thinking:3:L3.1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:3:Week 3 Tutorial 3.1",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 3,
+      "sourceId": "Week 3 Tutorial 3.1",
+      "type": "tutorial",
+      "title": "Week 3 Tutorial 3.1",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:3:Week 3 Tutorial 3.1",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:3:L3.2",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 3,
+      "sourceId": "L3.2",
+      "type": "lecture",
+      "title": "L3.2: Below average students in two iterations (non-nested) and grade allocation",
+      "planned": true,
+      "durationSeconds": 1792,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:3:L3.2",
+        "videoMinutes": 29.9,
+        "noteMinutes": 20,
+        "questionMinutes": null,
+        "estimatedMinutes": 49.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:3:AQ3.2",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.2",
+      "type": "activity",
+      "title": "AQ3.2: Activity Question 2 - Not graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "computational-thinking:3:L3.2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:3:Lecture 1",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 3,
+      "sourceId": "Lecture 1",
+      "type": "lecture",
+      "title": "Lecture 1:What is Good Vocabulary? - Part 1",
+      "planned": true,
+      "durationSeconds": 1825,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:3:Lecture 1",
+        "videoMinutes": 30.4,
+        "noteMinutes": 20.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 50.8,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:3:AQ3.1",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 3,
+      "sourceId": "AQ3.1",
+      "type": "activity",
+      "title": "AQ3.1: Activity Question 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:3:Lecture 1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 21,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-25",
+  "dayNumber": 24,
+  "weekNumber": 4,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:4:Week 04 - Tutorial 02",
+        "mathematics-i:4:Week 04 - Tutorial 03",
+        "mathematics-i:4:Week 04 - Tutorial 04",
+        "mathematics-i:4:Week 04 - Tutorial 05",
+        "mathematics-i:4:Week 04 - Tutorial 06"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:4:L4.7",
+        "statistics-i:4:AQ4.7",
+        "statistics-i:4:L4.8",
+        "statistics-i:4:AQ4.8"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:4:L4.3",
+        "computational-thinking:4:AQ4.3",
+        "computational-thinking:4:L4.4",
+        "computational-thinking:4:AQ4.4"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:4:L4.3",
+        "english-i:4:AQ4.3"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 02",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 02",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 02",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 02",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 03",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 03",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 03",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 03",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 04",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 04",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 04",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 04",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 05",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 05",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 05",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 05",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 06",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 06",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 06",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 06",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:L4.7",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "L4.7",
+      "type": "lecture",
+      "title": "L4.7:Association between two numerical variables - Correlation",
+      "planned": true,
+      "durationSeconds": 2045,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:L4.7",
+        "videoMinutes": 34.1,
+        "noteMinutes": 22.8,
+        "questionMinutes": null,
+        "estimatedMinutes": 56.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:AQ4.7",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "AQ4.7",
+      "type": "activity",
+      "title": "AQ4.7: Activity Question 7 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "statistics-i:4:L4.7",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:L4.8",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "L4.8",
+      "type": "lecture",
+      "title": "L4.8: Association between two numerical variables - Fitting a line",
+      "planned": true,
+      "durationSeconds": 1001,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:L4.8",
+        "videoMinutes": 16.7,
+        "noteMinutes": 11.2,
+        "questionMinutes": null,
+        "estimatedMinutes": 27.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:AQ4.8",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "AQ4.8",
+      "type": "activity",
+      "title": "AQ4.8: Activity Question 8 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "statistics-i:4:L4.8",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:4:L4.3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 4,
+      "sourceId": "L4.3",
+      "type": "lecture",
+      "title": "L4.3: Importance of binning to reduce number of comparisons in nested iterations",
+      "planned": true,
+      "durationSeconds": 897,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:4:L4.3",
+        "videoMinutes": 15,
+        "noteMinutes": 10,
+        "questionMinutes": null,
+        "estimatedMinutes": 25,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:4:AQ4.3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 4,
+      "sourceId": "AQ4.3",
+      "type": "activity",
+      "title": "AQ4.3: Activity Question 3 - Not graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "computational-thinking:4:L4.3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:4:L4.4",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 4,
+      "sourceId": "L4.4",
+      "type": "lecture",
+      "title": "L4.4: Concept of binning to avoid the complexity of nested iterations",
+      "planned": true,
+      "durationSeconds": 589,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:4:L4.4",
+        "videoMinutes": 9.8,
+        "noteMinutes": 6.6,
+        "questionMinutes": null,
+        "estimatedMinutes": 16.4,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:4:AQ4.4",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 4,
+      "sourceId": "AQ4.4",
+      "type": "activity",
+      "title": "AQ4.4: Activity Question 4 - Not graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "computational-thinking:4:L4.4",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:4:L4.3",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 4,
+      "sourceId": "L4.3",
+      "type": "lecture",
+      "title": "L4.3: Phrasal Pause",
+      "planned": true,
+      "durationSeconds": 1644,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:4:L4.3",
+        "videoMinutes": 27.4,
+        "noteMinutes": 18.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 45.8,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:4:AQ4.3",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 4,
+      "sourceId": "AQ4.3",
+      "type": "activity",
+      "title": "AQ4.3: Activity Question 3 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 1,
+      "planning": {
+        "unitId": "english-i:4:L4.3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 1.5,
+        "estimatedMinutes": 1.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 15,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

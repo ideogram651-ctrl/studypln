@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "1.0",
+  "progressType": "month-progress-store",
+  "period": {
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-29",
+    "totalDays": 28,
+    "totalWeeks": 4
+  },
+  "subjects": {
+    "mathematics-i": {
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "weeks": {
+        "week-1": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-2": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-3": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-4": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    },
+    "statistics-i": {
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "weeks": {
+        "week-1": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-2": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-3": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-4": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    },
+    "computational-thinking": {
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "weeks": {
+        "week-1": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-2": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-3": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-4": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    },
+    "english-i": {
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "weeks": {
+        "week-1": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-2": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-3": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "week-4": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    }
+  },
+  "weeks": {
+    "week-1": {
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "subjects": {
+        "mathematics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "statistics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "computational-thinking": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "english-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    },
+    "week-2": {
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "subjects": {
+        "mathematics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "statistics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "computational-thinking": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "english-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    },
+    "week-3": {
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "subjects": {
+        "mathematics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "statistics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "computational-thinking": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "english-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    },
+    "week-4": {
+      "overall": {
+        "total": 0,
+        "completed": 0,
+        "percent": 0
+      },
+      "subjects": {
+        "mathematics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "statistics-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "computational-thinking": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        },
+        "english-i": {
+          "total": 0,
+          "completed": 0,
+          "percent": 0
+        }
+      }
+    }
+  },
+  "overall": {
+    "total": 0,
+    "completed": 0,
+    "percent": 0
+  },
+  "lastUpdated": null
+}

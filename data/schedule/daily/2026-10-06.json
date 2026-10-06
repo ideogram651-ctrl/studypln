@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-06",
+  "dayNumber": 5,
+  "weekNumber": 1,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:1:L1.14",
+        "mathematics-i:1:L1.15",
+        "mathematics-i:1:Graded Assignment - 1 solution"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:1:Week 1 Tutorial 3 - Spreadsheet formulae",
+        "statistics-i:1:Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+        "statistics-i:1:Week 1 Extra Questions"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:1:L1.8",
+        "computational-thinking:1:AQ1.8",
+        "computational-thinking:1:L1.9",
+        "computational-thinking:1:AQ1.9",
+        "computational-thinking:1:L1.10",
+        "computational-thinking:1:AQ1.10",
+        "computational-thinking:1:Practice Assignment - 1 Solution"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:1:Lecture 6",
+        "english-i:1:AQ1.6"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:1:L1.14",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "L1.14",
+      "type": "lecture",
+      "title": "L1.14: Set versus Collections",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:1:L1.14",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:1:L1.15",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "L1.15",
+      "type": "lecture",
+      "title": "L1.15: Degrees of infinity",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:1:L1.15",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:1:Graded Assignment - 1 solution",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "Graded Assignment - 1 solution",
+      "type": "solution",
+      "title": "Graded Assignment - 1 solution",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:1:Graded Assignment - 1 solution",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:1:Week 1 Tutorial 3 - Spreadsheet formulae",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 1,
+      "sourceId": "Week 1 Tutorial 3 - Spreadsheet formulae",
+      "type": "tutorial",
+      "title": "Week 1 Tutorial 3 - Spreadsheet formulae",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:1:Week 1 Tutorial 3 - Spreadsheet formulae",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:1:Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 1,
+      "sourceId": "Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+      "type": "tutorial",
+      "title": "Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:1:Week 1 Tutorial 4 - Downloading and uploading spreadheets",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:1:Week 1 Extra Questions",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 1,
+      "sourceId": "Week 1 Extra Questions",
+      "type": "extra",
+      "title": "Week 1 Extra Questions",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 19,
+      "planning": {
+        "unitId": "statistics-i:1:Week 1 Extra Questions",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 28.5,
+        "estimatedMinutes": 28.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:L1.8",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "L1.8",
+      "type": "lecture",
+      "title": "L1.8: Subtypes of basic datatypes",
+      "planned": true,
+      "durationSeconds": 542,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.8",
+        "videoMinutes": 9,
+        "noteMinutes": 6.1,
+        "questionMinutes": null,
+        "estimatedMinutes": 15.1,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:AQ1.8",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.8",
+      "type": "activity",
+      "title": "AQ1.8: Activity Questions 8 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.8",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:L1.9",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "L1.9",
+      "type": "lecture",
+      "title": "L1.9: Transformation of sub-datatypes",
+      "planned": true,
+      "durationSeconds": 493,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.9",
+        "videoMinutes": 8.2,
+        "noteMinutes": 5.5,
+        "questionMinutes": null,
+        "estimatedMinutes": 13.7,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:AQ1.9",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.9",
+      "type": "activity",
+      "title": "AQ1.9: Activity Questions 9 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 2,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.9",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 3,
+        "estimatedMinutes": 3,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:L1.10",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "L1.10",
+      "type": "lecture",
+      "title": "L1.10: Introduction to complex datatypes",
+      "planned": true,
+      "durationSeconds": 443,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.10",
+        "videoMinutes": 7.4,
+        "noteMinutes": 4.9,
+        "questionMinutes": null,
+        "estimatedMinutes": 12.3,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:AQ1.10",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.10",
+      "type": "activity",
+      "title": "AQ1.10: Activity Questions 10 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.10",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:Practice Assignment - 1 Solution",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "Practice Assignment - 1 Solution",
+      "type": "solution",
+      "title": "Practice Assignment - 1 Solution",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:Practice Assignment - 1 Solution",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:1:Lecture 6",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 1,
+      "sourceId": "Lecture 6",
+      "type": "lecture",
+      "title": "Lecture 6: Consonant Clusters in English Words",
+      "planned": true,
+      "durationSeconds": 1973,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:1:Lecture 6",
+        "videoMinutes": 32.9,
+        "noteMinutes": 22,
+        "questionMinutes": null,
+        "estimatedMinutes": 54.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:1:AQ1.6",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.6",
+      "type": "activity",
+      "title": "AQ1.6: Activity Questions 6 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:1:Lecture 6",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 15,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

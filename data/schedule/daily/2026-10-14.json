@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-14",
+  "dayNumber": 13,
+  "weekNumber": 2,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "Practice + Consolidation",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:2:Practice Assignment - Not Graded (Week 2)",
+        "mathematics-i:2:Practice Assignment (Extra Practice)"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "Practice + Consolidation",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:2:Practice Assignment 2.1 - Not Graded",
+        "statistics-i:2:Practice Assignment 2.2 - Not Graded"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "Practice + Consolidation",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:2:Week 2 Practice Assignment 2"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Practice + Consolidation",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:2:Practice Assignment 2 - Not Graded"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:2:Practice Assignment - Not Graded (Week 2)",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Practice Assignment - Not Graded (Week 2)",
+      "type": "practice",
+      "title": "Practice Assignment - Not Graded (Week 2)",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 23,
+      "planning": {
+        "unitId": "mathematics-i:2:Practice Assignment - Not Graded (Week 2)",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 34.5,
+        "estimatedMinutes": 34.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:Practice Assignment (Extra Practice)",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "Practice Assignment (Extra Practice)",
+      "type": "practice",
+      "title": "Practice Assignment (Extra Practice)",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 50,
+      "planning": {
+        "unitId": "mathematics-i:2:Practice Assignment (Extra Practice)",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 75,
+        "estimatedMinutes": 75,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:Practice Assignment 2.1 - Not Graded",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "Practice Assignment 2.1 - Not Graded",
+      "type": "practice",
+      "title": "Practice Assignment 2.1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "statistics-i:2:Practice Assignment 2.1 - Not Graded",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:Practice Assignment 2.2 - Not Graded",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "Practice Assignment 2.2 - Not Graded",
+      "type": "practice",
+      "title": "Practice Assignment 2.2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 24,
+      "planning": {
+        "unitId": "statistics-i:2:Practice Assignment 2.2 - Not Graded",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 36,
+        "estimatedMinutes": 36,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:Week 2 Practice Assignment 2",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "Week 2 Practice Assignment 2",
+      "type": "practice",
+      "title": "Week 2 Practice Assignment 2",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 11,
+      "planning": {
+        "unitId": "computational-thinking:2:Week 2 Practice Assignment 2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 16.5,
+        "estimatedMinutes": 16.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:Practice Assignment 2 - Not Graded",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "Practice Assignment 2 - Not Graded",
+      "type": "practice",
+      "title": "Practice Assignment 2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 10,
+      "planning": {
+        "unitId": "english-i:2:Practice Assignment 2 - Not Graded",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 15,
+        "estimatedMinutes": 15,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 6,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

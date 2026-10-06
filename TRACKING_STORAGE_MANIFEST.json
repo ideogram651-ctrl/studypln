@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "package": "Study-Planner Tracking Storage v1",
+  "purpose": "Date-wise plan/state storage plus aggregate progress storage",
+  "dailyFiles": {
+    "location": "data/schedule/daily/",
+    "count": 28,
+    "dateRange": [
+      "2026-10-02",
+      "2026-10-29"
+    ],
+    "naming": "YYYY-MM-DD.json"
+  },
+  "progressFile": "data/progress/progress.json",
+  "sourceOfTruth": {
+    "syllabus": "data/syllabus/*.json",
+    "dailyUserState": "data/schedule/daily/*.json",
+    "aggregateCache": "data/progress/progress.json"
+  },
+  "doNotDo": [
+    "Do not duplicate the full syllabus inside daily files.",
+    "Do not invent a 28-day content allocation.",
+    "Do not hard-code progress percentages.",
+    "Do not use array indexes as permanent task IDs."
+  ]
+}

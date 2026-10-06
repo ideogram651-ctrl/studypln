@@ -1,0 +1,2494 @@
+{
+  "schemaVersion": "1.0",
+  "courseId": "BSCS1001",
+  "courseName": "CT",
+  "subjectId": "computational-thinking",
+  "weekCount": 4,
+  "source": {
+    "type": "iitm-coursextract",
+    "file": "reference/syllabus/CT — IITM CourseXtract (10_1_2026 1：03：56 PM).html",
+    "generatedAt": "2026-10-01T07:25:02.195Z",
+    "status": "EXTRACTION COMPLETE",
+    "summary": {
+      "videos": 57,
+      "assignments": 44,
+      "graded": 4,
+      "questions": 226,
+      "videoDuration": "8h 17m"
+    }
+  },
+  "weeks": [
+    {
+      "weekId": "computational-thinking-w1",
+      "weekNumber": 1,
+      "title": "Week 1",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 26
+      },
+      "items": [
+        {
+          "sourceId": "L1.1",
+          "type": "lecture",
+          "title": "L1.1: Introduction to datasets",
+          "weekNumber": 1,
+          "duration": "11:49",
+          "durationSeconds": 709,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/XIjuHQmSWX0"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=47"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "11:49"
+          }
+        },
+        {
+          "sourceId": "AQ1.1",
+          "type": "activity",
+          "title": "AQ1.1: Activity Questions 1 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=48"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.2",
+          "type": "lecture",
+          "title": "L1.2: Concept of variables, iterators and filtering",
+          "weekNumber": 1,
+          "duration": "25:19",
+          "durationSeconds": 1519,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/3pzUPDqS5PM"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=49"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "25:19"
+          }
+        },
+        {
+          "sourceId": "AQ1.2",
+          "type": "activity",
+          "title": "AQ1.2: Activity Questions 2 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=50"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial for Lecture 2",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial for Lecture 2",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=51"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L1.3",
+          "type": "lecture",
+          "title": "L1.3: Iterations using combination of filtering conditions",
+          "weekNumber": 1,
+          "duration": "27:57",
+          "durationSeconds": 1677,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/osTH-1-hlnc"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=52"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "video",
+            "details": "27:57"
+          }
+        },
+        {
+          "sourceId": "AQ1.3",
+          "type": "activity",
+          "title": "AQ1.3: Activity Questions 3 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=53"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial for Lecture 3",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial for Lecture 3",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=54"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L1.4",
+          "type": "lecture",
+          "title": "L1.4: Introduction to flowcharts",
+          "weekNumber": 1,
+          "duration": "14:01",
+          "durationSeconds": 841,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/k_weML2UGQU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=55"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "14:01"
+          }
+        },
+        {
+          "sourceId": "AQ1.4",
+          "type": "activity",
+          "title": "AQ1.4: Activity Questions 4 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=56"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.5",
+          "type": "lecture",
+          "title": "L1.5: Flowchart for sum with filtering",
+          "weekNumber": 1,
+          "duration": "5:29",
+          "durationSeconds": 329,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/nINgOTXMOak"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=57"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "5:29"
+          }
+        },
+        {
+          "sourceId": "AQ1.5",
+          "type": "activity",
+          "title": "AQ1.5: Activity Questions 5 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=58"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Tutorial for Lecture 5",
+          "type": "tutorial",
+          "title": "Week 1 Tutorial for Lecture 5",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=59"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L1.6",
+          "type": "lecture",
+          "title": "L1.6: Sanity of data",
+          "weekNumber": 1,
+          "duration": "8:52",
+          "durationSeconds": 532,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/fCyrOA4Ay54"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=60"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "video",
+            "details": "8:52"
+          }
+        },
+        {
+          "sourceId": "AQ1.6",
+          "type": "activity",
+          "title": "AQ1.6: Activity Questions 6 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 2,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=61"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "assign",
+            "details": "2 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.7",
+          "type": "lecture",
+          "title": "L1.7: Introduction to datatypes",
+          "weekNumber": 1,
+          "duration": "8:40",
+          "durationSeconds": 520,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/rJeAvKXNiDQ"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=62"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "video",
+            "details": "8:40"
+          }
+        },
+        {
+          "sourceId": "AQ1.7",
+          "type": "activity",
+          "title": "AQ1.7: Activity Questions 7 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=63"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.8",
+          "type": "lecture",
+          "title": "L1.8: Subtypes of basic datatypes",
+          "weekNumber": 1,
+          "duration": "9:02",
+          "durationSeconds": 542,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/cVKKOB5HCsY"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=64"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "video",
+            "details": "9:02"
+          }
+        },
+        {
+          "sourceId": "AQ1.8",
+          "type": "activity",
+          "title": "AQ1.8: Activity Questions 8 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=65"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 19,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.9",
+          "type": "lecture",
+          "title": "L1.9: Transformation of sub-datatypes",
+          "weekNumber": 1,
+          "duration": "8:13",
+          "durationSeconds": 493,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/5miWs5_XGeI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=66"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "video",
+            "details": "8:13"
+          }
+        },
+        {
+          "sourceId": "AQ1.9",
+          "type": "activity",
+          "title": "AQ1.9: Activity Questions 9 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 2,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=67"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 21,
+            "rowClass": "assign",
+            "details": "2 Questions"
+          }
+        },
+        {
+          "sourceId": "L1.10",
+          "type": "lecture",
+          "title": "L1.10: Introduction to complex datatypes",
+          "weekNumber": 1,
+          "duration": "7:23",
+          "durationSeconds": 443,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/o0u2EKvQcMk"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=68"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 22,
+            "rowClass": "video",
+            "details": "7:23"
+          }
+        },
+        {
+          "sourceId": "AQ1.10",
+          "type": "activity",
+          "title": "AQ1.10: Activity Questions 10 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=69"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 23,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 Practice Assignment - 1",
+          "type": "practice",
+          "title": "Week 1 Practice Assignment - 1",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 12,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=72"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 24,
+            "rowClass": "assign",
+            "details": "12 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment - 1 Solution",
+          "type": "solution",
+          "title": "Practice Assignment - 1 Solution",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=73"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 25,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 1 Graded Assignment -1",
+          "type": "graded",
+          "title": "Week 1 Graded Assignment -1",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=74"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 26,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "computational-thinking-w2",
+      "weekNumber": 2,
+      "title": "Week 2",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 31
+      },
+      "items": [
+        {
+          "sourceId": "L2.1",
+          "type": "lecture",
+          "title": "L2.1: Conditional termination in iteration",
+          "weekNumber": 2,
+          "duration": "17:08",
+          "durationSeconds": 1028,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/7HidfIykEBY"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=80"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "17:08"
+          }
+        },
+        {
+          "sourceId": "AQ2.1",
+          "type": "activity",
+          "title": "AQ2.1: Activity Questions 1 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=81"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.2",
+          "type": "lecture",
+          "title": "L2.2: Local operations and max in single iteration (Part 1)",
+          "weekNumber": 2,
+          "duration": "8:27",
+          "durationSeconds": 507,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/IUOwziUZOAU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=82"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "8:27"
+          }
+        },
+        {
+          "sourceId": "AQ2.2",
+          "type": "activity",
+          "title": "AQ2.2: Activity Questions 2 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 2,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=83"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "2 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.1",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.1",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=84"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L2.3",
+          "type": "lecture",
+          "title": "L2.3: Local operations and max in single iteration (Part 2)",
+          "weekNumber": 2,
+          "duration": "10:37",
+          "durationSeconds": 637,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/4Hb3huJVqjU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=85"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "video",
+            "details": "10:37"
+          }
+        },
+        {
+          "sourceId": "AQ2.3",
+          "type": "activity",
+          "title": "AQ2.3: Activity Questions 3 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 2,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=86"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "assign",
+            "details": "2 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.2",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.2",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=87"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L2.4",
+          "type": "lecture",
+          "title": "L2.4: Local operations and max in single iteration (Part 3)",
+          "weekNumber": 2,
+          "duration": "15:01",
+          "durationSeconds": 901,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/Lq9x3it6fAE"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=88"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "15:01"
+          }
+        },
+        {
+          "sourceId": "AQ2.4",
+          "type": "activity",
+          "title": "AQ2.4: Activity Questions 4 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=89"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.3",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.3",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=90"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L2.5",
+          "type": "lecture",
+          "title": "L2.5: Local operations and max in single iteration (Part 4)",
+          "weekNumber": 2,
+          "duration": "11:14",
+          "durationSeconds": 674,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/ItFdJVQsR_4"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=91"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "video",
+            "details": "11:14"
+          }
+        },
+        {
+          "sourceId": "AQ2.5",
+          "type": "activity",
+          "title": "AQ2.5: Activity Questions 5 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=92"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.4",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.4",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=93"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L2.6",
+          "type": "lecture",
+          "title": "L2.6: Max in a single iteration and max in two iterations (non-nested)",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=94"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "AQ2.6",
+          "type": "activity",
+          "title": "AQ2.6: Activity Questions 6 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=95"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.5",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.5",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=96"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L2.7",
+          "type": "lecture",
+          "title": "L2.7: Max in a single iteration without losing information and applications of frequency count",
+          "weekNumber": 2,
+          "duration": "18:24",
+          "durationSeconds": 1104,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/wJ7TE6AoWuM"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=97"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "video",
+            "details": "18:24"
+          }
+        },
+        {
+          "sourceId": "AQ2.7",
+          "type": "activity",
+          "title": "AQ2.7: Activity Questions 7 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=98"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 19,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.6",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.6",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=99"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.7",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.7",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=100"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 21,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L2.8",
+          "type": "lecture",
+          "title": "L2.8: Flowchart for max marks",
+          "weekNumber": 2,
+          "duration": "14:28",
+          "durationSeconds": 868,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/AtDyd2hOWdU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=101"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 22,
+            "rowClass": "video",
+            "details": "14:28"
+          }
+        },
+        {
+          "sourceId": "AQ2.8",
+          "type": "activity",
+          "title": "AQ2.8: Activity Questions 8 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=102"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 23,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.9",
+          "type": "lecture",
+          "title": "L2.9: Introduction to pseudocodes",
+          "weekNumber": 2,
+          "duration": "13:05",
+          "durationSeconds": 785,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/lBu6E2wpXXE"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=103"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 24,
+            "rowClass": "video",
+            "details": "13:05"
+          }
+        },
+        {
+          "sourceId": "AQ2.9",
+          "type": "activity",
+          "title": "AQ2.9: Activity Questions 9 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=104"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 25,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L2.10",
+          "type": "lecture",
+          "title": "L2.10: Pseudocode for iteration with filtering",
+          "weekNumber": 2,
+          "duration": "20:24",
+          "durationSeconds": 1224,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/eHcHSFcT_Hc"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=105"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 26,
+            "rowClass": "video",
+            "details": "20:24"
+          }
+        },
+        {
+          "sourceId": "AQ2.10",
+          "type": "activity",
+          "title": "AQ2.10: Activity Questions 10 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=106"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 27,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 Tutorial 2.8",
+          "type": "tutorial",
+          "title": "Week 2 Tutorial 2.8",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=107"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 28,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 2 Practice Assignment 2",
+          "type": "practice",
+          "title": "Week 2 Practice Assignment 2",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 11,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=109"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 29,
+            "rowClass": "assign",
+            "details": "11 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice assignment solution -2",
+          "type": "solution",
+          "title": "Practice assignment solution -2",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=111"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 30,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 2 - Graded Assignment 2",
+          "type": "graded",
+          "title": "Week 2 - Graded Assignment 2",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=112"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 31,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "computational-thinking-w3",
+      "weekNumber": 3,
+      "title": "Week 3",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 24
+      },
+      "items": [
+        {
+          "sourceId": "L3.1",
+          "type": "lecture",
+          "title": "L3.1: Presentation of datasets in the form of a table",
+          "weekNumber": 3,
+          "duration": "11:46",
+          "durationSeconds": 706,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/Mc22y3If29w"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=118"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "11:46"
+          }
+        },
+        {
+          "sourceId": "AQ3.1",
+          "type": "activity",
+          "title": "AQ3.1: Activity Question 1 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=119"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 3.1",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 3.1",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=120"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L3.2",
+          "type": "lecture",
+          "title": "L3.2: Below average students in two iterations (non-nested) and grade allocation",
+          "weekNumber": 3,
+          "duration": "29:52",
+          "durationSeconds": 1792,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/iIM2e3WdbKA"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=121"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "video",
+            "details": "29:52"
+          }
+        },
+        {
+          "sourceId": "AQ3.2",
+          "type": "activity",
+          "title": "AQ3.2: Activity Question 2 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=122"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 3.2",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 3.2",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=123"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L3.3",
+          "type": "lecture",
+          "title": "L3.3: Systematic process of hypothesis verification to find the relation between word length and frequency",
+          "weekNumber": 3,
+          "duration": "20:21",
+          "durationSeconds": 1221,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/h4mK67hNbhU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=124"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "20:21"
+          }
+        },
+        {
+          "sourceId": "AQ3.3",
+          "type": "activity",
+          "title": "AQ3.3: Activity Question 3 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 7,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=125"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "7 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.4",
+          "type": "lecture",
+          "title": "L3.4: Three prizes problem",
+          "weekNumber": 3,
+          "duration": "23:32",
+          "durationSeconds": 1412,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/y639yrZhUgk"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=126"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "23:32"
+          }
+        },
+        {
+          "sourceId": "AQ3.4",
+          "type": "activity",
+          "title": "AQ3.4: Activity Question 4 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 9,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=127"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "9 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.5",
+          "type": "lecture",
+          "title": "L3.5: Introduction to procedures and parameters",
+          "weekNumber": 3,
+          "duration": "11:52",
+          "durationSeconds": 712,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/Txm_Ji7gbfI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=128"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "11:52"
+          }
+        },
+        {
+          "sourceId": "AQ3.5",
+          "type": "activity",
+          "title": "AQ3.5: Activity Question 5 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 4,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=129"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "4 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.6",
+          "type": "lecture",
+          "title": "L3.6: Pseudocode for procedures and parameters (Part 1)",
+          "weekNumber": 3,
+          "duration": "13:25",
+          "durationSeconds": 805,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/tfHzvXZ55v0"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=130"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video",
+            "details": "13:25"
+          }
+        },
+        {
+          "sourceId": "AQ3.6",
+          "type": "activity",
+          "title": "AQ3.6: Activity Question 6 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 7,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=131"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "assign",
+            "details": "7 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.7",
+          "type": "lecture",
+          "title": "L3.7: Pseudocode for procedures and parameters (Part 2)",
+          "weekNumber": 3,
+          "duration": "7:38",
+          "durationSeconds": 458,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/iR64u1aXamM"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=132"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "video",
+            "details": "7:38"
+          }
+        },
+        {
+          "sourceId": "AQ3.7",
+          "type": "activity",
+          "title": "AQ3.7: Activity Question 7 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=133"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 Tutorial 3.3",
+          "type": "tutorial",
+          "title": "Week 3 Tutorial 3.3",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=134"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L3.8",
+          "type": "lecture",
+          "title": "L3.8: Pseudocode for three prizes problem",
+          "weekNumber": 3,
+          "duration": "29:21",
+          "durationSeconds": 1761,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/X59wTJ-m_bs"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=135"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "video",
+            "details": "29:21"
+          }
+        },
+        {
+          "sourceId": "AQ3.8",
+          "type": "activity",
+          "title": "AQ3.8: Activity Question 8 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=136"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 19,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L3.9",
+          "type": "lecture",
+          "title": "L3.9: Side effects of procedures",
+          "weekNumber": 3,
+          "duration": "16:27",
+          "durationSeconds": 987,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/X9T_0sEUAwE"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=137"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "video",
+            "details": "16:27"
+          }
+        },
+        {
+          "sourceId": "AQ3.9",
+          "type": "activity",
+          "title": "AQ3.9: Activity Question 9 - Not graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=138"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 21,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 3 - Practice Assignment 3",
+          "type": "practice",
+          "title": "Week 3 - Practice Assignment 3",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 12,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=139"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 22,
+            "rowClass": "assign",
+            "details": "12 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 3 - Solution",
+          "type": "solution",
+          "title": "Practice Assignment 3 - Solution",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=141"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 23,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 3 - Graded Assignment 3",
+          "type": "graded",
+          "title": "Week 3 - Graded Assignment 3",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=142"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 24,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "computational-thinking-w4",
+      "weekNumber": 4,
+      "title": "Week 4",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 20
+      },
+      "items": [
+        {
+          "sourceId": "Week 4 Tutorial 4.1",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 4.1",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=148"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L4.1",
+          "type": "lecture",
+          "title": "L4.1: Concept of nested iterations using the birthday paradox (Naive approach)",
+          "weekNumber": 4,
+          "duration": "8:58",
+          "durationSeconds": 538,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/yRY1h-IIPzg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=149"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "video",
+            "details": "8:58"
+          }
+        },
+        {
+          "sourceId": "AQ4.1",
+          "type": "activity",
+          "title": "AQ4.1: Activity Question 1 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=150"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.2",
+          "type": "lecture",
+          "title": "L4.2: Concept of nested iterations using the birthday paradox (Using binning)",
+          "weekNumber": 4,
+          "duration": "8:46",
+          "durationSeconds": 526,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/bE7dE1wKm24"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=151"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "video",
+            "details": "8:46"
+          }
+        },
+        {
+          "sourceId": "AQ4.2",
+          "type": "activity",
+          "title": "AQ4.2: Activity Question 2 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=513"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 4 Tutorial 4.2",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 4.2",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=153"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "L4.3",
+          "type": "lecture",
+          "title": "L4.3: Importance of binning to reduce number of comparisons in nested iterations",
+          "weekNumber": 4,
+          "duration": "14:57",
+          "durationSeconds": 897,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/6G9aP_PR3s8"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=154"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "14:57"
+          }
+        },
+        {
+          "sourceId": "AQ4.3",
+          "type": "activity",
+          "title": "AQ4.3: Activity Question 3 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=155"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.4",
+          "type": "lecture",
+          "title": "L4.4: Concept of binning to avoid the complexity of nested iterations",
+          "weekNumber": 4,
+          "duration": "9:49",
+          "durationSeconds": 589,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/IA8e3p41g6Y"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=156"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "9:49"
+          }
+        },
+        {
+          "sourceId": "AQ4.4",
+          "type": "activity",
+          "title": "AQ4.4: Activity Question 4 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 6,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=157"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "6 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.5",
+          "type": "lecture",
+          "title": "L4.5: Concept of fair teams",
+          "weekNumber": 4,
+          "duration": "16:11",
+          "durationSeconds": 971,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/pPJ6V0L59mY"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=158"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "16:11"
+          }
+        },
+        {
+          "sourceId": "AQ4.5",
+          "type": "activity",
+          "title": "AQ4.5: Activity Question 5 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=159"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.6",
+          "type": "lecture",
+          "title": "L4.6: Procedure to find same date of birth for different students",
+          "weekNumber": 4,
+          "duration": "6:27",
+          "durationSeconds": 387,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/ZPCSfX3l9tI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=160"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video",
+            "details": "6:27"
+          }
+        },
+        {
+          "sourceId": "AQ4.6",
+          "type": "activity",
+          "title": "AQ4.6: Activity Question 6 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 3,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=161"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "assign",
+            "details": "3 Questions"
+          }
+        },
+        {
+          "sourceId": "L4.7",
+          "type": "lecture",
+          "title": "L4.7: Procedure to resolve pronoun with its equivalent matching noun",
+          "weekNumber": 4,
+          "duration": "12:52",
+          "durationSeconds": 772,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "hindi",
+              "url": "https://youtu.be/SFZBH_hkJDg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=162"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "video",
+            "details": "12:52"
+          }
+        },
+        {
+          "sourceId": "AQ4.7",
+          "type": "activity",
+          "title": "AQ4.7: Activity Question 7 - Not graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=163"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "Week 4 Tutorial 4.3",
+          "type": "tutorial",
+          "title": "Week 4 Tutorial 4.3",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=164"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 17,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 4 - Practice assignment 4",
+          "type": "practice",
+          "title": "Week 4 - Practice assignment 4",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 11,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=168"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 18,
+            "rowClass": "assign",
+            "details": "11 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice assignment week 4 solution",
+          "type": "solution",
+          "title": "Practice assignment week 4 solution",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=169"
+            }
+          ],
+          "warnings": [
+            "duration_unavailable",
+            "hindi_link_unavailable"
+          ],
+          "source": {
+            "rowNumber": 19,
+            "rowClass": "video warn",
+            "details": "⚠ Hindi link unavailable"
+          }
+        },
+        {
+          "sourceId": "Week 4 - Graded Assignment 4",
+          "type": "graded",
+          "title": "Week 4 - Graded Assignment 4",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_cs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=171"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 20,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    }
+  ]
+}

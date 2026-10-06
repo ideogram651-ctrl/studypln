@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>August 2026 — Soft Calendar</title>
+<style>
+  :root{
+    --page:#fafafa;
+    --card:#aeb4bb;
+    --card-hi:#bfc5cc;
+    --card-deep:#9ea7b0;
+    --selected:#7755e8;
+    --white:#f7f8fa;
+    --secondary:#ded9f4;
+    --dark:#202328;
+    --shadow:0 28px 55px rgba(110,125,145,.16);
+    --radius:36px;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","Inter",Arial,sans-serif;
+  }
+
+  *{box-sizing:border-box}
+  html,body{
+    margin:0;
+    width:100%;
+    height:100%;
+    min-height:100%;
+    overflow:hidden;
+    font-family:var(--font);
+    background:#050507;
+    color:var(--dark);
+  }
+  body{
+    display:flex;
+    justify-content:center;
+    overflow:hidden;
+    overscroll-behavior:none;
+    touch-action:none;
+  }
+
+  .page{
+    background:
+      radial-gradient(ellipse 55% 45% at 50% 50%, rgba(65,35,150,.10), transparent 72%),
+      #050507;
+    width:100%;
+    height:100vh;
+    min-height:100vh;
+    padding:0 36px;
+    position:relative;
+    overflow:hidden;
+  }
+
+  /* Main Study Planner application navbar */
+  .app-navbar{
+    height:88px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px;
+    padding:0 12px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+    position:relative;
+    z-index:10;
+  }
+
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    min-width:0;
+  }
+
+  .brand-logo{
+    width:48px;
+    height:48px;
+    flex:0 0 48px;
+    border-radius:14px;
+    display:grid;
+    place-items:center;
+    color:#fff;
+    font:700 17px/1 var(--font);
+    background:linear-gradient(145deg,#7c4dff,#5d2df2);
+    box-shadow:0 10px 28px rgba(103,57,255,.30), inset 0 1px 1px rgba(255,255,255,.22);
+  }
+
+  .brand-copy{
+    min-width:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+
+  .brand-title{
+    color:#f7f8fa;
+    font:700 18px/1.2 var(--font);
+    letter-spacing:-.025em;
+    white-space:nowrap;
+  }
+
+  .brand-subtitle{
+    margin-top:5px;
+    color:#aaa8b8;
+    font:400 13px/1.2 var(--font);
+    white-space:nowrap;
+  }
+
+  .nav-actions{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    height:100%;
+  }
+
+  /* Polished top-right controls — intentionally scoped only to navbar actions. */
+  .nav-action{
+    min-width:112px;
+    height:44px;
+    padding:0 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:14px;
+    border:1px solid rgba(151,119,255,.24);
+    background:
+      linear-gradient(180deg, rgba(124,77,255,.15), rgba(255,255,255,.045));
+    color:#f5f2ff;
+    font:600 14px/1 var(--font);
+    letter-spacing:-.01em;
+    box-shadow:
+      inset 0 1px 1px rgba(255,255,255,.10),
+      0 5px 18px rgba(54,28,150,.16);
+    cursor:default;
+    user-select:none;
+    white-space:nowrap;
+  }
+
+  .stage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:calc(100vh - 88px);
+    min-height:0;
+    padding:18px 0;
+    overflow:hidden;
+  }
+
+  .calendar-card{
+    width:min(100%, 1040px);
+    aspect-ratio:16 / 9;
+    min-height:0;
+    max-height:calc(100vh - 128px);
+    border-radius:var(--radius);
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    overflow:hidden;
+    background:
+      radial-gradient(48% 34% at 50% 96%, rgba(255,255,255,.98) 0%, rgba(218,209,255,.92) 18%, rgba(126,82,255,.82) 38%, rgba(79,39,224,.52) 58%, rgba(25,17,70,.10) 78%, transparent 100%),
+      radial-gradient(75% 52% at 50% 105%, rgba(91,42,255,.95) 0%, rgba(66,30,220,.72) 34%, rgba(27,18,82,.30) 65%, transparent 100%),
+      linear-gradient(180deg,#090910 0%,#0b0a13 42%,#100b25 68%,#1d0e54 100%);
+    box-shadow:0 28px 65px rgba(47,24,130,.25), 0 0 45px rgba(82,45,235,.10);
+    padding:32px 34px 26px;
+    color:var(--white);
+    user-select:none;
+  }
+
+  .calendar-card:after{
+    content:"";
+    position:absolute;
+    left:9%;right:9%;bottom:-34px;height:100px;
+    background:
+      radial-gradient(ellipse at 50% 40%, rgba(151,112,255,.34), transparent 62%),
+      rgba(119,76,255,.30);
+    filter:blur(42px);
+    pointer-events:none;
+  }
+
+
+  /* Glass blur + fine dust texture */
+  .calendar-card:before{
+    content:"";
+    position:absolute;
+    inset:0;
+    z-index:1;
+    pointer-events:none;
+    border-radius:inherit;
+    background:
+      radial-gradient(circle at 18% 22%, rgba(255,255,255,.10) 0 1px, transparent 1.5px),
+      radial-gradient(circle at 72% 18%, rgba(255,255,255,.075) 0 1px, transparent 1.6px),
+      radial-gradient(circle at 42% 64%, rgba(255,255,255,.065) 0 1px, transparent 1.5px),
+      radial-gradient(circle at 83% 72%, rgba(255,255,255,.085) 0 1px, transparent 1.7px),
+      radial-gradient(circle at 28% 84%, rgba(255,255,255,.055) 0 1px, transparent 1.5px),
+      repeating-radial-gradient(circle at 50% 50%,
+        rgba(255,255,255,.035) 0 0.7px,
+        transparent 0.8px 4px);
+    background-size:
+      113px 97px,
+      137px 121px,
+      151px 139px,
+      127px 109px,
+      173px 157px,
+      5px 5px;
+    background-position:
+      7px 13px,
+      31px 19px,
+      11px 47px,
+      61px 7px,
+      23px 71px,
+      0 0;
+    mix-blend-mode:screen;
+    opacity:.42;
+    backdrop-filter:blur(7px) saturate(115%);
+    -webkit-backdrop-filter:blur(7px) saturate(115%);
+  }
+
+  /* Soft glass panels for the controls */
+  .segmented{
+    background:rgba(255,255,255,.075);
+    border:1px solid rgba(255,255,255,.085);
+    backdrop-filter:blur(14px) saturate(125%);
+    -webkit-backdrop-filter:blur(14px) saturate(125%);
+    box-shadow:
+      inset 0 1px 1px rgba(255,255,255,.13),
+      inset 0 -1px 2px rgba(0,0,0,.12),
+      0 7px 20px rgba(8,4,30,.08);
+  }
+
+  .segmented button.active{
+    background:rgba(255,255,255,.92);
+    box-shadow:
+      inset 0 1px 1px rgba(255,255,255,.95),
+      0 4px 14px rgba(255,255,255,.10),
+      0 2px 7px rgba(20,10,60,.15);
+  }
+
+  .date-circle,
+  .event-pill{
+    backdrop-filter:blur(9px) saturate(125%);
+    -webkit-backdrop-filter:blur(9px) saturate(125%);
+  }
+
+  .week-day.active .date-circle{
+    background:
+      radial-gradient(circle at 35% 25%, rgba(255,255,255,.20), transparent 38%),
+      rgba(119,85,232,.78);
+    border:1px solid rgba(255,255,255,.10);
+    box-shadow:
+      inset 0 1px 2px rgba(255,255,255,.22),
+      0 5px 18px rgba(56,25,170,.22);
+  }
+
+  .event-pill{
+    background:rgba(255,255,255,.09);
+    border:1px solid rgba(255,255,255,.08);
+    box-shadow:inset 0 1px 1px rgba(255,255,255,.08);
+  }
+
+  /* Dummy month navigation — visual only, no functionality */
+  .dummy-month-nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    height:56px;
+    margin-bottom:16px;
+    position:relative;
+    z-index:2;
+  }
+
+  .dummy-month-nav .dummy-nav-btn{
+    width:42px;
+    height:42px;
+    border:1px solid rgba(255,255,255,.10);
+    border-radius:50%;
+    background:rgba(255,255,255,.075);
+    color:#f7f8fa;
+    display:grid;
+    place-items:center;
+    font:400 25px/1 var(--font);
+    box-shadow:
+      inset 0 1px 2px rgba(255,255,255,.12),
+      0 4px 14px rgba(8,4,30,.12);
+    cursor:default;
+    user-select:none;
+  }
+
+  .dummy-month-nav .dummy-month-label{
+    min-width:220px;
+    text-align:center;
+    color:#f7f8fa;
+    font:600 21px/1 var(--font);
+    letter-spacing:-.02em;
+  }
+  .weekly-period-label{display:none}
+  .monthly .monthly-period-label{display:inline}
+  .monthly .weekly-period-label{display:none}
+  .calendar-card:not(.monthly) .monthly-period-label{display:none}
+  .calendar-card:not(.monthly) .weekly-period-label{display:inline}
+
+  .card-top{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    position:relative;
+    z-index:2;
+  }
+
+  .segmented{
+    flex:1;
+    height:50px;
+    padding:5px;
+    border-radius:17px;
+    background:rgba(143,153,164,.30);
+    box-shadow:inset 0 1px 2px rgba(255,255,255,.10), inset 0 -1px 2px rgba(75,85,95,.06);
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+
+  .segmented button{
+    border:0;background:transparent;color:var(--secondary);
+    border-radius:13px;font:500 16px var(--font);
+    cursor:pointer;transition:.28s cubic-bezier(.2,.8,.2,1);
+  }
+  .segmented button.active{
+    background:#f9fafb;color:#202328;
+    box-shadow:0 2px 7px rgba(80,90,100,.12);
+  }
+
+  .hero-date{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-top:24px;
+    padding:0 2px;
+    position:relative;
+    z-index:2;
+  }
+
+  .month-name,.day-number{
+    font-weight:300;
+    letter-spacing:-.055em;
+    line-height:.9;
+    color:#f8f9fa;
+  }
+  .month-name{font-size:clamp(57px,8.8vw,82px)}
+  .day-number{font-size:clamp(62px,9.6vw,88px)}
+
+  .weekly-area{
+    position:relative;
+    margin-top:42px;
+    z-index:3;
+    touch-action:none;
+  }
+
+  .week-viewport{
+    overflow:hidden;
+    width:100%;
+    cursor:grab;
+    padding:0 0 7px;
+  }
+  .week-viewport.dragging{cursor:grabbing}
+
+  .week-track{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:0;
+    min-width:max-content;
+    transform:translate3d(0,0,0);
+    transition:transform .42s cubic-bezier(.22,.75,.2,1);
+  }
+
+  .week-day{
+    width:76px;
+    flex:0 0 76px;
+    text-align:center;
+    color:var(--white);
+    opacity:.96;
+    transform:translateY(0) scale(1);
+    transition:transform .38s cubic-bezier(.2,.8,.2,1),opacity .38s;
+    cursor:pointer;
+  }
+  .week-day.edge{opacity:.30}
+  .week-day.near{opacity:.78}
+  .week-day.active{transform:translateY(-2px) scale(1.02);opacity:1}
+
+  .weekday{
+    font-size:16px;
+    font-weight:450;
+    margin-bottom:12px;
+  }
+  .date-circle{
+    width:50px;height:50px;
+    margin:auto;
+    display:grid;place-items:center;
+    border-radius:50%;
+    font-size:18px;
+    font-weight:450;
+    color:#f7f8fa;
+    transition:.35s cubic-bezier(.2,.8,.2,1);
+  }
+  .week-day.active .date-circle{
+    background:var(--selected);
+    box-shadow:inset 0 1px 2px rgba(255,255,255,.16),0 4px 10px rgba(70,90,110,.08);
+    font-weight:600;
+  }
+
+  .curve{
+    position:absolute;
+    left:-15%;right:-15%;
+    top:43px;height:91px;
+    border-top:1px solid rgba(255,255,255,.15);
+    border-bottom:1px solid rgba(255,255,255,.055);
+    border-radius:50%;
+    transform:perspective(240px) rotateX(3deg);
+    pointer-events:none;
+    opacity:.9;
+  }
+
+  .monthly-area{
+    display:none;
+    margin-top:38px;
+    position:relative;
+    z-index:3;
+  }
+  .monthly-area.visible{display:block}
+
+  .month-grid{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap:8px 5px;
+  }
+
+  .grid-head{
+    color:#eef1f4;
+    text-align:center;
+    font-size:14px;
+    font-weight:500;
+    padding-bottom:6px;
+  }
+
+  .grid-cell{
+    min-height:45px;
+    display:grid;
+    place-items:center;
+    border-radius:50%;
+    font-size:16px;
+    color:#f5f7f9;
+    cursor:pointer;
+    transition:.22s ease;
+  }
+  .grid-cell.empty{cursor:default;opacity:0}
+  .grid-cell:not(.empty):hover{background:rgba(255,255,255,.12)}
+  /* Monthly mode selected day: rounded rectangular / soft-square shape.
+     Intentionally scoped to .grid-cell.selected only.
+     DO NOT change .date-circle or .week-day.active — weekly remains circular. */
+  .grid-cell.selected{
+    background:
+      radial-gradient(circle at 35% 25%, rgba(255,255,255,.16), transparent 42%),
+      var(--selected);
+    border-radius:16px;
+    min-height:45px;
+    font-weight:600;
+    box-shadow:
+      inset 0 1px 2px rgba(255,255,255,.16),
+      0 4px 12px rgba(70,35,190,.18);
+  }
+
+  .bottom-row{
+    position:relative;
+    z-index:2;
+    margin-top:auto;
+    padding-top:22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:var(--secondary);
+    font-size:16px;
+  }
+  .note{
+    display:flex;align-items:center;gap:12px;
+    opacity:.92;
+  }
+  .note-icon{
+    width:21px;height:21px;border:1.5px solid currentColor;border-radius:7px;
+    transform:rotate(-10deg);position:relative;
+  }
+  .note-icon:after{
+    content:"";position:absolute;width:7px;height:1.5px;background:currentColor;
+    right:-4px;bottom:3px;transform:rotate(-45deg);
+  }
+  .event-pill{
+    height:34px;padding:0 14px;border-radius:999px;
+    background:rgba(116,132,148,.34);
+    display:flex;align-items:center;gap:9px;
+  }
+  .plus{font-size:21px;font-weight:300;line-height:1}
+
+  .monthly .weekly-area{display:none}
+  .monthly .monthly-area{display:block}
+  .monthly .bottom-row{margin-top:auto}
+
+  @media (max-width:720px){
+    .page{padding:0 18px}
+    .app-navbar{height:72px;padding:0 2px;gap:12px}
+    .brand-logo{width:42px;height:42px;flex-basis:42px;border-radius:12px;font-size:15px}
+    .brand-title{font-size:16px}
+    .brand-subtitle{font-size:11px}
+    .nav-actions{gap:7px;height:100%}
+    .nav-action{min-width:88px;height:38px;padding:0 12px;border-radius:12px;font-size:12px}
+    .stage{height:calc(100vh - 72px);padding:14px 0}
+    .calendar-card{
+      width:100%;
+      aspect-ratio:auto;
+      min-height:0;
+      height:calc(100vh - 100px);
+      max-height:none;
+      padding:25px 20px 20px;
+      border-radius:30px;
+    }
+    .segmented{height:46px}
+    .segmented button{font-size:14px}
+    .dummy-month-nav{height:48px;gap:12px;margin-bottom:12px}
+    .dummy-month-nav .dummy-nav-btn{width:38px;height:38px;font-size:22px}
+    .dummy-month-nav .dummy-month-label{font-size:18px;min-width:175px}
+    .hero-date{margin-top:28px}
+    .week-day{width:64px;flex-basis:64px}
+    .weekday{font-size:14px}
+    .date-circle{width:44px;height:44px;font-size:16px}
+    .weekly-area{margin-top:40px}
+    .bottom-row{padding-top:16px}
+    .month-grid{gap:5px 2px}
+    .grid-cell{min-height:39px;font-size:14px}
+    .grid-cell.selected{border-radius:13px}
+  }
+
+  @media (max-width:460px){
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="app-navbar">
+    <div class="brand">
+      <div class="brand-logo">SP</div>
+      <div class="brand-copy">
+        <div class="brand-title">Study-Planner</div>
+        <div class="brand-subtitle">IIT Madras BS — 28-day cycle</div>
+      </div>
+    </div>
+    <div class="nav-actions" aria-hidden="true">
+      <div class="nav-action">Progress</div>
+      <div class="nav-action">Reports</div>
+    </div>
+  </header>
+
+  <main class="stage">
+    <section class="calendar-card" id="calendarCard">
+      <div class="dummy-month-nav" aria-hidden="true">
+        <span class="dummy-nav-btn">‹</span>
+        <span class="dummy-month-label monthly-period-label" id="monthlyPeriodLabel">October 2026</span>
+         <span class="dummy-month-label weekly-period-label" id="weeklyPeriodLabel">Oct Week 1 - 2026</span>
+        <span class="dummy-nav-btn">›</span>
+      </div>
+
+      <div class="card-top">
+        <div class="segmented">
+          <button id="weeklyBtn" class="active" type="button">Weekly</button>
+          <button id="monthlyBtn" type="button">Monthly</button>
+        </div>
+      </div>
+
+      <div class="hero-date">
+        <div class="month-name">August</div>
+        <div class="day-number" id="heroDay">23</div>
+      </div>
+
+      <div class="weekly-area" id="weeklyArea">
+        <div class="curve"></div>
+        <div class="week-viewport" id="weekViewport">
+          <div class="week-track" id="weekTrack"></div>
+        </div>
+      </div>
+
+      <div class="monthly-area" id="monthlyArea">
+        <div class="month-grid" id="monthGrid"></div>
+      </div>
+
+      <div class="bottom-row">
+        <div class="note"><span class="note-icon"></span><span>Add a note...</span></div>
+        <div class="event-pill"><span class="plus">+</span><span>New Event</span></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+(() => {
+  const YEAR = 2026;
+  const MONTH = 7; // August, zero-based
+  const INITIAL_DAY = 23;
+
+  const card = document.getElementById('calendarCard');
+  const weeklyBtn = document.getElementById('weeklyBtn');
+  const monthlyBtn = document.getElementById('monthlyBtn');
+  const heroDay = document.getElementById('heroDay');
+  const track = document.getElementById('weekTrack');
+  const viewport = document.getElementById('weekViewport');
+  const grid = document.getElementById('monthGrid');
+
+  const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const weekdays = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+  let selectedDay = INITIAL_DAY;
+  let dragStartX = null;
+  let dragging = false;
+
+  function daysInMonth(year, month){
+    return new Date(year, month + 1, 0).getDate();
+  }
+
+  function setSelected(day, animate = true){
+    const max = daysInMonth(YEAR, MONTH);
+    selectedDay = Math.max(1, Math.min(max, day));
+    heroDay.textContent = selectedDay;
+    document.querySelectorAll('.week-day').forEach(el => {
+      el.classList.toggle('active', Number(el.dataset.day) === selectedDay);
+    });
+    document.querySelectorAll('.grid-cell').forEach(el => {
+      el.classList.toggle('selected', Number(el.dataset.day) === selectedDay);
+    });
+    centerSelected(animate);
+  }
+
+  function createWeekTrack(){
+    track.innerHTML = '';
+    const max = daysInMonth(YEAR, MONTH);
+
+    // All August dates are stored in the track. The viewport acts like a
+    // horizontal date wheel; clicking or scrolling changes the centered day.
+    for(let day=1; day<=max; day++){
+      const date = new Date(YEAR, MONTH, day);
+      const item = document.createElement('div');
+      item.className = 'week-day';
+      item.dataset.day = day;
+      item.innerHTML = `
+        <div class="weekday">${weekdays[date.getDay()]}</div>
+        <div class="date-circle">${day}</div>
+      `;
+      item.addEventListener('click', () => setSelected(day));
+      track.appendChild(item);
+    }
+    updateWeekOpacity();
+  }
+
+  function centerSelected(animate = true){
+    const item = track.querySelector(`[data-day="${selectedDay}"]`);
+    if(!item) return;
+
+    const viewportCenter = viewport.clientWidth / 2;
+    const itemCenter = item.offsetLeft + item.offsetWidth / 2;
+    const min = -(track.scrollWidth - viewport.clientWidth);
+    let target = viewportCenter - itemCenter;
+    target = Math.min(0, Math.max(min, target));
+
+    track.style.transition = animate
+      ? 'transform .46s cubic-bezier(.22,.75,.2,1)'
+      : 'none';
+    track.style.transform = `translate3d(${target}px,0,0)`;
+    updateWeekOpacity();
+  }
+
+  function updateWeekOpacity(){
+    const center = viewport.clientWidth / 2;
+    document.querySelectorAll('.week-day').forEach(item => {
+      const rect = item.getBoundingClientRect();
+      const parent = viewport.getBoundingClientRect();
+      const itemCenter = rect.left - parent.left + rect.width/2;
+      const distance = Math.abs(itemCenter - center);
+      item.classList.toggle('edge', distance > 220);
+      item.classList.toggle('near', distance > 110 && distance <= 220);
+    });
+  }
+
+  function moveBy(delta){
+    setSelected(selectedDay + delta);
+  }
+
+  // Wheel = date-wheel interaction. A normal vertical mouse wheel over the
+  // weekly strip advances one day at a time; horizontal trackpads work too.
+  let wheelLock = false;
+  viewport.addEventListener('wheel', e => {
+    if(card.classList.contains('monthly')) return;
+    e.preventDefault();
+    if(wheelLock) return;
+    const direction = Math.abs(e.deltaX) > Math.abs(e.deltaY)
+      ? Math.sign(e.deltaX)
+      : Math.sign(e.deltaY);
+    if(direction) {
+      wheelLock = true;
+      moveBy(direction);
+      setTimeout(() => wheelLock = false, 240);
+    }
+  }, {passive:false});
+
+  // Drag / swipe.
+  viewport.addEventListener('pointerdown', e => {
+    dragging = true;
+    dragStartX = e.clientX;
+    viewport.classList.add('dragging');
+    track.style.transition = 'none';
+    viewport.setPointerCapture?.(e.pointerId);
+  });
+
+  viewport.addEventListener('pointermove', e => {
+    if(!dragging || dragStartX === null) return;
+    const dx = e.clientX - dragStartX;
+    if(Math.abs(dx) > 35){
+      const direction = dx < 0 ? 1 : -1;
+      dragging = false;
+      viewport.classList.remove('dragging');
+      moveBy(direction);
+      dragStartX = null;
+    }
+  });
+
+  function endDrag(){
+    dragging = false;
+    dragStartX = null;
+    viewport.classList.remove('dragging');
+  }
+  viewport.addEventListener('pointerup', endDrag);
+  viewport.addEventListener('pointercancel', endDrag);
+  viewport.addEventListener('pointerleave', () => {
+    if(dragging) endDrag();
+  });
+
+  // Keyboard support.
+  window.addEventListener('keydown', e => {
+    if(card.classList.contains('monthly')) return;
+    if(e.key === 'ArrowRight') { e.preventDefault(); moveBy(1); }
+    if(e.key === 'ArrowLeft') { e.preventDefault(); moveBy(-1); }
+  });
+
+  function createMonthly(){
+    grid.innerHTML = '';
+    weekdays.forEach(day => {
+      const head = document.createElement('div');
+      head.className = 'grid-head';
+      head.textContent = day;
+      grid.appendChild(head);
+    });
+
+    const firstDay = new Date(YEAR, MONTH, 1).getDay();
+    const total = daysInMonth(YEAR, MONTH);
+
+    for(let i=0; i<firstDay; i++){
+      const empty = document.createElement('div');
+      empty.className = 'grid-cell empty';
+      grid.appendChild(empty);
+    }
+
+    for(let day=1; day<=total; day++){
+      const cell = document.createElement('div');
+      cell.className = 'grid-cell';
+      cell.dataset.day = day;
+      cell.textContent = day;
+      cell.addEventListener('click', () => setSelected(day));
+      grid.appendChild(cell);
+    }
+  }
+
+  function showWeekly(){
+    card.classList.remove('monthly');
+    weeklyBtn.classList.add('active');
+    monthlyBtn.classList.remove('active');
+    requestAnimationFrame(() => centerSelected(true));
+  }
+
+  function showMonthly(){
+    card.classList.add('monthly');
+    monthlyBtn.classList.add('active');
+    weeklyBtn.classList.remove('active');
+    document.querySelectorAll('.grid-cell').forEach(el => {
+      el.classList.toggle('selected', Number(el.dataset.day) === selectedDay);
+    });
+  }
+
+  weeklyBtn.addEventListener('click', showWeekly);
+  monthlyBtn.addEventListener('click', showMonthly);
+
+  createWeekTrack();
+  createMonthly();
+  window.addEventListener('resize', () => centerSelected(false));
+  requestAnimationFrame(() => setSelected(INITIAL_DAY, false));
+})();
+</script>
+</body>
+</html>

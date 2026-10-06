@@ -1,0 +1,433 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-04",
+  "dayNumber": 3,
+  "weekNumber": 1,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:1:L1.8",
+        "mathematics-i:1:AQ1.8",
+        "mathematics-i:1:L1.9",
+        "mathematics-i:1:AQ1.9"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:1:L1.4",
+        "statistics-i:1:AQ1.4"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:1:Week 1 Tutorial for Lecture 3",
+        "computational-thinking:1:L1.4",
+        "computational-thinking:1:AQ1.4",
+        "computational-thinking:1:L1.5",
+        "computational-thinking:1:AQ1.5"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:1:Lecture 3",
+        "english-i:1:AQ1.3"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:1:L1.8",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "L1.8",
+      "type": "lecture",
+      "title": "L1.8: Relations",
+      "planned": true,
+      "durationSeconds": 1635,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:1:L1.8",
+        "videoMinutes": 27.3,
+        "noteMinutes": 18.3,
+        "questionMinutes": null,
+        "estimatedMinutes": 45.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:1:AQ1.8",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.8",
+      "type": "activity",
+      "title": "AQ1.8: Activity Questions 8 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 7,
+      "planning": {
+        "unitId": "mathematics-i:1:L1.8",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 10.5,
+        "estimatedMinutes": 10.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:1:L1.9",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "L1.9",
+      "type": "lecture",
+      "title": "L1.9: Functions",
+      "planned": true,
+      "durationSeconds": 1818,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:1:L1.9",
+        "videoMinutes": 30.3,
+        "noteMinutes": 20.3,
+        "questionMinutes": null,
+        "estimatedMinutes": 50.6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:1:AQ1.9",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.9",
+      "type": "activity",
+      "title": "AQ1.9: Activity Questions 9 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "mathematics-i:1:L1.9",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:1:L1.4",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 1,
+      "sourceId": "L1.4",
+      "type": "lecture",
+      "title": "L1.4: Introduction and types of Data - Scales of measurement",
+      "planned": true,
+      "durationSeconds": 1649,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:1:L1.4",
+        "videoMinutes": 27.5,
+        "noteMinutes": 18.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 45.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:1:AQ1.4",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 1,
+      "sourceId": "AQ1.4",
+      "type": "activity",
+      "title": "AQ1.4: Activity Questions 4 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 7,
+      "planning": {
+        "unitId": "statistics-i:1:L1.4",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 10.5,
+        "estimatedMinutes": 10.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:Week 1 Tutorial for Lecture 3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "Week 1 Tutorial for Lecture 3",
+      "type": "tutorial",
+      "title": "Week 1 Tutorial for Lecture 3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:Week 1 Tutorial for Lecture 3",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:L1.4",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "L1.4",
+      "type": "lecture",
+      "title": "L1.4: Introduction to flowcharts",
+      "planned": true,
+      "durationSeconds": 841,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.4",
+        "videoMinutes": 14,
+        "noteMinutes": 9.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 23.4,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:AQ1.4",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.4",
+      "type": "activity",
+      "title": "AQ1.4: Activity Questions 4 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.4",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:L1.5",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "L1.5",
+      "type": "lecture",
+      "title": "L1.5: Flowchart for sum with filtering",
+      "planned": true,
+      "durationSeconds": 329,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.5",
+        "videoMinutes": 5.5,
+        "noteMinutes": 3.7,
+        "questionMinutes": null,
+        "estimatedMinutes": 9.2,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:1:AQ1.5",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.5",
+      "type": "activity",
+      "title": "AQ1.5: Activity Questions 5 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "computational-thinking:1:L1.5",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:1:Lecture 3",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 1,
+      "sourceId": "Lecture 3",
+      "type": "lecture",
+      "title": "Lecture 3:Speech Sounds in English",
+      "planned": true,
+      "durationSeconds": 1982,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:1:Lecture 3",
+        "videoMinutes": 33,
+        "noteMinutes": 22.1,
+        "questionMinutes": null,
+        "estimatedMinutes": 55.2,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:1:AQ1.3",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 1,
+      "sourceId": "AQ1.3",
+      "type": "activity",
+      "title": "AQ1.3: Activity Questions 3 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:1:Lecture 3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 13,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

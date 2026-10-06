@@ -1,0 +1,521 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-27",
+  "dayNumber": 26,
+  "weekNumber": 4,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:4:Week 04 - Tutorial 12",
+        "mathematics-i:4:Week 04 - Tutorial 13",
+        "mathematics-i:4:Week 04 - Tutorial 14",
+        "mathematics-i:4:Week 04 - Tutorial 15",
+        "mathematics-i:4:Week 04 - Tutorial 16",
+        "mathematics-i:4:Week 04 - Tutorial 17"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:4:Week 4 Tutorial 3",
+        "statistics-i:4:Week 4 Tutorial 4",
+        "statistics-i:4:Programming",
+        "statistics-i:4:Instructions related to Bonus Practice Assignment",
+        "statistics-i:4:Week 4 Extra Activity Questions"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:4:Week 4 Tutorial 4.3",
+        "computational-thinking:4:Practice assignment week 4 solution"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:4:L4.5",
+        "english-i:4:AQ4.5",
+        "english-i:4:L4.6",
+        "english-i:4:AQ4.6"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 12",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 12",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 12",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 12",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 13",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 13",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 13",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 13",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 14",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 14",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 14",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 14",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 15",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 15",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 15",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 15",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 16",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 16",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 16",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 16",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:4:Week 04 - Tutorial 17",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 4,
+      "sourceId": "Week 04 - Tutorial 17",
+      "type": "tutorial",
+      "title": "Week 04 - Tutorial 17",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:4:Week 04 - Tutorial 17",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:Week 4 Tutorial 3",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "Week 4 Tutorial 3",
+      "type": "tutorial",
+      "title": "Week 4 Tutorial 3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:Week 4 Tutorial 3",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:Week 4 Tutorial 4",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "Week 4 Tutorial 4",
+      "type": "tutorial",
+      "title": "Week 4 Tutorial 4",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:Week 4 Tutorial 4",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:Programming",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "Programming",
+      "type": "other",
+      "title": "Programming",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:Programming",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": true
+      }
+    },
+    {
+      "taskId": "statistics-i:4:Instructions related to Bonus Practice Assignment",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "Instructions related to Bonus Practice Assignment",
+      "type": "other",
+      "title": "Instructions related to Bonus Practice Assignment",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:Instructions related to Bonus Practice Assignment",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:4:Week 4 Extra Activity Questions",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 4,
+      "sourceId": "Week 4 Extra Activity Questions",
+      "type": "extra",
+      "title": "Week 4 Extra Activity Questions",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:4:Week 4 Extra Activity Questions",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:4:Week 4 Tutorial 4.3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 4,
+      "sourceId": "Week 4 Tutorial 4.3",
+      "type": "tutorial",
+      "title": "Week 4 Tutorial 4.3",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:4:Week 4 Tutorial 4.3",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:4:Practice assignment week 4 solution",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 4,
+      "sourceId": "Practice assignment week 4 solution",
+      "type": "solution",
+      "title": "Practice assignment week 4 solution",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:4:Practice assignment week 4 solution",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:4:L4.5",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 4,
+      "sourceId": "L4.5",
+      "type": "lecture",
+      "title": "L4.5: Effective Presentations",
+      "planned": true,
+      "durationSeconds": 2071,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:4:L4.5",
+        "videoMinutes": 34.5,
+        "noteMinutes": 23.1,
+        "questionMinutes": null,
+        "estimatedMinutes": 57.6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:4:AQ4.5",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 4,
+      "sourceId": "AQ4.5",
+      "type": "activity",
+      "title": "AQ4.5: Activity Question 5 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 1,
+      "planning": {
+        "unitId": "english-i:4:L4.5",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 1.5,
+        "estimatedMinutes": 1.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:4:L4.6",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 4,
+      "sourceId": "L4.6",
+      "type": "lecture",
+      "title": "L4.6: Telephone English",
+      "planned": true,
+      "durationSeconds": 1464,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:4:L4.6",
+        "videoMinutes": 24.4,
+        "noteMinutes": 16.3,
+        "questionMinutes": null,
+        "estimatedMinutes": 40.7,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:4:AQ4.6",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 4,
+      "sourceId": "AQ4.6",
+      "type": "activity",
+      "title": "AQ4.6: Activity Question 6 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:4:L4.6",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 17,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

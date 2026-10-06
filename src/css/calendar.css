@@ -1,0 +1,270 @@
+/* calendar.css — Month View + Week View + toolbar (Phase 4)
+ * One date identity (day cells), one selection state, one plan-status colour
+ * language shared by both views. */
+
+.calendar { display: flex; flex-direction: column; gap: 18px; }
+
+.calendar-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.calendar-nav { display: flex; align-items: center; gap: 12px; }
+.calendar-title { font-size: 1.35rem; letter-spacing: .01em; min-width: 8ch; text-align: center; }
+
+.calendar-body {
+  padding: clamp(14px, 3vw, 22px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(10px);
+}
+
+.calendar-hint { color: var(--faint); font-size: .78rem; margin-top: -6px; }
+
+/* ---- shared day cell (month + week) ---- */
+.day-number { font-size: .95rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.day-progress {
+  display: block;
+  height: 4px;
+  margin-top: 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(0, 0, 0, .38);
+  overflow: hidden;
+}
+.day-progress-fill {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--partial);
+}
+.plan-partial .day-progress-fill { background: var(--partial); }
+.plan-complete .day-progress-fill { background: var(--complete); }
+
+/* ---- month view ---- */
+.month-view { display: flex; flex-direction: column; gap: 8px; }
+.month-weekdays,
+.month-week {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+}
+.month-weekday {
+  text-align: center;
+  font-size: .7rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.day-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 62px;
+  padding: 8px 6px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, .04);
+  cursor: pointer;
+  transition: background .16s ease, border-color .16s ease, transform .16s ease;
+}
+.day-cell:hover { background: var(--surface-2); }
+.day-cell.is-empty { visibility: hidden; }
+.day-cell.no-plan { opacity: .55; }
+.day-cell.is-selected {
+  border-color: var(--accent-soft);
+  background:
+    radial-gradient(circle at 35% 25%, rgba(255, 255, 255, .22), transparent 45%),
+    linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 8px 22px var(--accent-glow);
+  opacity: 1;
+}
+.day-cell.is-selected .day-number { color: #fff; }
+
+/* ---- week view ---- */
+.week-view {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 10px;
+}
+.week-day-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 8px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, .04);
+  cursor: pointer;
+  transition: background .16s ease, border-color .16s ease;
+}
+.week-day-card:hover { background: var(--surface-2); }
+.week-day-card.no-plan { opacity: .55; }
+.week-day-card.is-selected {
+  border-color: var(--accent-soft);
+  background:
+    radial-gradient(circle at 35% 20%, rgba(255, 255, 255, .22), transparent 45%),
+    linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 10px 26px var(--accent-glow);
+  opacity: 1;
+}
+.week-weekday { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.week-day-card.is-selected .week-weekday { color: #efeaff; }
+.week-status { font-size: .72rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.week-day-card.is-selected .week-status { color: #fff; }
+
+@media (max-width: 760px) {
+  .week-view {
+    grid-auto-flow: column;
+    grid-auto-columns: 42%;
+    grid-template-columns: none;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x proximity;
+  }
+  .week-day-card { scroll-snap-align: center; }
+}
+
+@media (max-width: 560px) {
+  .calendar-title { font-size: 1.15rem; }
+  .day-cell { min-height: 54px; }
+}
+
+/* ===========================================================================
+   U2 — canonical calendar experience
+   Study-cycle metadata, selected-date context panel, note/event indicators.
+   All colours come from the existing design tokens in base.css; no new theme.
+   =========================================================================== */
+
+.calendar-heading { display: flex; flex-direction: column; gap: 2px; min-width: 12ch; }
+.calendar-title { margin: 0; }
+.calendar-subtitle {
+  margin: 0;
+  font-size: .74rem;
+  letter-spacing: .04em;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- date cell metadata ---- */
+.day-meta {
+  font-size: .62rem;
+  line-height: 1.1;
+  letter-spacing: .02em;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.day-badge {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  font-size: .58rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.day-badge.is-graded { background: rgba(255, 176, 84, .18); color: #ffc178; }
+.day-badge.is-practice { background: rgba(120, 190, 255, .16); color: #9fd0ff; }
+.day-badge.is-week-start { background: rgba(160, 140, 255, .18); color: #c3b4ff; }
+
+.day-dots { display: inline-flex; gap: 3px; margin-top: 4px; }
+.day-dot { width: 5px; height: 5px; border-radius: 50%; display: block; }
+.day-dot.is-note { background: var(--accent-soft); }
+.day-dot.is-event { background: #ffc178; }
+
+/* Study days read slightly warmer than ordinary dates, so the cycle is
+   visible at a glance without turning every cell into a dashboard. */
+.day-cell.is-study-day { background: rgba(119, 85, 232, .10); }
+.day-cell.is-graded-day { box-shadow: inset 0 0 0 1px rgba(255, 176, 84, .34); }
+.day-cell.is-practice-day { box-shadow: inset 0 0 0 1px rgba(120, 190, 255, .24); }
+.day-cell.is-selected { box-shadow: 0 8px 22px var(--accent-glow); }
+
+.week-day-card.is-study-day { background: rgba(119, 85, 232, .10); }
+.week-day-card.is-graded-day { box-shadow: inset 0 0 0 1px rgba(255, 176, 84, .34); }
+.week-day-card.is-practice-day { box-shadow: inset 0 0 0 1px rgba(120, 190, 255, .24); }
+.week-day-card.is-selected { box-shadow: 0 10px 26px var(--accent-glow); }
+.week-empty { grid-column: 1 / -1; color: var(--muted); padding: 18px 4px; text-align: center; }
+/* ---- selected-date context panel ---- */
+.calendar-context-wrap { display: flex; }
+.cal-context {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: clamp(14px, 3vw, 20px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.cal-context-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.cal-context-date { margin: 0; font-size: 1.05rem; }
+.cal-context-weekday { margin: 0; color: var(--faint); font-size: .78rem; }
+
+.cal-context-meta { display: flex; flex-wrap: wrap; gap: 8px 26px; margin: 0; }
+.cal-context-row { display: flex; flex-direction: column; gap: 2px; }
+.cal-context-row dt {
+  font-size: .66rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.cal-context-row dd { margin: 0; font-size: .86rem; }
+
+.cal-context-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.cal-action { font-size: .78rem; padding: 6px 12px; }
+
+.cal-context-list { display: flex; flex-direction: column; gap: 6px; }
+.cal-context-subhead {
+  margin: 0;
+  font-size: .66rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.cal-context-list ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.cal-note-item, .cal-event-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, .03);
+  font-size: .82rem;
+}
+.cal-event-time { font-variant-numeric: tabular-nums; }
+.cal-remove {
+  border: 0;
+  background: none;
+  color: var(--faint);
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+.cal-remove:hover { color: #fff; background: rgba(255, 255, 255, .08); }
+
+/* Non-destructive failure state (canonical calendar unavailable). */
+.calendar.is-unavailable .empty-state { margin: 0; }
+
+/* ---- responsive (U2) ---- */
+@media (max-width: 640px) {
+  .calendar-toolbar { gap: 12px; }
+  .calendar-heading { min-width: 0; flex: 1 1 100%; text-align: center; }
+  .calendar-nav { justify-content: space-between; width: 100%; }
+  .calendar-title { font-size: 1.15rem; }
+  .day-meta { font-size: .56rem; }
+  .day-badge { font-size: .5rem; padding: 1px 4px; }
+  .day-cell { min-height: 54px; padding: 6px 3px; }
+  .cal-context-meta { gap: 8px 18px; }
+  .cal-action { flex: 1 1 auto; }
+}

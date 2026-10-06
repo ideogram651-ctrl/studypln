@@ -1,0 +1,17 @@
+# P1 — production path configuration (Study-Planner: no-build static app).
+#
+# The application entry is src/index.html and every runtime path is RELATIVE
+# to it (css/, js/, ../data/, ../assets/), so the repository ROOT must be the
+# published directory — publishing src/ alone would break ../data/ and ../assets/.
+[build]
+  publish = "."
+
+# Clean root URL: the site root has no index.html, so redirect (not rewrite)
+# to the existing application entry. The REDIRECT puts /src/ in the URL bar,
+# which is required for the app's relative paths to resolve correctly.
+# Hash routes (#/calendar, #/reports/...) are client-side and need no redirects.
+# The fragment (#...) is preserved by browsers across this redirect.
+[[redirects]]
+  from = "/"
+  to = "/src/"
+  status = 302

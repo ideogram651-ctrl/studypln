@@ -1,0 +1,741 @@
+{
+  "schemaVersion": "1.0",
+  "planType": "daily-study-plan",
+  "date": "2026-10-09",
+  "dayNumber": 8,
+  "weekNumber": 2,
+  "status": "not_started",
+  "schedule": [
+    {
+      "blockId": "mathematics",
+      "start": "11:00",
+      "end": "1:00",
+      "label": "Mathematics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "mathematics-i",
+      "taskIds": [
+        "mathematics-i:2:L2.1",
+        "mathematics-i:2:AQ2.1",
+        "mathematics-i:2:L2.2",
+        "mathematics-i:2:AQ2.2",
+        "mathematics-i:2:L2.3",
+        "mathematics-i:2:AQ2.3",
+        "mathematics-i:2:L2.4",
+        "mathematics-i:2:AQ2.4",
+        "mathematics-i:2:L2.5",
+        "mathematics-i:2:AQ2.5",
+        "mathematics-i:2:L2.6",
+        "mathematics-i:2:AQ2.6",
+        "mathematics-i:2:L2.7",
+        "mathematics-i:2:AQ2.7"
+      ]
+    },
+    {
+      "blockId": "lunch-rest",
+      "start": "1:00",
+      "end": "1:30",
+      "label": "Lunch / Rest",
+      "focus": "Lunch / Rest",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "statistics",
+      "start": "1:30",
+      "end": "3:00",
+      "label": "Statistics",
+      "focus": "New Lectures + Questions",
+      "category": "study",
+      "subjectId": "statistics-i",
+      "taskIds": [
+        "statistics-i:2:L2.1",
+        "statistics-i:2:AQ2.1",
+        "statistics-i:2:L2.2",
+        "statistics-i:2:AQ2.2"
+      ]
+    },
+    {
+      "blockId": "walk-refresh",
+      "start": "3:00",
+      "end": "3:30",
+      "label": "Walk / Refresh",
+      "focus": "Walk / Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "computational-thinking",
+      "start": "3:30",
+      "end": "5:00",
+      "label": "Computational Thinking",
+      "focus": "New Content + Practice",
+      "category": "study",
+      "subjectId": "computational-thinking",
+      "taskIds": [
+        "computational-thinking:2:L2.1",
+        "computational-thinking:2:AQ2.1",
+        "computational-thinking:2:L2.2",
+        "computational-thinking:2:AQ2.2",
+        "computational-thinking:2:Week 2 Tutorial 2.1",
+        "computational-thinking:2:L2.3",
+        "computational-thinking:2:AQ2.3"
+      ]
+    },
+    {
+      "blockId": "free-refresh",
+      "start": "5:00",
+      "end": "6:00",
+      "label": "Free / Refresh",
+      "focus": "Free / Refresh",
+      "category": "free",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "fixed-time",
+      "start": "6:00",
+      "end": "8:00",
+      "label": "FIXED TIME",
+      "focus": "Temple + Food + Personal",
+      "category": "fixed",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "relax",
+      "start": "8:00",
+      "end": "8:30",
+      "label": "Relax",
+      "focus": "Relax",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "english",
+      "start": "8:30",
+      "end": "9:15",
+      "label": "English",
+      "focus": "Lecture + Activity",
+      "category": "study",
+      "subjectId": "english-i",
+      "taskIds": [
+        "english-i:2:Lecture 1",
+        "english-i:2:AQ2.1"
+      ]
+    },
+    {
+      "blockId": "refresh",
+      "start": "9:15",
+      "end": "9:30",
+      "label": "Refresh",
+      "focus": "Refresh",
+      "category": "break",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "revision",
+      "start": "9:30",
+      "end": "10:30",
+      "label": "Math + Statistics Revision",
+      "focus": "Weak Topics + Error Log",
+      "category": "revision",
+      "subjectId": null,
+      "taskIds": []
+    },
+    {
+      "blockId": "daily-review",
+      "start": "10:30",
+      "end": "11:00",
+      "label": "Daily Review",
+      "focus": "Today's learning + Tomorrow Plan",
+      "category": "review",
+      "subjectId": null,
+      "taskIds": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "mathematics-i:2:L2.1",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.1",
+      "type": "lecture",
+      "title": "L2.1: Rectangular Coordinate system",
+      "planned": true,
+      "durationSeconds": 934,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.1",
+        "videoMinutes": 15.6,
+        "noteMinutes": 10.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 26,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.1",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.1",
+      "type": "activity",
+      "title": "AQ2.1: Activity Question 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:L2.2",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.2",
+      "type": "lecture",
+      "title": "L2.2: Distance formula",
+      "planned": true,
+      "durationSeconds": 538,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.2",
+        "videoMinutes": 9,
+        "noteMinutes": 6,
+        "questionMinutes": null,
+        "estimatedMinutes": 15,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.2",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.2",
+      "type": "activity",
+      "title": "AQ2.2: Activity Question 2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:L2.3",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.3",
+      "type": "lecture",
+      "title": "L2.3: Section formula",
+      "planned": true,
+      "durationSeconds": 573,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.3",
+        "videoMinutes": 9.6,
+        "noteMinutes": 6.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 15.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.3",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.3",
+      "type": "activity",
+      "title": "AQ2.3: Activity Question 3 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:L2.4",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.4",
+      "type": "lecture",
+      "title": "L2.4: Area of triangle",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.4",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.4",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.4",
+      "type": "activity",
+      "title": "AQ2.4: Activity Question 4 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 3,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.4",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 4.5,
+        "estimatedMinutes": 4.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:L2.5",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.5",
+      "type": "lecture",
+      "title": "L2.5: Slope of a line",
+      "planned": true,
+      "durationSeconds": 1037,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.5",
+        "videoMinutes": 17.3,
+        "noteMinutes": 11.6,
+        "questionMinutes": null,
+        "estimatedMinutes": 28.9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.5",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.5",
+      "type": "activity",
+      "title": "AQ2.5: Activity Questions 5 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.5",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:L2.6",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.6",
+      "type": "lecture",
+      "title": "L2.6: Parallel and perpendicular lines",
+      "planned": true,
+      "durationSeconds": 874,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.6",
+        "videoMinutes": 14.6,
+        "noteMinutes": 9.8,
+        "questionMinutes": null,
+        "estimatedMinutes": 24.3,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.6",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.6",
+      "type": "activity",
+      "title": "AQ2.6: Activity Question 6 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 6,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.6",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 9,
+        "estimatedMinutes": 9,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:L2.7",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "L2.7",
+      "type": "lecture",
+      "title": "L2.7: Representation of a Line-1",
+      "planned": true,
+      "durationSeconds": 691,
+      "questionCount": null,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.7",
+        "videoMinutes": 11.5,
+        "noteMinutes": 7.7,
+        "questionMinutes": null,
+        "estimatedMinutes": 19.2,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "mathematics-i:2:AQ2.7",
+      "subjectId": "mathematics-i",
+      "courseId": "BSMA1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.7",
+      "type": "activity",
+      "title": "AQ2.7: Activity Questions 7 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 7,
+      "planning": {
+        "unitId": "mathematics-i:2:L2.7",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 10.5,
+        "estimatedMinutes": 10.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:L2.1",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "L2.1",
+      "type": "lecture",
+      "title": "L2.1: Describing Categorical Data - Frequency distributions",
+      "planned": true,
+      "durationSeconds": 1136,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:2:L2.1",
+        "videoMinutes": 18.9,
+        "noteMinutes": 12.7,
+        "questionMinutes": null,
+        "estimatedMinutes": 31.6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:AQ2.1",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "AQ2.1",
+      "type": "activity",
+      "title": "AQ2.1: Activity Question 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 14,
+      "planning": {
+        "unitId": "statistics-i:2:L2.1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 21,
+        "estimatedMinutes": 21,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:L2.2",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "L2.2",
+      "type": "lecture",
+      "title": "L2.2: Describing Categorical Data - Charts of categorical data",
+      "planned": true,
+      "durationSeconds": 1999,
+      "questionCount": null,
+      "planning": {
+        "unitId": "statistics-i:2:L2.2",
+        "videoMinutes": 33.3,
+        "noteMinutes": 22.3,
+        "questionMinutes": null,
+        "estimatedMinutes": 55.6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "statistics-i:2:AQ2.2",
+      "subjectId": "statistics-i",
+      "courseId": "BSMA1002",
+      "weekNumber": 2,
+      "sourceId": "AQ2.2",
+      "type": "activity",
+      "title": "AQ2.2: Activity Question 2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 9,
+      "planning": {
+        "unitId": "statistics-i:2:L2.2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 13.5,
+        "estimatedMinutes": 13.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:L2.1",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "L2.1",
+      "type": "lecture",
+      "title": "L2.1: Conditional termination in iteration",
+      "planned": true,
+      "durationSeconds": 1028,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.1",
+        "videoMinutes": 17.1,
+        "noteMinutes": 11.5,
+        "questionMinutes": null,
+        "estimatedMinutes": 28.6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:AQ2.1",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.1",
+      "type": "activity",
+      "title": "AQ2.1: Activity Questions 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 4,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 6,
+        "estimatedMinutes": 6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:L2.2",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "L2.2",
+      "type": "lecture",
+      "title": "L2.2: Local operations and max in single iteration (Part 1)",
+      "planned": true,
+      "durationSeconds": 507,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.2",
+        "videoMinutes": 8.5,
+        "noteMinutes": 5.7,
+        "questionMinutes": null,
+        "estimatedMinutes": 14.1,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:AQ2.2",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.2",
+      "type": "activity",
+      "title": "AQ2.2: Activity Questions 2 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 2,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.2",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 3,
+        "estimatedMinutes": 3,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:Week 2 Tutorial 2.1",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "Week 2 Tutorial 2.1",
+      "type": "tutorial",
+      "title": "Week 2 Tutorial 2.1",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:Week 2 Tutorial 2.1",
+        "videoMinutes": 20,
+        "noteMinutes": 13.4,
+        "questionMinutes": null,
+        "estimatedMinutes": 33.4,
+        "sourceDurationMissing": true,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:L2.3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "L2.3",
+      "type": "lecture",
+      "title": "L2.3: Local operations and max in single iteration (Part 2)",
+      "planned": true,
+      "durationSeconds": 637,
+      "questionCount": null,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.3",
+        "videoMinutes": 10.6,
+        "noteMinutes": 7.1,
+        "questionMinutes": null,
+        "estimatedMinutes": 17.7,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "computational-thinking:2:AQ2.3",
+      "subjectId": "computational-thinking",
+      "courseId": "BSCS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.3",
+      "type": "activity",
+      "title": "AQ2.3: Activity Questions 3 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 2,
+      "planning": {
+        "unitId": "computational-thinking:2:L2.3",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 3,
+        "estimatedMinutes": 3,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:Lecture 1",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "Lecture 1",
+      "type": "lecture",
+      "title": "Lecture 1 : Parts of Speech (Verb, Noun and Pronoun)",
+      "planned": true,
+      "durationSeconds": 2212,
+      "questionCount": null,
+      "planning": {
+        "unitId": "english-i:2:Lecture 1",
+        "videoMinutes": 36.9,
+        "noteMinutes": 24.7,
+        "questionMinutes": null,
+        "estimatedMinutes": 61.6,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    },
+    {
+      "taskId": "english-i:2:AQ2.1",
+      "subjectId": "english-i",
+      "courseId": "BSHS1001",
+      "weekNumber": 2,
+      "sourceId": "AQ2.1",
+      "type": "activity",
+      "title": "AQ2.1: Activity Question 1 - Not Graded",
+      "planned": true,
+      "durationSeconds": null,
+      "questionCount": 5,
+      "planning": {
+        "unitId": "english-i:2:Lecture 1",
+        "videoMinutes": null,
+        "noteMinutes": null,
+        "questionMinutes": 7.5,
+        "estimatedMinutes": 7.5,
+        "sourceDurationMissing": false,
+        "sourceQuestionsMissing": false
+      }
+    }
+  ],
+  "completion": {
+    "totalTasks": 27,
+    "completedTasks": 0,
+    "percent": 0
+  },
+  "meta": {
+    "createdAt": null,
+    "updatedAt": null,
+    "notes": "",
+    "generator": "planner-engine"
+  }
+}

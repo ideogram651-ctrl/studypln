@@ -1,0 +1,1442 @@
+{
+  "schemaVersion": "1.0",
+  "courseId": "BSHS1001",
+  "courseName": "English I",
+  "subjectId": "english-i",
+  "weekCount": 4,
+  "source": {
+    "type": "iitm-coursextract",
+    "file": "reference/syllabus/English I — IITM CourseXtract (10_1_2026 2：20：44 PM).html",
+    "generatedAt": "2026-10-01T08:49:13.730Z",
+    "status": "EXTRACTION COMPLETE",
+    "summary": {
+      "videos": 25,
+      "assignments": 33,
+      "graded": 4,
+      "questions": 176,
+      "videoDuration": "11h 42m"
+    }
+  },
+  "weeks": [
+    {
+      "weekId": "english-i-w1",
+      "weekNumber": 1,
+      "title": "Week 1",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 14
+      },
+      "items": [
+        {
+          "sourceId": "Lecture 1",
+          "type": "lecture",
+          "title": "Lecture 1:Learning Language",
+          "weekNumber": 1,
+          "duration": "21:46",
+          "durationSeconds": 1306,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=DgKYu1pi3qg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=34"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "21:46"
+          }
+        },
+        {
+          "sourceId": "AQ1.1",
+          "type": "activity",
+          "title": "AQ1.1: Activity Questions 1 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=35"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 2",
+          "type": "lecture",
+          "title": "Lecture 2:Sounds and Writing Symbols in English",
+          "weekNumber": 1,
+          "duration": "34:03",
+          "durationSeconds": 2043,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=xcc0U_U4xhg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=36"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "34:03"
+          }
+        },
+        {
+          "sourceId": "AQ1.2",
+          "type": "activity",
+          "title": "AQ1.2: Activity Questions 2 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=37"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 3",
+          "type": "lecture",
+          "title": "Lecture 3:Speech Sounds in English",
+          "weekNumber": 1,
+          "duration": "33:02",
+          "durationSeconds": 1982,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=MMBrfQC0V9A"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=38"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video",
+            "details": "33:02"
+          }
+        },
+        {
+          "sourceId": "AQ1.3",
+          "type": "activity",
+          "title": "AQ1.3: Activity Questions 3 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=39"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 4",
+          "type": "lecture",
+          "title": "Lecture 4:Articulation of Vowel and Consonant Sounds in English",
+          "weekNumber": 1,
+          "duration": "27:17",
+          "durationSeconds": 1637,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=fC-UbX3MsGs"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=40"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "27:17"
+          }
+        },
+        {
+          "sourceId": "AQ1.4",
+          "type": "activity",
+          "title": "AQ1.4: Activity Questions 4 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=41"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 5",
+          "type": "lecture",
+          "title": "Lecture 5: Diphthongs and Semi-vowels",
+          "weekNumber": 1,
+          "duration": "29:45",
+          "durationSeconds": 1785,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=ZXDnZaHuo_I"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=42"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "29:45"
+          }
+        },
+        {
+          "sourceId": "AQ1.5",
+          "type": "activity",
+          "title": "AQ1.5: Activity Questions 5 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=43"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 6",
+          "type": "lecture",
+          "title": "Lecture 6: Consonant Clusters in English Words",
+          "weekNumber": 1,
+          "duration": "32:53",
+          "durationSeconds": 1973,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=Pj1iWVqBuyg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=44"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "32:53"
+          }
+        },
+        {
+          "sourceId": "AQ1.6",
+          "type": "activity",
+          "title": "AQ1.6: Activity Questions 6 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=45"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 1 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 1 - Not Graded",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=46"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "assign",
+            "details": "10 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 1 - Graded Assignment 1",
+          "type": "graded",
+          "title": "Week 1 - Graded Assignment 1",
+          "weekNumber": 1,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=48"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "english-i-w2",
+      "weekNumber": 2,
+      "title": "Week 2",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 14
+      },
+      "items": [
+        {
+          "sourceId": "Lecture 1",
+          "type": "lecture",
+          "title": "Lecture 1 : Parts of Speech (Verb, Noun and Pronoun)",
+          "weekNumber": 2,
+          "duration": "36:52",
+          "durationSeconds": 2212,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=RvcNFUfeqHI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=51"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "36:52"
+          }
+        },
+        {
+          "sourceId": "AQ2.1",
+          "type": "activity",
+          "title": "AQ2.1: Activity Question 1 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=52"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 2",
+          "type": "lecture",
+          "title": "Lecture 2:Parts of Speech (Adjectives and Adverbs)",
+          "weekNumber": 2,
+          "duration": "34:09",
+          "durationSeconds": 2049,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=1xo6TWVjYbE"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=53"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "34:09"
+          }
+        },
+        {
+          "sourceId": "AQ2.2",
+          "type": "activity",
+          "title": "AQ2.2: Activity Question 2 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=54"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 3",
+          "type": "lecture",
+          "title": "Lecture 3:Parts of Speech (Prepositions)",
+          "weekNumber": 2,
+          "duration": "25:38",
+          "durationSeconds": 1538,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=ajGNF1CO_Vs"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=55"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video",
+            "details": "25:38"
+          }
+        },
+        {
+          "sourceId": "AQ2.3",
+          "type": "activity",
+          "title": "AQ2.3:Activity Questions 3 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=56"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 4",
+          "type": "lecture",
+          "title": "Lecture 4:Conjuctions & Interjections",
+          "weekNumber": 2,
+          "duration": "23:22",
+          "durationSeconds": 1402,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=uxCVjgMfW34"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=57"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "23:22"
+          }
+        },
+        {
+          "sourceId": "AQ2.4",
+          "type": "activity",
+          "title": "AQ2.4: Activity Questions 4 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=58"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 5",
+          "type": "lecture",
+          "title": "Lecture 5:Articles- Part 1",
+          "weekNumber": 2,
+          "duration": "21:21",
+          "durationSeconds": 1281,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=KXWalyM03b8"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=59"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "21:21"
+          }
+        },
+        {
+          "sourceId": "AQ2.5",
+          "type": "activity",
+          "title": "AQ2.5: Activity Question 5 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=60"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 6",
+          "type": "lecture",
+          "title": "Lecture 6:Articles- Part 2",
+          "weekNumber": 2,
+          "duration": "15:39",
+          "durationSeconds": 939,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=V-1ZDPS6EC0"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=61"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "15:39"
+          }
+        },
+        {
+          "sourceId": "AQ2.6",
+          "type": "activity",
+          "title": "AQ2.6: Activity Question 6 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=62"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 2 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 2 - Not Graded",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=63"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "assign",
+            "details": "10 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 2 - Graded Assignment 2",
+          "type": "graded",
+          "title": "Week 2 - Graded Assignment 2",
+          "weekNumber": 2,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=65"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "english-i-w3",
+      "weekNumber": 3,
+      "title": "Week 3",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 16
+      },
+      "items": [
+        {
+          "sourceId": "Lecture 1",
+          "type": "lecture",
+          "title": "Lecture 1:What is Good Vocabulary? - Part 1",
+          "weekNumber": 3,
+          "duration": "30:25",
+          "durationSeconds": 1825,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=A2eI-Ttmd7I"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=72"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "30:25"
+          }
+        },
+        {
+          "sourceId": "AQ3.1",
+          "type": "activity",
+          "title": "AQ3.1: Activity Question 1 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=73"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 2",
+          "type": "lecture",
+          "title": "Lecture 2:What is Good Vocabulary? - Part 2",
+          "weekNumber": 3,
+          "duration": "29:08",
+          "durationSeconds": 1748,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=pHkc23_0ULI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=75"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "29:08"
+          }
+        },
+        {
+          "sourceId": "AQ3.2",
+          "type": "activity",
+          "title": "AQ3.2: Activity Question 2 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=76"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 3",
+          "type": "lecture",
+          "title": "Lecture 3:What is Good Vocabulary? - Part 3",
+          "weekNumber": 3,
+          "duration": "28:52",
+          "durationSeconds": 1732,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=b8Wq_9P7uqI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=78"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video",
+            "details": "28:52"
+          }
+        },
+        {
+          "sourceId": "AQ3.3",
+          "type": "activity",
+          "title": "AQ3.3: Activity Question 3 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=79"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "Lecture 4",
+          "type": "lecture",
+          "title": "Lecture 4:Phrasal Verbs",
+          "weekNumber": 3,
+          "duration": "31:06",
+          "durationSeconds": 1866,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=lnWNuXh4NEs"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=80"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "31:06"
+          }
+        },
+        {
+          "sourceId": "AQ3.4",
+          "type": "activity",
+          "title": "AQ3.4: Activity Question 4 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=81"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 5",
+          "type": "lecture",
+          "title": "Lecture 5:Modal Verbs: A quick Review",
+          "weekNumber": 3,
+          "duration": "29:54",
+          "durationSeconds": 1794,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=XFPZfdWCom4"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=83"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "29:54"
+          }
+        },
+        {
+          "sourceId": "AQ3.5",
+          "type": "activity",
+          "title": "AQ3.5: Activity Question 5 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=84"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 6",
+          "type": "lecture",
+          "title": "Lecture 6:Phrases and Idioms - 1",
+          "weekNumber": 3,
+          "duration": "21:41",
+          "durationSeconds": 1301,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=-aTwRZVfo64"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=85"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "21:41"
+          }
+        },
+        {
+          "sourceId": "AQ3.6",
+          "type": "activity",
+          "title": "AQ3.6: Activity Question 6 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=86"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Lecture 7",
+          "type": "lecture",
+          "title": "Lecture 7:Phrases and Idioms - 2",
+          "weekNumber": 3,
+          "duration": "19:18",
+          "durationSeconds": 1158,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=r5wn7XuDCV8"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=87"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "video",
+            "details": "19:18"
+          }
+        },
+        {
+          "sourceId": "AQ3.7",
+          "type": "activity",
+          "title": "AQ3.7: Activity Question 7 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=88"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 3 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 3 - Not Graded",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=89"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 15,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "week 3 - Graded Assignment 3",
+          "type": "graded",
+          "title": "week 3 - Graded Assignment 3",
+          "weekNumber": 3,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=91"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 16,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    },
+    {
+      "weekId": "english-i-w4",
+      "weekNumber": 4,
+      "title": "Week 4",
+      "source": {
+        "status": "SUCCESS",
+        "itemCount": 14
+      },
+      "items": [
+        {
+          "sourceId": "L4.1",
+          "type": "lecture",
+          "title": "L4.1: Spoken English Preliminaries",
+          "weekNumber": 4,
+          "duration": "31:29",
+          "durationSeconds": 1889,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=_mD9iGMD73g"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=94"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 1,
+            "rowClass": "video",
+            "details": "31:29"
+          }
+        },
+        {
+          "sourceId": "AQ4.1",
+          "type": "activity",
+          "title": "AQ4.1: Activity Question 1 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=95"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 2,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "L4.2",
+          "type": "lecture",
+          "title": "L4.2: Speak Slowly",
+          "weekNumber": 4,
+          "duration": "27:11",
+          "durationSeconds": 1631,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=9ZWNeEQEdSI"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=96"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 3,
+            "rowClass": "video",
+            "details": "27:11"
+          }
+        },
+        {
+          "sourceId": "AQ4.2",
+          "type": "activity",
+          "title": "AQ4.2: Activity Question 2 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=97"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 4,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "L4.3",
+          "type": "lecture",
+          "title": "L4.3: Phrasal Pause",
+          "weekNumber": 4,
+          "duration": "27:24",
+          "durationSeconds": 1644,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=tGch4v-bKsU"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=98"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 5,
+            "rowClass": "video",
+            "details": "27:24"
+          }
+        },
+        {
+          "sourceId": "AQ4.3",
+          "type": "activity",
+          "title": "AQ4.3: Activity Question 3 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=99"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 6,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "L4.4",
+          "type": "lecture",
+          "title": "L4.4: Do You Have Something To Say?",
+          "weekNumber": 4,
+          "duration": "30:50",
+          "durationSeconds": 1850,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=XfbkqslFsTA"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=100"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 7,
+            "rowClass": "video",
+            "details": "30:50"
+          }
+        },
+        {
+          "sourceId": "AQ4.4",
+          "type": "activity",
+          "title": "AQ4.4: Activity Question 4 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=101"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 8,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "L4.5",
+          "type": "lecture",
+          "title": "L4.5: Effective Presentations",
+          "weekNumber": 4,
+          "duration": "34:31",
+          "durationSeconds": 2071,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=M0jkrPkUbTg"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=102"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 9,
+            "rowClass": "video",
+            "details": "34:31"
+          }
+        },
+        {
+          "sourceId": "AQ4.5",
+          "type": "activity",
+          "title": "AQ4.5: Activity Question 5 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 1,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=103"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 10,
+            "rowClass": "assign",
+            "details": "1 Question"
+          }
+        },
+        {
+          "sourceId": "L4.6",
+          "type": "lecture",
+          "title": "L4.6: Telephone English",
+          "weekNumber": 4,
+          "duration": "24:24",
+          "durationSeconds": 1464,
+          "questionCount": null,
+          "graded": false,
+          "links": [
+            {
+              "type": "english",
+              "url": "https://www.youtube.com/watch?v=VSwUcHGAMcE"
+            },
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=104"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 11,
+            "rowClass": "video",
+            "details": "24:24"
+          }
+        },
+        {
+          "sourceId": "AQ4.6",
+          "type": "activity",
+          "title": "AQ4.6: Activity Question 6 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 5,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=105"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 12,
+            "rowClass": "assign",
+            "details": "5 Questions"
+          }
+        },
+        {
+          "sourceId": "Practice Assignment 4 - Not Graded",
+          "type": "practice",
+          "title": "Practice Assignment 4 - Not Graded",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": false,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=106"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 13,
+            "rowClass": "assign",
+            "details": "10 Questions"
+          }
+        },
+        {
+          "sourceId": "Week 4 - Graded Assignment 4",
+          "type": "graded",
+          "title": "Week 4 - Graded Assignment 4",
+          "weekNumber": 4,
+          "duration": null,
+          "durationSeconds": null,
+          "questionCount": 10,
+          "graded": true,
+          "links": [
+            {
+              "type": "seek",
+              "url": "https://seek.onlinedegree.iitm.ac.in/courses/ns_26q2_hs1001?source=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd191cmwiOiJodHRwczovL2RzLnN0dWR5LmlpdG0uYWMuaW4iLCJzZWVrX3VybCI6Imh0dHBzOi8vc2Vlay5zdHVkeS5paXRtLmFjLmluIiwic2Vla19jb3Vyc2VfbmFtZXNwYWNlcyI6WyJuc18yNnEzX2hzMTAwMV9kcyIsIm5zXzI2cTJfaHMxMDAxX2RzIiwibnNfMjZxMl9tYTEwMDJfZHMiLCJuc18yNnEyX21hMTAwMV9kcyIsIm5zXzI2cTNfbWExMDAyX2RzIiwibnNfMjZxMl9jczEwMDFfZHMiLCJuc18yNnEzX21hMTAwMV9kcyIsIm5zXzI2cTNfY3MxMDAxX2RzIl0sImVtYWlscyI6WyJoaW1hbnNodWlpdGlhbjIwMjZAZ21haWwuY29tIl0sInB1cnBvc2UiOiJzb3VyY2VfY29uZmlybWF0aW9uIiwiaWF0IjoxNzkwODM0OTg3LCJleHAiOjE3OTEwMDc3ODd9.FMBRSxiTVOji9iiYB5Oih0iKDJgw-OuI4CyIns5WIeUPGXc6r-0O59wo7sBxhU5hA87d6b1A94V0r_9RvuYe5w&id=109"
+            }
+          ],
+          "warnings": [],
+          "source": {
+            "rowNumber": 14,
+            "rowClass": "graded",
+            "details": "10 Questions · ✓ Submitted"
+          }
+        }
+      ]
+    }
+  ]
+}

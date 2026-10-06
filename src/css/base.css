@@ -1,0 +1,172 @@
+/* base.css — design tokens, reset and application shell (Phase 4)
+ * Visual language extracted from reference/calendar/august_2026_soft_calendar_dark_fixed.html:
+ * near-black background, soft glass surfaces, purple accent, large radii. */
+
+:root {
+  /* surfaces */
+  --bg: #050507;
+  --surface: rgba(255, 255, 255, .075);
+  --surface-2: rgba(255, 255, 255, .10);
+  --surface-3: rgba(255, 255, 255, .14);
+  --border: rgba(255, 255, 255, .085);
+  --border-strong: rgba(255, 255, 255, .16);
+
+  /* text */
+  --text: #f7f8fa;
+  --muted: #b9b6c9;
+  --faint: #8d8aa0;
+
+  /* accent + status */
+  --accent: #7755e8;
+  --accent-2: #5b2aff;
+  --accent-soft: #b9a6ff;
+  --accent-glow: rgba(119, 85, 232, .45);
+  --complete: #5fe0b0;
+  --partial: #a58bff;
+
+  /* shape + depth */
+  --radius: 28px;
+  --radius-sm: 16px;
+  --radius-pill: 999px;
+  --shadow: 0 28px 65px rgba(47, 24, 130, .35);
+  --shadow-soft: 0 10px 30px rgba(8, 4, 30, .35);
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
+    Inter, "Helvetica Neue", Arial, sans-serif;
+  --maxw: 1080px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font);
+  color: var(--text);
+  line-height: 1.5;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 55% 45% at 50% 0%, rgba(101, 58, 255, .18), transparent 72%),
+    radial-gradient(60% 50% at 50% 100%, rgba(91, 42, 255, .20), transparent 70%),
+    linear-gradient(180deg, #090910 0%, #0b0a13 42%, #100b25 68%, #140b3a 100%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { line-height: 1.2; margin: 0; }
+p { margin: 0; }
+button { font: inherit; color: inherit; }
+a { color: var(--accent-soft); }
+
+/* ---- skip link ---- */
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 50;
+  padding: 10px 16px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-3);
+  color: var(--text);
+  transition: top .2s ease;
+}
+.skip-link:focus { top: 12px; }
+
+/* ---- header ---- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px clamp(16px, 4vw, 40px);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(9, 9, 16, .82), rgba(9, 9, 16, .35));
+  backdrop-filter: blur(14px);
+}
+.app-brand { display: flex; align-items: center; gap: 14px; }
+.app-logo {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  background:
+    radial-gradient(circle at 35% 25%, rgba(255, 255, 255, .28), transparent 40%),
+    linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 8px 24px var(--accent-glow);
+}
+/* U5.1 (CHANGE #006): the supplied logo is dark-stroked (#292D32); render it
+   crisp and WHITE inside the existing brand tile — the asset itself is never
+   modified, only presented (brightness(0) invert(1) = pure white). */
+.app-logo-img {
+  width: 62%;
+  height: 62%;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+.app-title { font-size: 1.15rem; letter-spacing: .01em; }
+.app-tagline { margin-top: 2px; font-size: .8rem; color: var(--muted); }
+.app-nav { display: flex; align-items: center; gap: 10px; }
+
+/* U5.1 (CHANGE #005): thin, dark/purple glass scrollbars — a purely visual
+   refinement. Nothing is hidden and every scroll mechanism (wheel, trackpad,
+   drag, keyboard) keeps working; only the bar's appearance changes. */
+* { scrollbar-width: thin; scrollbar-color: rgba(151, 119, 255, .42) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(151, 119, 255, .34);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(151, 119, 255, .55); background-clip: padding-box; }
+::-webkit-scrollbar-corner { background: transparent; }
+
+/* ---- layout ---- */
+.app-view {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: clamp(20px, 4vw, 40px) clamp(16px, 4vw, 40px) 48px;
+}
+.app-view:focus { outline: none; }
+.app-footer {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 40px) 40px;
+  color: var(--faint);
+  font-size: .8rem;
+  text-align: center;
+}
+
+/* ---- toast (write failures, transient notices) ---- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  z-index: 60;
+  max-width: min(92vw, 420px);
+  padding: 12px 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-strong);
+  background: var(--surface-3);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-soft);
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
+
+:focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: .001ms !important; animation-duration: .001ms !important; }
+}
